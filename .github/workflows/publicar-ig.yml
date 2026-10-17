@@ -26,14 +26,14 @@ jobs:
           python-version: "3.12"
       - name: Publicar el posteo del día
         env:
-          IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          SECRETS: ${{ toJSON(secrets) }}
           FECHA: ${{ github.event.inputs.fecha }}
         run: |
           if [ -n "$FECHA" ]; then python publicar_ig.py --fecha "$FECHA"; else python publicar_ig.py; fi
       - name: Guardar que se publicó
+        if: always()
         run: |
           git config user.name "publicador-ig"
           git config user.email "publicador-ig@users.noreply.github.com"
-          git add ig
+          git add ig clientes 2>/dev/null || git add ig
           git diff --cached --quiet || (git commit -m "ig: publicado $(date -u +%F)" && git push)
