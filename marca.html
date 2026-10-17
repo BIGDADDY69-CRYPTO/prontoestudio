@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pronto Estudio · Marca</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--tinta:#0D1220;--lima:#C8FF3E;--crema:#F6F4EE;--piz:#151B2C;--borde:#2A3147;--dur:#FFB38A;--gris:#9AA1B2;--bg:#0D1220;--tx:#F2F3F6}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#0D1220;--tx:#F2F3F6}}
+:root[data-theme="light"]{--bg:#0D1220;--tx:#F2F3F6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.55}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+.logo{font-weight:900;letter-spacing:-.02em}.logo i{font-style:normal;background:var(--lima);color:var(--tinta);padding:0 .22em;border-radius:.18em;margin-left:.1em}
+header{padding:22px 0;display:flex;justify-content:space-between;align-items:center}
+.chip{font-family:'JetBrains Mono',monospace;font-weight:600;font-size:13px;color:var(--lima);border:1.5px solid rgba(200,255,62,.35);border-radius:99px;padding:5px 12px;white-space:nowrap}
+.chip:before{content:"● "}
+.hero{padding:40px 0 60px}
+.hero h1{font-size:clamp(40px,7.5vw,88px);line-height:.96;font-weight:900;letter-spacing:-.04em}
+.hero h1 em{font-style:normal;color:var(--lima)}
+.hero p{color:#C9CEDB;font-size:clamp(17px,2vw,21px);margin-top:18px;max-width:640px}
+section{padding:50px 0;border-top:1px solid var(--borde)}
+.n{font-family:'JetBrains Mono',monospace;color:var(--lima);font-size:14px}
+h2{font-size:clamp(26px,4vw,40px);letter-spacing:-.03em;line-height:1.05;margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin-top:24px}
+.card{background:var(--piz);border:1px solid var(--borde);border-radius:22px;padding:20px;min-width:0}
+.card b{display:block;font-size:18px;margin-bottom:6px}.card p{color:#C9CEDB;font-size:15px}
+.si li,.no li{list-style:none;padding:7px 0;border-bottom:1px solid var(--borde);font-size:15px;color:#C9CEDB}
+.si li:before{content:"✓  ";color:var(--lima);font-weight:900}.no li:before{content:"✕  ";color:#ff7a6b;font-weight:900}
+.col{border-radius:20px;overflow:hidden;border:1px solid var(--borde)}
+.col div{height:110px}.col p{background:var(--piz);padding:12px 14px;font-size:14px;color:#C9CEDB}.col p b{color:#fff;display:block;font-size:16px}
+.logos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin-top:24px}
+.logos div{border-radius:22px;height:170px;display:grid;place-items:center;font-size:44px}
+.tipo{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px;margin-top:24px}
+.tipo .card .a{font-size:64px;font-weight:900;letter-spacing:-.04em;line-height:1}
+.voz{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;margin-top:24px}
+@media (max-width:700px){.voz{grid-template-columns:minmax(0,1fr)}}
+.ej{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px;margin-top:24px}
+.ej img{width:100%;border-radius:18px;display:block;border:1px solid var(--borde)}
+.ej figcaption{font-size:13px;color:var(--gris);margin-top:6px}
+.receta{counter-reset:r;display:flex;flex-direction:column;gap:10px;margin-top:22px}
+.receta div{background:var(--piz);border:1px solid var(--borde);border-radius:16px;padding:14px 16px 14px 56px;position:relative;color:#C9CEDB}
+.receta div:before{counter-increment:r;content:counter(r);position:absolute;left:14px;top:12px;width:28px;height:28px;border-radius:99px;background:var(--lima);color:var(--tinta);font-weight:900;display:grid;place-items:center;font-size:14px}
+.receta b{color:#fff}
+footer{padding:30px 0 50px;color:var(--gris);font-size:14px;border-top:1px solid var(--borde)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo" style="font-size:22px">Pronto<i>Estudio</i></div><span class="chip">manual de marca · v1</span></header>
+
+<div class="hero">
+  <h1>Tu negocio sigue funcionando <em>cuando vos no estás.</em></h1>
+  <p>Esta es la esencia de Pronto Estudio. Vendemos tiempo: el dueño de un negocio chico pierde horas publicando y contestando siempre lo mismo, y nosotros lo dejamos andando solo. Lo ve funcionando antes de pagar, queda listo en 72 h y no hay reuniones.</p>
+</div>
+
+<section><span class="n">01</span><h2>Personalidad</h2>
+  <div class="grid">
+    <div class="card"><b>Prácticos</b><p>Mostramos el sistema funcionando, no lo explicamos.</p></div>
+    <div class="card"><b>Transparentes</b><p>El precio a la vista, sin letra chica ni propuestas de 20 páginas.</p></div>
+    <div class="card"><b>Cercanos</b><p>Hablamos como el dueño de un local, no como una agencia.</p></div>
+    <div class="card"><b>Concretos</b><p>Horas, pasos y ejemplos reales. Cero humo.</p></div>
+  </div>
+</section>
+
+<section><span class="n">02</span><h2>Cómo hablamos</h2>
+  <div class="voz">
+    <div class="card"><b>Sí</b><ul class="si">
+      <li>«23:47. Tu negocio igual contesta.»</li><li>«Se publica solo.»</li><li>«Lo ves funcionando antes de pagar.»</li>
+      <li>Titulares de 7 palabras o menos</li><li>Voseo rioplatense (afuera, español neutro)</li></ul></div>
+    <div class="card"><b>No</b><ul class="no">
+      <li>«Revolucioná tu negocio con IA»</li><li>«Explotá tus ventas» o cualquier garantía</li>
+      <li>Métricas o testimonios inventados</li><li>Nombrar a clientes de la agencia</li><li>Tecnicismos: «API», «bot», «funnel»</li></ul></div>
+  </div>
+</section>
+
+<section><span class="n">03</span><h2>Logo</h2>
+  <div class="logos">
+    <div style="background:var(--tinta);border:1px solid var(--borde)"><span class="logo">Pronto<i>Estudio</i></span></div>
+    <div style="background:var(--crema);color:var(--tinta)"><span class="logo">Pronto<i>Estudio</i></span></div>
+  </div>
+  <p style="color:var(--gris);margin-top:12px;font-size:14px">«Pronto» en Inter Black. «Estudio» va dentro de una etiqueta lima. No se deforma, no lleva sombra y no va sobre una foto sin oscurecer.</p>
+</section>
+
+<section><span class="n">04</span><h2>Colores</h2>
+  <div class="grid">
+    <div class="col"><div style="background:#0D1220"></div><p><b>Tinta · #0D1220</b>Fondo principal</p></div>
+    <div class="col"><div style="background:#C8FF3E"></div><p><b>Lima · #C8FF3E</b>Solo acción y énfasis</p></div>
+    <div class="col"><div style="background:#F6F4EE"></div><p><b>Crema · #F6F4EE</b>Fondos claros, web, PDFs</p></div>
+    <div class="col"><div style="background:#151B2C"></div><p><b>Pizarra · #151B2C</b>Tarjetas sobre tinta</p></div>
+    <div class="col"><div style="background:#FFB38A"></div><p><b>Durazno · #FFB38A</b>El toque humano, poco</p></div>
+  </div>
+</section>
+
+<section><span class="n">05</span><h2>Tipografía</h2>
+  <div class="tipo">
+    <div class="card"><div class="a">Aa</div><b style="margin-top:10px">Inter</b><p>Títulos en 900 con interletrado de −3,5%. Cuerpo en 400 y 600.</p></div>
+    <div class="card"><div class="a" style="font-family:'JetBrains Mono',monospace;font-size:28px;color:var(--lima)">● publicado 12:00</div><b style="margin-top:10px">JetBrains Mono</b><p>Solo para los chips de estado del sistema.</p></div>
+  </div>
+</section>
+
+<section><span class="n">06</span><h2>El estilo: «el sistema funcionando»</h2>
+  <p style="color:#C9CEDB;margin-top:10px;max-width:700px">Toda pieza muestra una pantalla real haciendo su trabajo: el Instagram publicando, el WhatsApp contestando, las notificaciones llegando, la web tomando un pedido. Nada de placas de solo texto ni de fotos de stock.</p>
+  <div class="receta">
+    <div><b>Arriba:</b> el logo y un chip de estado («● respuesta automática»).</div>
+    <div><b>El titular:</b> 7 palabras como máximo, sobre un momento real. La palabra clave en lima.</div>
+    <div><b>El centro:</b> un celular o una notebook realista, con la UI fiel y material real, anonimizado.</div>
+    <div><b>Notificaciones flotantes</b> que pisan el borde del dispositivo: el «acá pasa algo».</div>
+    <div><b>Abajo:</b> «Lo ves funcionando antes de pagar» y el botón lima.</div>
+  </div>
+</section>
+
+<section><span class="n">07</span><h2>Ejemplos</h2>
+  <div class="ej">
+    <figure><img src="marca/caso.jpg" alt="Anuncio: Este Instagram se publica solo"><figcaption>Caso real: el Instagram que se publica solo</figcaption></figure>
+    <figure><img src="marca/noche.jpg" alt="Anuncio: 23:47, tu negocio igual contesta"><figcaption>Respuestas automáticas fuera de horario</figcaption></figure>
+    <figure><img src="marca/tres.jpg" alt="Anuncio: tu negocio en piloto automático"><figcaption>Las 3 partes funcionando juntas</figcaption></figure>
+    <figure><img src="marca/precios.jpg" alt="Anuncio: precios claros"><figcaption>Precios claros, sin reuniones</figcaption></figure>
+  </div>
+</section>
+
+<footer>Pronto Estudio · manual de marca v1 · 17/10/2026</footer>
+</div>
+</body>
+</html>
