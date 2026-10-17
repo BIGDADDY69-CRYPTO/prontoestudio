@@ -1,0 +1,75 @@
+{
+ "fecha": "2026-10-21",
+ "pilar": "piloto_semana",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/florista-celu.jpg",
+   "notis_top": 600,
+   "chip": "instagram que publica solo",
+   "tag": "Instagram",
+   "titulo": "Una semana de Instagram *en 1 hora.*",
+   "notis": [
+    [
+     "ig",
+     "INSTAGRAM",
+     "Se publicó tu carrusel",
+     "Programado para las 12:00. Salió solo.",
+     "12:00"
+    ]
+   ]
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Juntá el material",
+   "texto": "Fotos de productos, del local, de lo que hacés. 10 fotos rinden una semana."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "3 posteos, 3 temas",
+   "texto": "Un producto, un consejo útil, y algo de cómo trabajás. Siempre lo mismo, cambia el contenido."
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "publica solo",
+   "titulo": "Y después *se publica solo.*",
+   "escena": "caso"
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Programalo",
+   "texto": "Lunes, miércoles y viernes al mediodía. Lo programás una vez y te olvidás."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "SEMANA",
+   "titulo": "¿Querés ver una semana *ya armada?*",
+   "texto": "Te mando un ejemplo real de cómo queda, posteo por posteo.",
+   "dm": "¡Hola! Te muestro cómo se arma una semana de Instagram que se publica sola 👇"
+  }
+ ],
+ "caption": "Publicar todos los días no es cuestión de tiempo: es cuestión de tener un sistema.\n\nJuntás 10 fotos, armás 3 posteos con 3 temas fijos y los programás. Una hora por semana y tu Instagram no se queda quieto nunca más.\n\nO directamente lo dejamos publicando solo.\n\n👉 Comentá SEMANA y te mando un ejemplo real de una semana armada.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "SEMANA",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *SEMANA*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

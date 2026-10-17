@@ -1,0 +1,57 @@
+{
+ "fecha": "2026-10-27",
+ "pilar": "que_automatizar",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/cafe-celu.jpg",
+   "chip": "por dónde empezar",
+   "tag": "Piloto automático",
+   "titulo": "¿Qué automatizar *primero?*"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Lo que repetís",
+   "texto": "Si lo escribiste más de 5 veces esta semana, es candidato."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Lo que se olvida",
+   "texto": "Publicar, responder de noche, avisar que llegó un pedido. Lo que depende de acordarse."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Lo que no vende",
+   "texto": "Tu tiempo vale más en atender y vender que en tipear el horario."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "Elegí lo que necesitás *y miralo andando.*",
+   "texto": "En la web armás tu negocio con tu logo antes de pagar nada.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "La pregunta que más nos hacen: ¿por dónde empiezo?\n\nRegla simple: automatizá lo que repetís, lo que se olvida y lo que no te deja vender. Casi siempre es contestar lo mismo y publicar.\n\nEn la web podés armar tu negocio en piloto automático y verlo funcionando antes de pagar. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

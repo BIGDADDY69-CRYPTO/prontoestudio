@@ -1,0 +1,55 @@
+{
+ "fecha": "2026-10-24",
+ "pilar": "checklist",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Cyber Monday · 2, 3 y 4 de noviembre",
+   "titulo": "Tu WhatsApp, *listo* para el Cyber"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Respuesta rápida de la promo",
+   "texto": "Qué hay, hasta cuándo y cómo se compra. Se manda con un toque."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Catálogo actualizado",
+   "texto": "Precios de la fecha cargados antes del día 1, no a la noche del primero."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Fuera de horario, también",
+   "texto": "En el Cyber escriben a toda hora. El mensaje de ausencia tiene que nombrar la promo."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Lo dejamos *configurado* antes del 2?",
+   "texto": "Armalo en la web y en 72 h queda andando.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "Del 2 al 4 de noviembre es el Cyber Monday y los mensajes se multiplican.\n\nTres cosas para que tu WhatsApp no se te venga encima: una respuesta rápida con la promo, el catálogo actualizado antes del día 1 y un mensaje de ausencia que mencione la fecha.\n\nSi querés que quede configurado antes del 2, link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #cybermonday",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

@@ -1,0 +1,26 @@
+DESCRIPCIÓN
+[Tu rubro]. [Enviamos a todo el país]. [Lunes a sábado de 9 a 19].
+
+BIENVENIDA
+¡Hola! Gracias por escribir a [Nombre de tu negocio] 😊 Ya te leemos.
+Atendemos [Lunes a sábado de 9 a 19]. Contanos qué estás buscando y te respondemos enseguida.
+
+AUSENCIA
+¡Hola! Ahora estamos fuera de horario ([Lunes a sábado de 9 a 19]). Dejanos tu consulta y te respondemos apenas abramos. ¡Gracias por la paciencia!
+
+RESPUESTAS RÁPIDAS
+/horario: Nuestro horario es [Lunes a sábado de 9 a 19].
+/envios: [Enviamos a todo el país]. ¿Me pasás tu zona o código postal y te digo el costo?
+/pagos: Podés pagar con [Transferencia, tarjeta y Mercado Pago].
+/pedido: ¡Genial! Para armar tu pedido pasame: qué productos y cuántos, tu nombre y la zona de entrega.
+/gracias: ¡Gracias por tu compra en [Nombre de tu negocio]! Cualquier cosa, escribinos por acá.
+/catalogo: Todos los productos y precios están en [tunegocio.com.ar]
+
+INSTAGRAM · PREGUNTAS FRECUENTES
+¿Cuál es el horario? → Nuestro horario es [Lunes a sábado de 9 a 19].
+¿Hacen envíos? → [Enviamos a todo el país]. ¿Me pasás tu zona o código postal y te digo el costo?
+¿Cómo se paga? → Podés pagar con [Transferencia, tarjeta y Mercado Pago].
+Quiero hacer un pedido → ¡Genial! Para armar tu pedido pasame: qué productos y cuántos, tu nombre y la zona de entrega.
+
+INSTAGRAM · PALABRA CLAVE PRECIO
+¡Hola! Te escribo por tu comentario 😊 ¡Genial! Para armar tu pedido pasame: qué productos y cuántos, tu nombre y la zona de entrega.

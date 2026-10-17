@@ -1,0 +1,63 @@
+{
+ "fecha": "2026-10-23",
+ "pilar": "piloto_noche",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Respuestas automáticas",
+   "titulo": "Los mensajes que entran *de noche*"
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "fuera de horario",
+   "titulo": "Nadie queda *sin respuesta.*",
+   "escena": "noche"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Avisá que lo leíste",
+   "texto": "Un mensaje de ausencia con tu horario: el cliente sabe que no lo ignoraste."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Dale algo para mirar",
+   "texto": "El link al catálogo o a la web. Muchos eligen solos antes de que vuelvas."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Etiquetalo",
+   "texto": "A la mañana ves de un vistazo quién escribió y qué quería. Nadie se pierde."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUTOMATIZACION",
+   "titulo": "¿Te paso el mensaje de ausencia *listo?*",
+   "texto": "Te mando la guía con este texto y dónde se activa.",
+   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
+  }
+ ],
+ "caption": "Muchos mensajes entran a la noche o el fin de semana, cuando no estás.\n\nCon un mensaje de ausencia bien armado, el cliente sabe que lo leíste, cuándo le vas a responder y dónde mirar mientras tanto.\n\n👉 Comentá AUTOMATIZACION y te mando la guía con el texto listo para copiar.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "AUTOMATIZACION",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *AUTOMATIZACION*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

@@ -1,0 +1,55 @@
+{
+ "fecha": "2026-10-20",
+ "pilar": "errores",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Lo que se ve desde afuera",
+   "titulo": "3 errores que *espantan* al que te escribe"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Contestar al otro día",
+   "texto": "El que pregunta a la noche ya le escribió a otros tres. El primero que responde suele quedarse con la venta."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "«Escribime por privado»",
+   "texto": "Si te piden precio, dalo o mandá dónde verlo. Hacer dar vueltas cansa."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Un Instagram *quieto*",
+   "texto": "Si el último posteo es de hace dos meses, el que llega duda de si seguís abierto."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "Los 3 se arreglan *solos.*",
+   "texto": "Armá tu negocio en piloto automático en la web y mirá cómo queda.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "Tres cosas que vemos todo el tiempo y que hacen perder ventas sin que el dueño se dé cuenta:\n\n1. Contestar al otro día.\n2. Responder «escribime por privado» cuando te preguntan el precio.\n3. Un Instagram que no se mueve hace semanas.\n\nLos tres se resuelven con respuestas automáticas y un Instagram que publica solo. Link en la bio para armar el tuyo.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

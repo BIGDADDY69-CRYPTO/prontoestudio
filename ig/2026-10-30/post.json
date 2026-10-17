@@ -1,0 +1,76 @@
+{
+ "fecha": "2026-10-30",
+ "pilar": "sin_reuniones",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/cafe-duena.jpg",
+   "pos": "50% 25%",
+   "notis_top": 600,
+   "chip": "tu tiempo",
+   "tag": "Pronto Estudio",
+   "titulo": "Tu negocio sigue *cuando no estás.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Respuesta automática enviada",
+     "«¡Hola! Gracias por escribir 😊 Ya te leemos…»",
+     "21:40"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "Se publicó tu carrusel",
+     "Salió solo a las 12:00.",
+     "12:00"
+    ]
+   ]
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Publica solo",
+   "texto": "Posteos e historias con tus fotos, en tus horarios."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Contesta solo",
+   "texto": "Saludo, horario, envíos y pagos, a cualquier hora."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Toma pedidos",
+   "texto": "El cliente elige en tu web y el pedido te llega armado."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "SEMANA",
+   "titulo": "¿Querés verlo *con tu negocio?*",
+   "texto": "Te mando cómo quedaría una semana tuya en piloto automático.",
+   "dm": "¡Hola! Te muestro cómo se arma una semana de Instagram que se publica sola 👇"
+  }
+ ],
+ "caption": "Publica, contesta y toma pedidos. Solo.\n\nEso es un negocio en piloto automático: vos atendés y vendés, y lo repetitivo pasa solo.\n\n👉 Comentá SEMANA y te mando cómo quedaría una semana de tu negocio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "SEMANA",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *SEMANA*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

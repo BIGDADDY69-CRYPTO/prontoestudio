@@ -1,0 +1,83 @@
+{
+ "fecha": "2026-10-19",
+ "pilar": "piloto",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/pedidos-celu.jpg",
+   "pos": "18% center",
+   "notis_top": 560,
+   "chip": "whatsapp business",
+   "tag": "Para tu WhatsApp",
+   "titulo": "4 mensajes que tu WhatsApp puede *contestar solo.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Respuesta automática enviada",
+     "«¡Hola! Gracias por escribir 😊 Atendemos de 9 a 19…»",
+     "ahora"
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "respuesta automática",
+   "titulo": "23:47. Tu negocio *igual contesta.*",
+   "escena": "noche"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "El saludo",
+   "texto": "Gracias por escribir, tu horario y qué necesitás. Sale solo con el primer mensaje."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Fuera de horario",
+   "texto": "Avisa cuándo volvés a atender. Nadie se queda sin respuesta un domingo."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Envíos y pagos",
+   "texto": "Lo que te preguntan siempre, guardado como respuesta rápida: se manda con un toque."
+  },
+  {
+   "tipo": "punto",
+   "n": "4",
+   "titulo": "Tomar el pedido",
+   "texto": "Qué productos, cuántos, nombre y zona. El pedido te llega ordenado."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUTOMATIZACION",
+   "titulo": "¿Querés los textos *listos para copiar?*",
+   "texto": "Te mando la guía con los 4 mensajes y dónde se configura cada uno.",
+   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
+  }
+ ],
+ "caption": "Hay 4 mensajes que repetís todos los días y que tu WhatsApp Business puede mandar solo: el saludo, el aviso de fuera de horario, envíos y pagos, y la toma del pedido.\n\nNo hace falta ningún programa raro: son herramientas que ya trae WhatsApp Business. El tema es configurarlas bien.\n\n👉 Comentá AUTOMATIZACION y te mando la guía con los textos listos para copiar.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "AUTOMATIZACION",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *AUTOMATIZACION*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png",
+  "7.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

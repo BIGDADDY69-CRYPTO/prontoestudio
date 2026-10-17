@@ -1,0 +1,67 @@
+{
+ "fecha": "2026-10-28",
+ "pilar": "web_pedidos",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/tablet-pedidos.jpg",
+   "chip": "web que toma pedidos",
+   "tag": "Pedidos",
+   "titulo": "El pedido te llega *armado.*",
+   "notis": [
+    [
+     "pe",
+     "TU WEB",
+     "Pedido nuevo",
+     "2 productos · llegó a tu WhatsApp, armado.",
+     "10:21"
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "pedido nuevo",
+   "titulo": "El cliente elige, *vos confirmás.*",
+   "escena": "pedido"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Sin ida y vuelta",
+   "texto": "Productos, cantidades y total en un solo mensaje."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Sin comisiones",
+   "texto": "No es una plataforma que se queda con un porcentaje: la venta es tuya."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "PRECIOS",
+   "titulo": "¿Cuánto sale *tu web de pedidos?*",
+   "texto": "Te mando precios y un ejemplo funcionando.",
+   "dm": "¡Hola! Te paso los precios y cómo funciona: instalación una vez, el mes sin contrato 👇"
+  }
+ ],
+ "caption": "Una web simple donde el cliente elige los productos y el pedido te llega por WhatsApp, armado, con el total.\n\nSin ida y vuelta, sin comisiones por venta y con tus precios.\n\n👉 Comentá PRECIOS y te mando cuánto sale y un ejemplo funcionando.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "PRECIOS",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *PRECIOS*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

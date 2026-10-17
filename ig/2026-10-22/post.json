@@ -1,0 +1,64 @@
+{
+ "fecha": "2026-10-22",
+ "pilar": "como_trabajamos",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/mostrador-tablet.jpg",
+   "chip": "sin reuniones",
+   "tag": "Cómo trabajamos",
+   "titulo": "Sin reuniones. *Sin vueltas.* En 72 h."
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Lo armás en la web",
+   "texto": "Cargás tu logo y tus fotos, y ves tu negocio funcionando antes de pagar."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Nos escribís",
+   "texto": "Por WhatsApp. Te pedimos accesos con una guía de 2 minutos, nunca contraseñas."
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "pedido nuevo",
+   "titulo": "En 72 h *ya está andando.*",
+   "escena": "pedido"
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Cambios, por mensaje",
+   "texto": "Una ronda de cambios incluida. El mes se paga mes a mes, sin contrato."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Lo armamos *para tu negocio?*",
+   "texto": "Entrá a la web, armalo con tu logo y mirá cómo queda.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "Así trabajamos, sin reuniones ni propuestas eternas:\n\n1. Armás tu negocio en la web con tu logo y tus fotos, y lo ves funcionando.\n2. Nos escribís por WhatsApp.\n3. En 72 h queda andando.\n\nTodo por mensaje, todo por escrito. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

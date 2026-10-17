@@ -1,0 +1,55 @@
+{
+ "fecha": "2026-10-29",
+ "pilar": "normas",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Tiendas online en Argentina",
+   "titulo": "El *botón de arrepentimiento*, en 3 puntos"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Qué es",
+   "texto": "Un link a la vista para pedir la baja de una compra online, sin registrarse. Hoy lo regula la Disposición 954/2025."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Dónde va",
+   "texto": "Visible desde el primer acceso a la tienda, sin tener que buscarlo."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Qué pasa después",
+   "texto": "La tienda tiene que dar un código de la solicitud en 24 horas."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Tu tienda *lo tiene?*",
+   "texto": "Hacé el test de 30 segundos en el link de la bio. No es asesoramiento legal.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "Si vendés online en Argentina, tu tienda tiene que mostrar el botón de arrepentimiento: un link visible desde el primer acceso, sin registrarse, y la tienda tiene que dar un código de la solicitud en 24 horas (Disposición 954/2025).\n\nHacé el test de 30 segundos para ver si tu tienda lo tiene. Esto es información general, no asesoramiento legal.\n\n#tiendaonline #ecommerceargentina #emprendedoresargentinos",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

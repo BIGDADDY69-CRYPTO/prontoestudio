@@ -1,0 +1,57 @@
+{
+ "fecha": "2026-10-25",
+ "pilar": "caso",
+ "slides": [
+  {
+   "tipo": "maqueta",
+   "chip": "caso real · publica solo",
+   "titulo": "Este Instagram *se publica solo.*",
+   "escena": "caso"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Material que ya tenían",
+   "texto": "Videos del showroom que estaban en el celular. Nada de producciones nuevas."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Diseñado, no foto suelta",
+   "texto": "Cada video se convierte en un carrusel con su marca, paso a paso."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Sale solo",
+   "texto": "Uno por día, en su horario. El dueño no toca nada."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "PRECIOS",
+   "titulo": "¿Cuánto sale *tenerlo así?*",
+   "texto": "Te mando los precios y cómo funciona, sin vueltas.",
+   "dm": "¡Hola! Te paso los precios y cómo funciona: instalación una vez, el mes sin contrato 👇"
+  }
+ ],
+ "caption": "Caso real: un distribuidor de maquinaria gastronómica que tenía el Instagram parado.\n\nTomamos los videos que ya tenía del showroom, los convertimos en carruseles con su marca y ahora sale uno por día, solo.\n\n(Tapamos el nombre y el logo porque es un cliente.)\n\n👉 Comentá PRECIOS y te mando cuánto sale tenerlo así.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "PRECIOS",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *PRECIOS*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}
