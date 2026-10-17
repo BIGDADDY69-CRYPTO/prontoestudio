@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pronto Estudio</title>
+<meta name="description" content="Kit del Cyber, Instagram en piloto automático, catálogo de regalos empresariales y tienda en regla. Lo probás gratis con tus productos y lo recibís listo, sin reuniones.">
+<meta property="og:title" content="Pronto Estudio">
+<meta property="og:description" content="Mirá cómo queda con tus productos antes de pagar. Todo por WhatsApp, sin reuniones.">
+<meta property="og:image" content="https://bigdaddy69-crypto.github.io/prontoestudio/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f4ee;--tinta:#0d1220;--gris:#5f6575;--linea:#e2ddd2;--card:#fff;--lima:#c8ff3e;--acento:#0d1220;--sobre-lima:#0d1220}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1220;--tinta:#f2f3f6;--gris:#a3a9b8;--linea:#232a3d;--card:#151b2c;--acento:#c8ff3e}}
+:root[data-theme="dark"]{--bg:#0d1220;--tinta:#f2f3f6;--gris:#a3a9b8;--linea:#232a3d;--card:#151b2c;--acento:#c8ff3e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--tinta);line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:12px}
+.marca{font-weight:900;font-size:20px;letter-spacing:-.02em;text-decoration:none}
+.marca i{font-style:normal;background:var(--lima);color:var(--sobre-lima);padding:0 6px;border-radius:6px;margin-left:2px}
+.btn{display:inline-block;font:inherit;font-weight:800;text-decoration:none;border-radius:99px;padding:14px 22px;border:2px solid transparent;cursor:pointer;text-align:center}
+.btn.lima{background:var(--lima);color:var(--sobre-lima)}
+.btn.borde{border-color:var(--linea);color:var(--tinta)}
+.btn.chico{padding:10px 16px;font-size:14px}
+.hero{padding:40px 0 56px}
+.hero .tag{font-size:13px;font-weight:800;letter-spacing:.24em;color:var(--gris);text-transform:uppercase}
+.hero h1{font-size:clamp(36px,7vw,76px);line-height:.98;font-weight:900;letter-spacing:-.04em;margin-top:14px;max-width:900px}
+.hero h1 em{font-style:normal;background:var(--lima);color:var(--sobre-lima);padding:0 .12em;border-radius:.12em}
+.hero p{font-size:clamp(17px,2.2vw,22px);color:var(--gris);margin-top:20px;max-width:680px}
+.hero .acc{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+h2{font-size:clamp(28px,4.4vw,44px);line-height:1.05;font-weight:900;letter-spacing:-.03em}
+.sec{padding:52px 0;border-top:1px solid var(--linea)}
+.sec>.wrap>p.baj{color:var(--gris);margin-top:10px;max-width:640px;font-size:18px}
+.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin-top:28px}
+.paso{background:var(--card);border:1px solid var(--linea);border-radius:22px;padding:22px}
+.paso b{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:99px;background:var(--lima);color:var(--sobre-lima);font-weight:900}
+.paso h3{font-size:20px;margin-top:14px;letter-spacing:-.01em}.paso p{color:var(--gris);margin-top:6px}
+.servs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:28px}
+.serv{background:var(--card);border:1px solid var(--linea);border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.serv .ico{font-size:28px}
+.serv h3{font-size:22px;letter-spacing:-.01em}
+.serv p{color:var(--gris)}
+.serv ul{list-style:none;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.serv li:before{content:"✓ ";font-weight:900;color:var(--acento)}
+.serv .precio{font-size:26px;font-weight:900;margin-top:auto;padding-top:10px}
+.serv .precio small{font-size:14px;font-weight:600;color:var(--gris)}
+.serv .acc{display:flex;gap:8px;flex-wrap:wrap}
+.caso{background:var(--tinta);color:var(--bg);border-radius:28px;padding:32px;margin-top:28px;display:grid;gap:10px}
+.caso .n{font-size:clamp(34px,6vw,60px);font-weight:900;letter-spacing:-.03em;color:var(--lima)}
+:root[data-theme="dark"] .caso,.caso{color:#f2f3f6;background:#151b2c}
+.faq{margin-top:24px;display:flex;flex-direction:column;gap:10px}
+details{background:var(--card);border:1px solid var(--linea);border-radius:18px;padding:18px 20px}
+summary{font-weight:800;cursor:pointer;font-size:17px}
+details p{color:var(--gris);margin-top:10px}
+.final{text-align:center;padding:64px 0}
+.final p{color:var(--gris);margin:12px auto 24px;max-width:560px;font-size:18px}
+footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="marca" href="#">Pronto<i>Estudio</i></a>
+  <a class="btn lima chico" data-wa="Hola Arian! Vi la web de Pronto Estudio y quiero que me armen algo. (PE-WEB)" href="#">Escribinos</a>
+</header>
+
+<section class="hero">
+  <div class="tag">Para tiendas online y negocios con catálogo</div>
+  <h1>Mirá cómo queda con tus productos <em>antes de pagar.</em></h1>
+  <p>Armamos tus piezas para el Cyber, tu Instagram de todas las semanas y tu catálogo de regalos empresariales. Lo probás gratis en el simulador y lo recibís listo. Sin llamadas ni reuniones: todo por WhatsApp.</p>
+  <div class="acc">
+    <a class="btn lima" href="https://bigdaddy69-crypto.github.io/muestras/simulador/">Probar el simulador gratis →</a>
+    <a class="btn borde" href="#servicios">Ver servicios y precios</a>
+  </div>
+</section>
+</div>
+
+<section class="sec"><div class="wrap">
+  <h2>Cómo trabajamos</h2>
+  <p class="baj">Pensado para el que no tiene tiempo para reuniones.</p>
+  <div class="pasos">
+    <div class="paso"><b>1</b><h3>Lo probás</h3><p>Subís la foto de un producto en el simulador y ves tu pieza en el momento. O te la armamos nosotros con tu web.</p></div>
+    <div class="paso"><b>2</b><h3>Nos escribís</h3><p>Por WhatsApp. Nos pasás tu logo, unas fotos y lo que quieras destacar.</p></div>
+    <div class="paso"><b>3</b><h3>Pagás y arrancamos</h3><p>Pago único y por adelantado. Arrancamos el mismo día.</p></div>
+    <div class="paso"><b>4</b><h3>Lo recibís listo</h3><p>En 24 a 72 h según el servicio, con una ronda de cambios incluida.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="servicios"><div class="wrap">
+  <h2>Servicios</h2>
+  <p class="baj">Precios en pesos, pago único salvo que diga lo contrario.</p>
+  <div class="servs">
+    <div class="serv"><div class="ico">🗓</div><h3>Kit del Cyber Monday</h3>
+      <p>Llegá al 2, 3 y 4 de noviembre con todo listo.</p>
+      <ul><li>9 piezas en 3 formatos (feed, historia y cuadrado)</li><li>Banner para la home de tu tienda</li><li>Mensajes de «arrancó» y «últimas horas»</li><li>Listo en 72 h</li></ul>
+      <div class="precio">$180.000</div>
+      <div class="acc"><a class="btn lima chico" href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=kit">Probar gratis</a><a class="btn borde chico" data-wa="Hola Arian! Quiero el kit del Cyber. (PE-KIT)" href="#">Lo quiero</a></div></div>
+    <div class="serv"><div class="ico">📲</div><h3>Instagram en piloto automático</h3>
+      <p>Tu Instagram publica solo, con tus fotos y tu catálogo.</p>
+      <ul><li>Posteos e historias todas las semanas</li><li>Con tu marca, tu tono y en tus horarios</li><li>Lo frenás cuando quieras con un mensaje</li><li>Instalado en 72 h, sin contrato</li></ul>
+      <div class="precio">$150.000 <small>+ $60.000 por mes</small></div>
+      <div class="acc"><a class="btn lima chico" href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=ig">Probar gratis</a><a class="btn borde chico" data-wa="Hola Arian! Quiero el Instagram en piloto automático. (PE-IG)" href="#">Lo quiero</a></div></div>
+    <div class="serv"><div class="ico">🎁</div><h3>Catálogo de regalos empresariales</h3>
+      <p>Tus productos armados en 3 cajas de regalo de fin de año, listas para ofrecerles a empresas.</p>
+      <ul><li>Catálogo en PDF con tus precios</li><li>Página de pedidos por WhatsApp</li><li>Posteo, historia y mail para tu lista</li><li>Listo en 48 h</li></ul>
+      <div class="precio">$140.000</div>
+      <div class="acc"><a class="btn lima chico" href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=rg">Probar gratis</a><a class="btn borde chico" data-wa="Hola Arian! Quiero el catálogo de regalos empresariales. (PE-RG)" href="#">Lo quiero</a></div></div>
+    <div class="serv"><div class="ico">⚖️</div><h3>Tienda en regla</h3>
+      <p>El botón de arrepentimiento y el precio sin impuestos nacionales, como piden las normas vigentes.</p>
+      <ul><li>Revisión de tu tienda</li><li>Instalación de lo que falta</li><li>Listo en 24 h</li><li>No es asesoramiento legal</li></ul>
+      <div class="precio">$150.000</div>
+      <div class="acc"><a class="btn lima chico" href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=test">Hacer el test</a><a class="btn borde chico" data-wa="Hola Arian! Quiero dejar mi tienda en regla. (PE-TEST)" href="#">Lo quiero</a></div></div>
+  </div>
+
+  <div class="caso">
+    <div style="font-size:13px;font-weight:800;letter-spacing:.2em;opacity:.7">UN CASO PROPIO · EMAIL MARKETING</div>
+    <div class="n">$883.140</div>
+    <div style="font-size:18px">en ventas atribuidas en sus primeros 10 días: un sistema de 7 flujos de Klaviyo en una marca propia de alimentos en Shopify.</div>
+  </div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <h2>Preguntas</h2>
+  <div class="faq">
+    <details><summary>¿Tenemos que hacer una reunión?</summary><p>No. Todo se hace por WhatsApp o por mail, y queda por escrito. Si algo no se entiende, te mandamos un ejemplo con tus productos.</p></details>
+    <details><summary>¿Cómo pago?</summary><p>Pago único y por adelantado, por transferencia o link de pago. Desde México, Chile o Uruguay se cobra en dólares.</p></details>
+    <details><summary>¿Y si quiero cambiar algo?</summary><p>Cada entrega incluye una ronda de cambios. Nos decís qué cambiar y lo rehacemos.</p></details>
+    <details><summary>¿Qué necesitan de mí?</summary><p>Tu logo, algunas fotos de productos y tu web o tu Instagram. Con eso alcanza para empezar.</p></details>
+    <details><summary>¿Ustedes ponen descuentos en mis piezas?</summary><p>Solo los que vos decidas. Nunca publicamos un descuento o un precio que no sea el tuyo.</p></details>
+  </div>
+</div></section>
+
+<section class="sec final"><div class="wrap">
+  <h2>Probalo con tus productos.</h2>
+  <p>Gratis, sin registrarte y en el momento. Si te gusta, nos escribís y lo dejamos listo.</p>
+  <a class="btn lima" href="https://bigdaddy69-crypto.github.io/muestras/simulador/">Abrir el simulador →</a>
+</div></section>
+
+<footer><div class="wrap">Pronto Estudio · Buenos Aires, Argentina · Trabajamos también con México, Chile y Uruguay.</div></footer>
+<script>
+const WA = '5491124689346'
+document.querySelectorAll('[data-wa]').forEach(a => {
+  a.href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(a.dataset.wa)
+  a.target = '_blank'; a.rel = 'noopener'
+})
+</script>
+</body>
+</html>

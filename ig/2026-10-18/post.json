@@ -1,0 +1,62 @@
+{
+ "fecha": "2026-10-18",
+ "pilar": "checklist",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Cyber Monday · 2, 3 y 4 de noviembre",
+   "titulo": "5 cosas que tu tienda necesita *antes* del Cyber",
+   "texto": "Quedan dos semanas. Guardalo para repasarlo."
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Un banner de la fecha en la home",
+   "texto": "El que entra tiene que saber en un segundo que participás. Si la home se ve como cualquier otro día, se va a buscar a otro lado."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Piezas en los *3 formatos*",
+   "texto": "Feed, historia y cuadrado. Cada ubicación de Meta recorta distinto: una sola imagen estirada se nota."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Tu descuento real, claro y en grande",
+   "texto": "Uno solo, fácil de entender. Y que coincida en el anuncio, en la home y en el carrito."
+  },
+  {
+   "tipo": "punto",
+   "n": "4",
+   "titulo": "Los mensajes de *«arrancó»* y *«últimas horas»*",
+   "texto": "Para tu lista de mail y tu WhatsApp. Escritos antes, no a las 11 de la noche del primer día."
+  },
+  {
+   "tipo": "punto",
+   "n": "5",
+   "titulo": "Todo listo *antes* del día 1",
+   "texto": "El primer día es el que más se mueve. Si las piezas salen el martes, ya llegaste tarde."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Querés ver tu pieza del Cyber *ya armada*?",
+   "texto": "Subí la foto de un producto en el simulador y mirala en el momento. Gratis y sin registrarte."
+  }
+ ],
+ "caption": "Faltan dos semanas para el Cyber Monday (2, 3 y 4 de noviembre) y lo que más se ve en las tiendas chicas es llegar con todo a último momento.\n\nEl repaso:\n1. Banner de la fecha en la home\n2. Piezas en feed, historia y cuadrado\n3. Un descuento real, claro y igual en todos lados\n4. Los mensajes de «arrancó» y «últimas horas» ya escritos\n5. Todo listo antes del día 1\n\nSi querés ver cómo queda tu pieza con tus productos, probala gratis en el simulador: link en la bio.\n\n#cybermonday #cybermonday2026 #tiendaonline #emprendedoresargentinos #ecommerceargentina",
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png",
+  "7.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}
