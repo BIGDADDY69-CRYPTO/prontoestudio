@@ -1,0 +1,63 @@
+{
+ "fecha": "2026-11-07",
+ "pilar": "decision",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Paso a paso",
+   "titulo": "Qué pasa *después* de que nos escribís"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Te mostramos tu negocio",
+   "texto": "Te mandamos una imagen con tu negocio en piloto automático, con tu nombre."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Te pedimos 3 cosas",
+   "texto": "Tu logo, unas fotos y acceso con una guía de 2 minutos. Nunca contraseñas."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "En 72 h está andando",
+   "texto": "Te avisamos qué quedó y cómo pedir cambios."
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "pedido nuevo",
+   "titulo": "Y desde ahí, *funciona solo.*",
+   "escena": "pedido"
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Arrancamos con *tu negocio?*",
+   "texto": "Armalo en la web y escribinos.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "Qué pasa cuando nos escribís:\n\n1. Te mandamos una imagen con tu negocio en piloto automático, con tu nombre.\n2. Te pedimos tu logo, unas fotos y acceso con una guía de 2 minutos (nunca contraseñas).\n3. En 72 h queda andando.\n\nSin reuniones, todo por mensaje. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}

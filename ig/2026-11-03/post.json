@@ -1,0 +1,65 @@
+{
+ "fecha": "2026-11-03",
+ "pilar": "versus",
+ "slides": [
+  {
+   "tipo": "versus",
+   "chip": "la diferencia",
+   "titulo": "A mano *vs.* piloto automático",
+   "izq": {
+    "t": "A mano",
+    "items": [
+     "Contestás de noche",
+     "Publicás cuando te acordás",
+     "Pedidos por audio y foto"
+    ]
+   },
+   "der": {
+    "t": "Piloto automático",
+    "items": [
+     "Contesta solo",
+     "Publica solo",
+     "El pedido llega armado"
+    ]
+   }
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Lo mismo, sin vos",
+   "texto": "No cambia tu forma de atender: cambia quién hace lo repetitivo."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Vos en lo importante",
+   "texto": "Cerrar ventas, atender bien, pensar el negocio."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "Elegí lo que querés *automatizar.*",
+   "texto": "Armalo en la web con tu logo y miralo andando antes de pagar.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "Lo mismo que hacés hoy, pero sin que dependa de vos: contestar, publicar y tomar pedidos.\n\nNo cambia tu forma de atender, cambia quién hace lo repetitivo.\n\nArmalo en la web con tu logo y miralo funcionando antes de pagar. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}

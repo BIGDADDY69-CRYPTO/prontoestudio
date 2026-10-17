@@ -1,0 +1,69 @@
+{
+ "fecha": "2026-11-08",
+ "pilar": "primero",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/mostrador-tablet.jpg",
+   "notis_top": 640,
+   "chip": "velocidad",
+   "tag": "Atención",
+   "titulo": "El cliente elige al que *contesta primero.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Respuesta automática enviada",
+     "«¡Hola! Gracias por escribir 😊 Ya te leemos…»",
+     "ahora"
+    ]
+   ]
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Pregunta a varios",
+   "texto": "El que busca algo le escribe a tres o cuatro negocios a la vez."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Se queda con el que responde",
+   "texto": "Si contestás al otro día, ya eligió."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "La respuesta automática gana tiempo",
+   "texto": "Contesta al instante y le da algo para mirar hasta que vos sigas."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "PRECIOS",
+   "titulo": "¿Cuánto sale *tenerlo andando?*",
+   "texto": "Te mando los precios y cómo funciona.",
+   "dm": "¡Hola! Te paso los precios y cómo funciona: instalación una vez, el mes sin contrato 👇"
+  }
+ ],
+ "caption": "El que busca algo le escribe a varios negocios a la vez y se queda con el primero que responde bien.\n\nUna respuesta automática contesta al instante, le da el catálogo y te gana el tiempo que necesitás para seguir la conversación.\n\n👉 Comentá PRECIOS y te mando cuánto sale tenerlo andando.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "PRECIOS",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *PRECIOS*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}

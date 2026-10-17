@@ -1,0 +1,71 @@
+{
+ "fecha": "2026-11-05",
+ "pilar": "pregunta",
+ "slides": [
+  {
+   "tipo": "pregunta",
+   "chip": "encuesta",
+   "titulo": "¿Cuántos mensajes *recibís por día?*",
+   "opciones": [
+    [
+     "A",
+     "Menos de 10"
+    ],
+    [
+     "B",
+     "Entre 10 y 30"
+    ],
+    [
+     "C",
+     "Más de 30"
+    ]
+   ],
+   "texto": "Comentá la letra y te decimos qué te conviene automatizar 👇"
+  },
+  {
+   "tipo": "punto",
+   "n": "A",
+   "titulo": "Menos de 10",
+   "texto": "Con un buen saludo y el mensaje de ausencia ya ganás tiempo."
+  },
+  {
+   "tipo": "punto",
+   "n": "B",
+   "titulo": "Entre 10 y 30",
+   "texto": "Respuestas rápidas para todo lo que se repite, y etiquetas para no perder a nadie."
+  },
+  {
+   "tipo": "punto",
+   "n": "C",
+   "titulo": "Más de 30",
+   "texto": "Todo lo anterior y una web que tome los pedidos sola."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Cuál sos vos? *Comentá la letra.*",
+   "texto": "Y si querés verlo andando, armalo en la web.",
+   "boton": "Comentá A, B o C",
+   "visual": false
+  }
+ ],
+ "caption": "Encuesta rápida: ¿cuántos mensajes recibís por día?\n\nA) Menos de 10\nB) Entre 10 y 30\nC) Más de 30\n\nComentá la letra y te decimos qué te conviene automatizar primero 👇\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Encuesta",
+  "titulo": "¿Qué *elegís vos?*",
+  "texto": "Respondé en el posteo de hoy.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}

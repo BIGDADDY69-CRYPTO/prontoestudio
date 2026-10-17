@@ -1,0 +1,56 @@
+{
+ "fecha": "2026-11-04",
+ "pilar": "objeciones",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Las dudas de siempre",
+   "titulo": "«¿Y si se nota que es *automático?*»"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Lo escribís con tu tono",
+   "texto": "Los mensajes son tuyos: como hablás vos, con tu nombre y tus datos reales."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Contesta lo simple",
+   "texto": "Horario, envíos, pagos. Lo que requiere criterio lo seguís vos."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Responde al instante",
+   "texto": "Lo que más se nota es la demora, no que una respuesta esté guardada."
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Otra duda? *Preguntanos.*",
+   "texto": "Te respondemos por mensaje, sin llamadas.",
+   "boton": "Link en la bio",
+   "visual": false
+  }
+ ],
+ "caption": "La duda que más escuchamos: «¿no se va a notar que es automático?».\n\nLos mensajes los escribís con tu tono, contestan lo simple (horario, envíos, pagos) y lo que requiere criterio lo seguís vos. Lo que el cliente nota de verdad es la demora, no que una respuesta esté guardada.\n\n¿Otra duda? Escribinos, te respondemos por mensaje.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}

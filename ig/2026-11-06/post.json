@@ -1,0 +1,71 @@
+{
+ "fecha": "2026-11-06",
+ "pilar": "empresas",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Para empresas",
+   "titulo": "5 procesos para *automatizar esta semana*"
+  },
+  {
+   "tipo": "punto",
+   "n": "1",
+   "titulo": "Presupuestos",
+   "texto": "Un formulario que arma el presupuesto con tus precios y lo manda solo."
+  },
+  {
+   "tipo": "punto",
+   "n": "2",
+   "titulo": "Recordatorios de cobro",
+   "texto": "Avisos automáticos antes y después del vencimiento, con tu tono."
+  },
+  {
+   "tipo": "punto",
+   "n": "3",
+   "titulo": "Seguimiento de clientes",
+   "texto": "Al que pidió precio y no compró, un mensaje a los 3 días."
+  },
+  {
+   "tipo": "punto",
+   "n": "4",
+   "titulo": "Reportes",
+   "texto": "Ventas y consultas de la semana, en tu mail cada lunes."
+  },
+  {
+   "tipo": "punto",
+   "n": "5",
+   "titulo": "Alta de pedidos",
+   "texto": "El pedido entra ordenado, sin copiar y pegar de un chat."
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUDITORIA",
+   "titulo": "¿Cuáles aplican *a tu empresa?*",
+   "texto": "Con la auditoría te decimos qué automatizar primero.",
+   "dm": "¡Hola! Te cuento cómo es la auditoría y qué recibís al final 👇"
+  }
+ ],
+ "caption": "Cinco procesos que casi cualquier empresa puede automatizar rápido:\n\n1. Presupuestos\n2. Recordatorios de cobro\n3. Seguimiento de clientes que no compraron\n4. Reportes semanales\n5. Alta de pedidos\n\nPara saber cuáles te convienen primero, hacemos una auditoría de tus procesos, todo por escrito.\n\n👉 Comentá AUDITORIA y te mando cómo es.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
+ "palabra_clave": "AUDITORIA",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *AUDITORIA*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png",
+  "7.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}

@@ -1,0 +1,64 @@
+{
+ "fecha": "2026-11-01",
+ "pilar": "informativo",
+ "slides": [
+  {
+   "tipo": "portada",
+   "tag": "Hacé la cuenta",
+   "titulo": "¿Cuánto tiempo se va en *contestar lo mismo?*"
+  },
+  {
+   "tipo": "punto",
+   "n": "15",
+   "titulo": "Mensajes por día",
+   "texto": "Un ejemplo: horario, envíos, precio, si hay stock. Las mismas preguntas, todos los días."
+  },
+  {
+   "tipo": "punto",
+   "n": "×2",
+   "titulo": "Minutos cada uno",
+   "texto": "Leer, buscar el dato, escribirlo. 15 × 2 = 30 minutos por día."
+  },
+  {
+   "tipo": "punto",
+   "n": "12 h",
+   "titulo": "Por mes",
+   "texto": "Con 6 días de atención por semana, son unas 12 horas al mes. Hacé la cuenta con tus números."
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "respuesta automática",
+   "titulo": "Eso lo puede *contestar solo.*",
+   "escena": "noche"
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUTOMATIZACION",
+   "titulo": "¿Querés recuperar *esas horas?*",
+   "texto": "Te mando la guía para dejarlo andando en 10 minutos.",
+   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
+  }
+ ],
+ "caption": "Una cuenta rápida (con números de ejemplo): 15 mensajes por día que preguntan lo mismo × 2 minutos cada uno = 30 minutos por día. En un mes, unas 12 horas.\n\nHacé la cuenta con tus números. Casi todo ese tiempo se puede automatizar.\n\n👉 Comentá AUTOMATIZACION y te mando la guía.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "AUTOMATIZACION",
+ "historia_cierre": {
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *AUTOMATIZACION*",
+  "texto": "y te llega por mensaje privado.",
+  "boton": "Ver el posteo"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano)"
+}
