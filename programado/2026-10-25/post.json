@@ -1,0 +1,94 @@
+{
+ "fecha": "2026-10-25",
+ "pilar": "pregunta",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/noche-insomnio.jpg",
+   "chip": "encuesta",
+   "tag": "Encuesta",
+   "titulo": "¿Usás IA en *tu negocio?*",
+   "notis": [],
+   "notis_top": 280,
+   "pos": "center"
+  },
+  {
+   "tipo": "pregunta",
+   "chip": "comentá la letra",
+   "titulo": "Elegí *una:*",
+   "opciones": [
+    [
+     "A",
+     "Todos los días"
+    ],
+    [
+     "B",
+     "A veces"
+    ],
+    [
+     "C",
+     "Nunca"
+    ]
+   ],
+   "texto": "Comentá A, B o C 👇"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "para empezar",
+   "titulo": "Si dijiste C, *empezá por acá.*",
+   "pasos": [
+    {
+     "t": "Lo que más preguntan",
+     "ui": "in",
+     "texto": "¿Precio? ¿Envío? ¿Horario?",
+     "hora": "todos los días"
+    },
+    {
+     "t": "Contesta solo",
+     "ui": "out",
+     "texto": "¡Hola! Te paso todo lo que necesitás 👇",
+     "hora": "al instante"
+    },
+    {
+     "t": "Vos seguís lo importante",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "Cliente",
+     "texto": "Listo, ¿cómo pago?",
+     "hora": "ahora"
+    }
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "DIAGNOSTICO",
+   "titulo": "¿No sabés *qué automatizar?*",
+   "texto": "Contanos qué hace tu negocio y te decimos 3 cosas, gratis.",
+   "dm": "¡Hola! Contame en 2 líneas qué hace tu negocio y qué te lleva más tiempo, y te respondo con 3 cosas que podés automatizar 👇"
+  }
+ ],
+ "caption": "Encuesta: ¿usás IA en tu negocio?\n\nA) Todos los días\nB) A veces\nC) Nunca\n\nComentá la letra 👇 Si sos C, comentá también DIAGNOSTICO y te decimos por dónde arrancar.\n\n#emprendedoresargentinos #pymesargentinas #automatizacion #inteligenciaartificial #whatsappbusiness",
+ "hora_feed": "11:00",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "DIAGNOSTICO",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *DIAGNOSTICO*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

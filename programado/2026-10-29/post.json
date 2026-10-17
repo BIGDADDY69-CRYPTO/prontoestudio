@@ -1,0 +1,85 @@
+{
+ "fecha": "2026-10-29",
+ "pilar": "rubro",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/tablet-pedidos.jpg",
+   "chip": "tiendas",
+   "tag": "Tiendas y emprendimientos",
+   "titulo": "Del «¿precio?» *al pedido anotado.*",
+   "notis": [
+    [
+     "pe",
+     "TU WEB",
+     "Pedido nuevo",
+     "2 productos · llegó armado",
+     "ahora"
+    ]
+   ],
+   "notis_top": 260,
+   "pos": "center"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "el proceso",
+   "titulo": "Sin copiar y pegar *nada.*",
+   "pasos": [
+    {
+     "t": "Preguntan precio",
+     "ui": "in",
+     "texto": "Hola! ¿Precio de la vela grande?",
+     "hora": "14:02"
+    },
+    {
+     "t": "Reciben el catálogo",
+     "ui": "out",
+     "texto": "¡Hola! Está $9.200. Acá ves todo y pedís en 1 minuto 👇",
+     "hora": "14:02"
+    },
+    {
+     "t": "El pedido se anota solo",
+     "ui": "fila",
+     "texto": "17/10|Carla|2 velas grandes|$18.400"
+    }
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "tu planilla",
+   "titulo": "Todo *ordenado, solo.*",
+   "escena": "planilla"
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUTOMATIZACION",
+   "titulo": "¿Querés los textos *listos para copiar?*",
+   "texto": "Te mando la guía para tu WhatsApp.",
+   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
+  }
+ ],
+ "caption": "Si vendés por Instagram y WhatsApp: del «¿precio?» al pedido anotado, sin copiar y pegar nada. Respuesta con catálogo, pedido por la web y todo en una planilla que se llena sola.\n\n👉 Comentá AUTOMATIZACION y te mando la guía.\n\n#emprendedoresargentinos #pymesargentinas #automatizacion #inteligenciaartificial #whatsappbusiness",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "AUTOMATIZACION",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *AUTOMATIZACION*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

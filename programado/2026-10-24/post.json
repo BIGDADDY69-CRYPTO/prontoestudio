@@ -1,0 +1,71 @@
+{
+ "fecha": "2026-10-24",
+ "pilar": "casos",
+ "slides": [
+  {
+   "tipo": "maqueta",
+   "chip": "caso real",
+   "titulo": "Este Instagram *se publica solo.*",
+   "escena": "caso"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "cómo fue",
+   "titulo": "De parado *a un posteo por día.*",
+   "pasos": [
+    {
+     "t": "Tenía videos en el celular",
+     "ui": "pdf",
+     "texto": "Videos del showroom",
+     "hora": "Material que ya existía"
+    },
+    {
+     "t": "Los convertimos en carruseles",
+     "ui": "noti",
+     "app": "ig",
+     "titulo": "Carrusel listo",
+     "texto": "Con su marca, paso a paso",
+     "hora": "día 2"
+    },
+    {
+     "t": "Sale uno por día, solo",
+     "ui": "noti",
+     "app": "ig",
+     "titulo": "Se publicó tu carrusel",
+     "texto": "12:00 · todos los días",
+     "hora": "12:00"
+    }
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "CASO",
+   "titulo": "¿Querés ser *el próximo caso?*",
+   "texto": "Te contamos cómo es y qué te damos a cambio.",
+   "dm": "¡Hola! Te cuento cómo es ser uno de los casos de Pronto Estudio 👇"
+  }
+ ],
+ "caption": "Caso real: un distribuidor de maquinaria gastronómica tenía el Instagram parado y videos en el celular. Hoy sale un carrusel por día, solo. (Tapamos nombre y logo porque es un cliente.)\n\nEstamos sumando los próximos casos: te lo dejamos andando con un precio especial a cambio de poder mostrar el antes y el después.\n\n👉 Comentá CASO y te contamos cómo es.\n\n#emprendedoresargentinos #pymesargentinas #automatizacion #inteligenciaartificial #whatsappbusiness",
+ "hora_feed": "11:00",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "CASO",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *CASO*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

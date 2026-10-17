@@ -1,0 +1,79 @@
+{
+ "fecha": "2026-10-22",
+ "pilar": "empresas",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/contable-calc.jpg",
+   "chip": "para empresas",
+   "tag": "Presupuestos",
+   "titulo": "¿Cuánto tarda tu equipo en *hacer un presupuesto?*",
+   "notis": [],
+   "notis_top": 280,
+   "pos": "center"
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "presupuesto automático",
+   "titulo": "Lo piden y *sale solo.*",
+   "escena": "presupuesto"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "el proceso",
+   "titulo": "Del pedido *al PDF.*",
+   "pasos": [
+    {
+     "t": "El cliente pide",
+     "ui": "in",
+     "texto": "¿Me pasan presupuesto por 40 unidades?",
+     "hora": "15:12"
+    },
+    {
+     "t": "Se arma con tus precios",
+     "ui": "pdf",
+     "texto": "Presupuesto-0142.pdf",
+     "hora": "40 u. · válido 7 días"
+    },
+    {
+     "t": "Te avisa para seguirlo",
+     "ui": "noti",
+     "titulo": "Seguimiento",
+     "texto": "Recordatorio en 3 días si no responde",
+     "hora": "15:12"
+    }
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUDITORIA",
+   "titulo": "¿Qué más se puede *automatizar en tu empresa?*",
+   "texto": "Con la auditoría te damos el plan completo.",
+   "dm": "¡Hola! Te cuento cómo es la auditoría y qué recibís al final 👇"
+  }
+ ],
+ "caption": "Si en tu empresa los presupuestos se hacen a mano en Word o Excel, se pueden armar solos: el cliente pide, se genera el PDF con tus precios y queda el seguimiento programado.\n\n👉 Comentá AUDITORIA y te contamos qué más se puede automatizar.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "AUDITORIA",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *AUDITORIA*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

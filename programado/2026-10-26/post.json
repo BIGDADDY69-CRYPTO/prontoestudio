@@ -1,0 +1,88 @@
+{
+ "fecha": "2026-10-26",
+ "pilar": "rubro",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/mostrador-tablet.jpg",
+   "chip": "turnos",
+   "tag": "Estética, salud y servicios",
+   "titulo": "Turnos que *se agendan solos.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Turno confirmado",
+     "Jueves 17 h · Lucía",
+     "ahora"
+    ]
+   ],
+   "notis_top": 640,
+   "pos": "center"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "el proceso",
+   "titulo": "Del «¿tenés turno?» *a confirmado.*",
+   "pasos": [
+    {
+     "t": "Piden turno",
+     "ui": "in",
+     "texto": "Hola! ¿Tenés turno el jueves a la tarde?",
+     "hora": "11:20"
+    },
+    {
+     "t": "Reciben los horarios libres",
+     "ui": "out",
+     "texto": "¡Hola! Jueves tengo 15, 16 y 17 h. Elegí acá 👇",
+     "hora": "11:20"
+    },
+    {
+     "t": "Recordatorio el día antes",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "Recordatorio enviado",
+     "texto": "Mañana 17 h · confirmá o reprogramá",
+     "hora": "mié 18:00"
+    }
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "de noche también",
+   "titulo": "Y piden turno *a cualquier hora.*",
+   "escena": "noche"
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "DIAGNOSTICO",
+   "titulo": "¿No sabés *qué automatizar?*",
+   "texto": "Contanos qué hace tu negocio y te decimos 3 cosas, gratis.",
+   "dm": "¡Hola! Contame en 2 líneas qué hace tu negocio y qué te lleva más tiempo, y te respondo con 3 cosas que podés automatizar 👇"
+  }
+ ],
+ "caption": "Si trabajás con turnos (estética, salud, servicios), esto se automatiza: el cliente pide, ve los horarios libres, elige, y el día antes le llega un recordatorio. Menos ausencias, menos mensajes.\n\n👉 Comentá DIAGNOSTICO y te decimos qué más automatizar en tu rubro.\n\n#emprendedoresargentinos #pymesargentinas #automatizacion #inteligenciaartificial #whatsappbusiness",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "DIAGNOSTICO",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *DIAGNOSTICO*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

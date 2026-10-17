@@ -1,0 +1,94 @@
+{
+ "fecha": "2026-10-23",
+ "pilar": "ia",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/florista-celu.jpg",
+   "chip": "inteligencia artificial",
+   "tag": "IA sin vueltas",
+   "titulo": "La IA no te reemplaza: *te saca lo aburrido.*",
+   "notis": [],
+   "notis_top": 620,
+   "pos": "center"
+  },
+  {
+   "tipo": "versus",
+   "chip": "qué hace cada uno",
+   "titulo": "La IA *vs.* vos",
+   "izq": {
+    "t": "Vos",
+    "items": [
+     "Atender bien",
+     "Decidir precios",
+     "Cerrar ventas"
+    ]
+   },
+   "der": {
+    "t": "La IA y la automatización",
+    "items": [
+     "Contestar lo de siempre",
+     "Pasar audios a texto",
+     "Ordenar pedidos"
+    ]
+   }
+  },
+  {
+   "tipo": "proceso",
+   "chip": "ejemplo",
+   "titulo": "Reseñas *respondidas en minutos.*",
+   "pasos": [
+    {
+     "t": "Te dejan una reseña",
+     "ui": "in",
+     "texto": "⭐⭐⭐⭐⭐ Excelente atención, volvemos seguro",
+     "hora": "20:31"
+    },
+    {
+     "t": "La IA propone la respuesta",
+     "ui": "out",
+     "texto": "¡Gracias Ana! Nos alegra un montón. Te esperamos 😊",
+     "hora": "20:31"
+    },
+    {
+     "t": "Vos aprobás con un toque",
+     "ui": "noti",
+     "titulo": "Respuesta publicada",
+     "texto": "Revisada por vos",
+     "hora": "20:33"
+    }
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "DIAGNOSTICO",
+   "titulo": "¿No sabés *qué automatizar?*",
+   "texto": "Contanos qué hace tu negocio y te decimos 3 cosas, gratis.",
+   "dm": "¡Hola! Contame en 2 líneas qué hace tu negocio y qué te lleva más tiempo, y te respondo con 3 cosas que podés automatizar 👇"
+  }
+ ],
+ "caption": "La IA no viene a reemplazarte: viene a sacarte lo repetitivo para que vos hagas lo que importa, que es atender, decidir y vender.\n\nUn ejemplo: responder reseñas. La IA propone la respuesta y vos la aprobás con un toque.\n\n👉 Comentá DIAGNOSTICO y te decimos dónde te sirve a vos.\n\n#emprendedoresargentinos #pymesargentinas #automatizacion #inteligenciaartificial #whatsappbusiness",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "DIAGNOSTICO",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *DIAGNOSTICO*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

@@ -1,0 +1,88 @@
+{
+ "fecha": "2026-10-20",
+ "pilar": "diagnostico",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/mostrador-hombre.jpg",
+   "chip": "diagnóstico gratis",
+   "tag": "Diagnóstico gratis",
+   "titulo": "Contanos qué hacés y *te decimos qué automatizar.*",
+   "notis": [
+    [
+     "pe",
+     "PRONTO ESTUDIO",
+     "Tu diagnóstico",
+     "3 cosas para automatizar en tu negocio",
+     "ahora"
+    ]
+   ],
+   "notis_top": 300,
+   "pos": "center"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "así funciona",
+   "titulo": "En 3 mensajes, *sin reuniones.*",
+   "pasos": [
+    {
+     "t": "Nos contás tu negocio",
+     "ui": "in",
+     "texto": "Tengo una panadería, tomo pedidos por WhatsApp y me vuelvo loco",
+     "hora": "09:14"
+    },
+    {
+     "t": "Te respondemos con 3 ideas",
+     "ui": "out",
+     "texto": "1) Respuesta con el menú del día 2) Pedidos a una planilla 3) Aviso de «pedido listo»",
+     "hora": "09:40"
+    },
+    {
+     "t": "Elegís si lo armamos",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "Vos decidís",
+     "texto": "Sin compromiso",
+     "hora": "09:45"
+    }
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "ejemplo",
+   "titulo": "Así quedaría *funcionando.*",
+   "escena": "pedido"
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "DIAGNOSTICO",
+   "titulo": "¿No sabés *qué automatizar?*",
+   "texto": "Contanos qué hace tu negocio y te decimos 3 cosas, gratis.",
+   "dm": "¡Hola! Contame en 2 líneas qué hace tu negocio y qué te lleva más tiempo, y te respondo con 3 cosas que podés automatizar 👇"
+  }
+ ],
+ "caption": "Mucha gente sabe que «debería automatizar algo», pero no sabe qué.\n\nNos contás en 2 líneas qué hace tu negocio y qué te lleva más tiempo, y te respondemos con 3 cosas concretas para automatizar. Gratis y por mensaje.\n\n👉 Comentá DIAGNOSTICO.\n\n#emprendedoresargentinos #pymesargentinas #automatizacion #inteligenciaartificial #whatsappbusiness",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "DIAGNOSTICO",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *DIAGNOSTICO*",
+  "texto": "y te contestamos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}
