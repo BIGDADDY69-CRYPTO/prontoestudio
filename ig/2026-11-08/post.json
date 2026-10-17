@@ -5,7 +5,6 @@
   {
    "tipo": "foto",
    "foto": "fotos/mostrador-tablet.jpg",
-   "notis_top": 640,
    "chip": "velocidad",
    "tag": "Atención",
    "titulo": "El cliente elige al que *contesta primero.*",
@@ -17,25 +16,42 @@
      "«¡Hola! Gracias por escribir 😊 Ya te leemos…»",
      "ahora"
     ]
+   ],
+   "notis_top": 640,
+   "pos": "center"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "en 1 minuto",
+   "titulo": "Te escribe a vos *y a 3 más.*",
+   "pasos": [
+    {
+     "t": "Manda el mismo mensaje a 4 negocios",
+     "ui": "in",
+     "texto": "Hola! ¿Tienen la caja de regalo? ¿Precio?",
+     "hora": "18:40"
+    },
+    {
+     "t": "El tuyo contesta al instante",
+     "ui": "out",
+     "texto": "¡Hola! Sí, la caja está $24.500. Acá ves todas las opciones 👇",
+     "hora": "18:40"
+    },
+    {
+     "t": "Se queda con vos",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "Cliente",
+     "texto": "Genial, ¿cómo te pago?",
+     "hora": "18:42"
+    }
    ]
   },
   {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Pregunta a varios",
-   "texto": "El que busca algo le escribe a tres o cuatro negocios a la vez."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Se queda con el que responde",
-   "texto": "Si contestás al otro día, ya eligió."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "La respuesta automática gana tiempo",
-   "texto": "Contesta al instante y le da algo para mirar hasta que vos sigas."
+   "tipo": "maqueta",
+   "chip": "respuesta automática",
+   "titulo": "Contesta *aunque estés atendiendo.*",
+   "escena": "chat"
   },
   {
    "tipo": "comenta",
@@ -45,7 +61,7 @@
    "dm": "¡Hola! Te paso los precios y cómo funciona: instalación una vez, el mes sin contrato 👇"
   }
  ],
- "caption": "El que busca algo le escribe a varios negocios a la vez y se queda con el primero que responde bien.\n\nUna respuesta automática contesta al instante, le da el catálogo y te gana el tiempo que necesitás para seguir la conversación.\n\n👉 Comentá PRECIOS y te mando cuánto sale tenerlo andando.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "caption": "El que busca algo le escribe a varios negocios a la vez y se queda con el primero que responde bien.\n\nUna respuesta automática contesta al instante y le da el catálogo, aunque estés atendiendo el mostrador.\n\n👉 Comentá PRECIOS y te mando cuánto sale tenerlo andando.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
  "palabra_clave": "PRECIOS",
  "historia_cierre": {
   "tag": "Comentá en el posteo",
@@ -57,13 +73,12 @@
   "1.png",
   "2.png",
   "3.png",
-  "4.png",
-  "5.png"
+  "4.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

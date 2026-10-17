@@ -3,6 +3,24 @@
  "pilar": "versus",
  "slides": [
   {
+   "tipo": "foto",
+   "foto": "fotos/mostrador-hombre.jpg",
+   "chip": "la diferencia",
+   "tag": "A mano vs. piloto automático",
+   "titulo": "Lo mismo que hacés hoy, *sin depender de vos.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Respuesta automática enviada",
+     "«¡Hola! Gracias por escribir 😊…»",
+     "ahora"
+    ]
+   ],
+   "notis_top": 300,
+   "pos": "center"
+  },
+  {
    "tipo": "versus",
    "chip": "la diferencia",
    "titulo": "A mano *vs.* piloto automático",
@@ -24,16 +42,16 @@
    }
   },
   {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Lo mismo, sin vos",
-   "texto": "No cambia tu forma de atender: cambia quién hace lo repetitivo."
+   "tipo": "maqueta",
+   "chip": "contesta solo",
+   "titulo": "Contesta *solo.*",
+   "escena": "chat"
   },
   {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Vos en lo importante",
-   "texto": "Cerrar ventas, atender bien, pensar el negocio."
+   "tipo": "maqueta",
+   "chip": "pedido armado",
+   "titulo": "El pedido *llega armado.*",
+   "escena": "pedido"
   },
   {
    "tipo": "cierre",
@@ -54,12 +72,13 @@
   "1.png",
   "2.png",
   "3.png",
-  "4.png"
+  "4.png",
+  "5.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

@@ -3,9 +3,27 @@
  "pilar": "pregunta",
  "slides": [
   {
-   "tipo": "pregunta",
+   "tipo": "foto",
+   "foto": "fotos/noche-cama.jpg",
    "chip": "te leemos",
+   "tag": "Encuesta",
    "titulo": "¿Qué te come *más tiempo* en tu negocio?",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "3 mensajes nuevos",
+     "¿Precio? · ¿Envían? · ¿Tienen stock?",
+     "23:41"
+    ]
+   ],
+   "notis_top": 300,
+   "pos": "center 40%"
+  },
+  {
+   "tipo": "pregunta",
+   "chip": "comentá la letra",
+   "titulo": "Elegí *una:*",
    "opciones": [
     [
      "A",
@@ -20,39 +38,40 @@
      "Tomar y ordenar pedidos"
     ]
    ],
-   "texto": "Comentá la letra 👇 (y te contamos cómo se automatiza)"
+   "texto": "Comentá A, B o C 👇 y te mostramos cómo se automatiza"
   },
   {
    "tipo": "maqueta",
-   "chip": "respuesta rápida",
-   "titulo": "La A se arregla *con un «/».*",
+   "chip": "si elegiste A",
+   "titulo": "La A: *contesta sola.*",
    "escena": "chat"
   },
   {
    "tipo": "maqueta",
-   "chip": "publica solo",
-   "titulo": "La B, *publicando solo.*",
+   "chip": "si elegiste B",
+   "titulo": "La B: *publica sola.*",
    "escena": "caso"
   },
   {
    "tipo": "maqueta",
-   "chip": "pedido nuevo",
-   "titulo": "Y la C, *con el pedido armado.*",
-   "escena": "pedido"
+   "chip": "si elegiste C",
+   "titulo": "La C: *se anota sola.*",
+   "escena": "planilla"
   },
   {
-   "tipo": "cierre",
-   "titulo": "¿La tuya cuál es? *Comentá la letra.*",
-   "texto": "Te respondemos con cómo se automatiza en tu negocio.",
-   "boton": "Comentá A, B o C",
-   "visual": false
+   "tipo": "comenta",
+   "palabra": "AUTOMATIZACION",
+   "titulo": "¿Querés empezar *por la A?*",
+   "texto": "Te mando la guía con los textos listos para copiar.",
+   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
   }
  ],
- "caption": "¿Qué es lo que más tiempo te come?\n\nA) Contestar siempre lo mismo\nB) Publicar en Instagram\nC) Tomar y ordenar pedidos\n\nComentá la letra y te contamos cómo se automatiza esa parte en tu negocio 👇\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "caption": "¿Qué es lo que más tiempo te come?\n\nA) Contestar siempre lo mismo\nB) Publicar en Instagram\nC) Tomar y ordenar pedidos\n\nComentá la letra 👇 En el carrusel te mostramos cómo queda cada una funcionando sola.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "palabra_clave": "AUTOMATIZACION",
  "historia_cierre": {
-  "tag": "Encuesta",
-  "titulo": "¿Qué *elegís vos?*",
-  "texto": "Respondé en el posteo de hoy.",
+  "tag": "Comentá en el posteo",
+  "titulo": "Comentá *AUTOMATIZACION*",
+  "texto": "y te llega por mensaje privado.",
   "boton": "Ver el posteo"
  },
  "imagenes": [
@@ -60,12 +79,13 @@
   "2.png",
   "3.png",
   "4.png",
-  "5.png"
+  "5.png",
+  "6.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

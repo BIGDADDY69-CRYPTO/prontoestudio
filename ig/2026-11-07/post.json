@@ -3,32 +3,62 @@
  "pilar": "decision",
  "slides": [
   {
-   "tipo": "portada",
+   "tipo": "foto",
+   "foto": "fotos/tablet-pedidos.jpg",
+   "chip": "paso a paso",
    "tag": "Paso a paso",
-   "titulo": "Qué pasa *después* de que nos escribís"
+   "titulo": "Qué pasa *después* de que nos escribís.",
+   "notis": [
+    [
+     "pe",
+     "PRONTO ESTUDIO",
+     "Tu negocio, armado",
+     "Te mandamos cómo quedaría, con tu nombre",
+     "ahora"
+    ]
+   ],
+   "notis_top": 260,
+   "pos": "center"
   },
   {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Te mostramos tu negocio",
-   "texto": "Te mandamos una imagen con tu negocio en piloto automático, con tu nombre."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Te pedimos 3 cosas",
-   "texto": "Tu logo, unas fotos y acceso con una guía de 2 minutos. Nunca contraseñas."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "En 72 h está andando",
-   "texto": "Te avisamos qué quedó y cómo pedir cambios."
+   "tipo": "proceso",
+   "chip": "en 72 h",
+   "titulo": "De tu mensaje *a funcionando.*",
+   "pasos": [
+    {
+     "t": "Nos escribís",
+     "ui": "in",
+     "texto": "Hola! Quiero el Instagram y las respuestas automáticas",
+     "hora": "10:02"
+    },
+    {
+     "t": "Te mandamos tu negocio armado",
+     "ui": "pdf",
+     "texto": "Asi-quedaria-tu-negocio.png",
+     "hora": "Con tu nombre, antes de pagar"
+    },
+    {
+     "t": "Nos pasás logo, fotos y acceso",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "Guía de acceso",
+     "texto": "2 minutos · nunca contraseñas",
+     "hora": "10:20"
+    },
+    {
+     "t": "En 72 h está andando",
+     "ui": "noti",
+     "app": "ig",
+     "titulo": "Se publicó tu primer carrusel",
+     "texto": "Salió solo a las 12:00",
+     "hora": "12:00"
+    }
+   ]
   },
   {
    "tipo": "maqueta",
-   "chip": "pedido nuevo",
-   "titulo": "Y desde ahí, *funciona solo.*",
+   "chip": "y desde ahí",
+   "titulo": "Y desde ahí *funciona solo.*",
    "escena": "pedido"
   },
   {
@@ -39,7 +69,7 @@
    "visual": false
   }
  ],
- "caption": "Qué pasa cuando nos escribís:\n\n1. Te mandamos una imagen con tu negocio en piloto automático, con tu nombre.\n2. Te pedimos tu logo, unas fotos y acceso con una guía de 2 minutos (nunca contraseñas).\n3. En 72 h queda andando.\n\nSin reuniones, todo por mensaje. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "caption": "Qué pasa cuando nos escribís:\n\n1. Te mandamos una imagen con tu negocio en piloto automático, con tu nombre, antes de pagar.\n2. Nos pasás logo, fotos y acceso con una guía de 2 minutos (nunca contraseñas).\n3. En 72 h queda andando.\n\nSin reuniones, todo por mensaje. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
  "historia_cierre": {
   "tag": "Gratis · antes de pagar",
   "titulo": "Armá tu negocio *en piloto automático.*",
@@ -50,14 +80,12 @@
   "1.png",
   "2.png",
   "3.png",
-  "4.png",
-  "5.png",
-  "6.png"
+  "4.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

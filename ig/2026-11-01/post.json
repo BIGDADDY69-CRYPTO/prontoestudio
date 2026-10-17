@@ -3,32 +3,61 @@
  "pilar": "informativo",
  "slides": [
   {
-   "tipo": "portada",
+   "tipo": "foto",
+   "foto": "fotos/noche-insomnio.jpg",
+   "chip": "fuera de horario",
    "tag": "Hacé la cuenta",
-   "titulo": "¿Cuánto tiempo se va en *contestar lo mismo?*"
+   "titulo": "23:30 y seguís *contestando lo mismo.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Cliente",
+     "Hola! ¿Hacen envíos?",
+     "23:28"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Cliente",
+     "¿Precio del kit?",
+     "23:31"
+    ]
+   ],
+   "notis_top": 280,
+   "pos": "center"
   },
   {
-   "tipo": "punto",
-   "n": "15",
-   "titulo": "Mensajes por día",
-   "texto": "Un ejemplo: horario, envíos, precio, si hay stock. Las mismas preguntas, todos los días."
-  },
-  {
-   "tipo": "punto",
-   "n": "×2",
-   "titulo": "Minutos cada uno",
-   "texto": "Leer, buscar el dato, escribirlo. 15 × 2 = 30 minutos por día."
-  },
-  {
-   "tipo": "punto",
-   "n": "12 h",
-   "titulo": "Por mes",
-   "texto": "Con 6 días de atención por semana, son unas 12 horas al mes. Hacé la cuenta con tus números."
+   "tipo": "proceso",
+   "chip": "así se automatiza",
+   "titulo": "Lo mismo, *sin que estés.*",
+   "pasos": [
+    {
+     "t": "Te escriben a las 23:28",
+     "ui": "in",
+     "texto": "Hola! ¿Hacen envíos a Rosario?",
+     "hora": "23:28"
+    },
+    {
+     "t": "Sale la respuesta sola",
+     "ui": "out",
+     "texto": "¡Hola! Enviamos a todo el país 📦 ¿Me pasás tu código postal?",
+     "hora": "23:28"
+    },
+    {
+     "t": "A la mañana lo ves ordenado",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "3 chats etiquetados «Envío»",
+     "texto": "Listos para seguir",
+     "hora": "9:00"
+    }
+   ]
   },
   {
    "tipo": "maqueta",
    "chip": "respuesta automática",
-   "titulo": "Eso lo puede *contestar solo.*",
+   "titulo": "Así se ve *en tu celular.*",
    "escena": "noche"
   },
   {
@@ -39,7 +68,7 @@
    "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
   }
  ],
- "caption": "Una cuenta rápida (con números de ejemplo): 15 mensajes por día que preguntan lo mismo × 2 minutos cada uno = 30 minutos por día. En un mes, unas 12 horas.\n\nHacé la cuenta con tus números. Casi todo ese tiempo se puede automatizar.\n\n👉 Comentá AUTOMATIZACION y te mando la guía.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "caption": "Si te pasa que a la noche seguís contestando lo mismo (envíos, precios, horarios), eso se puede automatizar.\n\nEn el carrusel te mostramos el proceso: te escriben, sale la respuesta sola y a la mañana tenés todo ordenado.\n\n👉 Comentá AUTOMATIZACION y te mando la guía.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
  "palabra_clave": "AUTOMATIZACION",
  "historia_cierre": {
   "tag": "Comentá en el posteo",
@@ -51,14 +80,12 @@
   "1.png",
   "2.png",
   "3.png",
-  "4.png",
-  "5.png",
-  "6.png"
+  "4.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

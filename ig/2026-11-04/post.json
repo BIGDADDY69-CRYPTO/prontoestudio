@@ -3,27 +3,47 @@
  "pilar": "objeciones",
  "slides": [
   {
-   "tipo": "portada",
-   "tag": "Las dudas de siempre",
-   "titulo": "«¿Y si se nota que es *automático?*»"
+   "tipo": "foto",
+   "foto": "fotos/cafe-celu.jpg",
+   "chip": "las dudas de siempre",
+   "tag": "Respuestas automáticas",
+   "titulo": "«¿Y si se nota que es *automático?*»",
+   "notis": [],
+   "notis_top": 640,
+   "pos": "center"
   },
   {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Lo escribís con tu tono",
-   "texto": "Los mensajes son tuyos: como hablás vos, con tu nombre y tus datos reales."
+   "tipo": "proceso",
+   "chip": "del lado del cliente",
+   "titulo": "Así lo ve *tu cliente.*",
+   "pasos": [
+    {
+     "t": "Pregunta el precio",
+     "ui": "in",
+     "texto": "Hola! ¿Cuánto sale el kit grande?",
+     "hora": "21:14"
+    },
+    {
+     "t": "Recibe respuesta al instante",
+     "ui": "out",
+     "texto": "¡Hola Sofi! El kit grande está $32.900. Te dejo el catálogo con fotos 👇",
+     "hora": "21:14"
+    },
+    {
+     "t": "Vos seguís cuando podés",
+     "ui": "noti",
+     "app": "wa",
+     "titulo": "Sofía",
+     "texto": "Perfecto, lo quiero para el sábado",
+     "hora": "21:20"
+    }
+   ]
   },
   {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Contesta lo simple",
-   "texto": "Horario, envíos, pagos. Lo que requiere criterio lo seguís vos."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "Responde al instante",
-   "texto": "Lo que más se nota es la demora, no que una respuesta esté guardada."
+   "tipo": "maqueta",
+   "chip": "con tu tono",
+   "titulo": "Escrito *como hablás vos.*",
+   "escena": "chat"
   },
   {
    "tipo": "cierre",
@@ -33,7 +53,7 @@
    "visual": false
   }
  ],
- "caption": "La duda que más escuchamos: «¿no se va a notar que es automático?».\n\nLos mensajes los escribís con tu tono, contestan lo simple (horario, envíos, pagos) y lo que requiere criterio lo seguís vos. Lo que el cliente nota de verdad es la demora, no que una respuesta esté guardada.\n\n¿Otra duda? Escribinos, te respondemos por mensaje.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "caption": "La duda que más escuchamos: «¿no se va a notar que es automático?».\n\nLos mensajes se escriben con tu tono, contestan lo simple al instante y lo que requiere criterio lo seguís vos. Lo que el cliente nota de verdad es la demora.\n\nEn el carrusel, cómo lo ve tu cliente. ¿Otra duda? Escribinos.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
  "historia_cierre": {
   "tag": "Gratis · antes de pagar",
   "titulo": "Armá tu negocio *en piloto automático.*",
@@ -44,13 +64,12 @@
   "1.png",
   "2.png",
   "3.png",
-  "4.png",
-  "5.png"
+  "4.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

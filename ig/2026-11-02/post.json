@@ -3,48 +3,68 @@
  "pilar": "empresas",
  "slides": [
   {
-   "tipo": "portada",
-   "tag": "Para empresas",
-   "titulo": "Auditoría de *automatización*"
+   "tipo": "foto",
+   "foto": "fotos/equipo-reunion.jpg",
+   "chip": "para empresas",
+   "tag": "Auditoría de automatización",
+   "titulo": "¿Cuánto tiempo pierde *tu equipo* en lo repetitivo?",
+   "notis": [],
+   "notis_top": 260,
+   "pos": "center"
+  },
+  {
+   "tipo": "proceso",
+   "chip": "cómo es la auditoría",
+   "titulo": "De tu proceso de hoy *a un plan.*",
+   "pasos": [
+    {
+     "t": "Completás un cuestionario",
+     "ui": "pdf",
+     "texto": "Cuestionario-procesos.pdf",
+     "hora": "Atención, ventas, cobros, pedidos, reportes"
+    },
+    {
+     "t": "Lo analizamos",
+     "ui": "noti",
+     "titulo": "Análisis en curso",
+     "texto": "Detectamos 7 tareas que se repiten cada semana (ejemplo)",
+     "hora": "día 3"
+    },
+    {
+     "t": "Recibís el plan por escrito",
+     "ui": "pdf",
+     "texto": "Plan-de-automatizacion.pdf",
+     "hora": "Qué automatizar · en qué orden · horas que ahorra · costo"
+    }
+   ],
+   "foto": "fotos/equipo-laptop.jpg"
   },
   {
    "tipo": "versus",
    "chip": "qué cambia",
-   "titulo": "Antes y después *de la auditoría*",
+   "titulo": "Antes y después *de automatizar*",
    "izq": {
     "t": "Hoy",
     "items": [
-     "Tareas repetidas a mano",
-     "Datos en planillas sueltas",
-     "Nadie sabe cuánto tiempo se va"
+     "Pedidos copiados a mano",
+     "Presupuestos en Word",
+     "Cobros que se olvidan"
     ]
    },
    "der": {
     "t": "Después",
     "items": [
-     "Mapa de todos los procesos",
-     "Qué automatizar primero",
-     "Horas que se ahorran, estimadas"
+     "Planilla que se llena sola",
+     "Presupuesto en segundos",
+     "Recordatorio automático"
     ]
    }
   },
   {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Revisamos tus procesos",
-   "texto": "Atención, ventas, cobros, pedidos y reportes. Por escrito, con un cuestionario y ejemplos reales."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Encontramos lo repetitivo",
-   "texto": "Cada tarea que se hace igual todas las semanas es candidata a automatizarse."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "Te damos el plan",
-   "texto": "Qué automatizar, en qué orden, cuánto tiempo ahorra y cuánto cuesta implementarlo."
+   "tipo": "maqueta",
+   "chip": "ejemplo real",
+   "titulo": "Así queda *un proceso automatizado.*",
+   "escena": "planilla"
   },
   {
    "tipo": "comenta",
@@ -54,7 +74,7 @@
    "dm": "¡Hola! Te cuento cómo es la auditoría y qué recibís al final 👇"
   }
  ],
- "caption": "Para empresas y negocios con más movimiento: una auditoría de automatización.\n\nRevisamos tus procesos (atención, ventas, cobros, pedidos, reportes), encontramos lo que se repite y te damos un plan: qué automatizar, en qué orden, cuántas horas ahorra y cuánto cuesta implementarlo.\n\nTodo por escrito, sin reuniones.\n\n👉 Comentá AUDITORIA y te mando cómo es y qué recibís.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
+ "caption": "Para empresas y negocios con más movimiento: auditoría de automatización.\n\n1. Completás un cuestionario sobre cómo trabajan hoy.\n2. Lo analizamos y detectamos lo que se repite.\n3. Recibís un plan por escrito: qué automatizar, en qué orden, cuántas horas ahorra (estimado) y cuánto cuesta.\n\nTodo por escrito, sin reuniones.\n\n👉 Comentá AUDITORIA y te mando cómo es.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
  "palabra_clave": "AUDITORIA",
  "historia_cierre": {
   "tag": "Comentá en el posteo",
@@ -67,13 +87,12 @@
   "2.png",
   "3.png",
   "4.png",
-  "5.png",
-  "6.png"
+  "5.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }

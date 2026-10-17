@@ -3,39 +3,38 @@
  "pilar": "empresas",
  "slides": [
   {
-   "tipo": "portada",
+   "tipo": "foto",
+   "foto": "fotos/contable-workspace.jpg",
+   "chip": "para empresas",
    "tag": "Para empresas",
-   "titulo": "5 procesos para *automatizar esta semana*"
+   "titulo": "4 procesos que *se hacen solos.*",
+   "notis": [],
+   "notis_top": 260,
+   "pos": "center"
   },
   {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Presupuestos",
-   "texto": "Un formulario que arma el presupuesto con tus precios y lo manda solo."
+   "tipo": "maqueta",
+   "chip": "1 · presupuestos",
+   "titulo": "Presupuestos *en segundos.*",
+   "escena": "presupuesto"
   },
   {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Recordatorios de cobro",
-   "texto": "Avisos automáticos antes y después del vencimiento, con tu tono."
+   "tipo": "maqueta",
+   "chip": "2 · cobros",
+   "titulo": "Cobros que *se recuerdan solos.*",
+   "escena": "cobro"
   },
   {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "Seguimiento de clientes",
-   "texto": "Al que pidió precio y no compró, un mensaje a los 3 días."
+   "tipo": "maqueta",
+   "chip": "3 · pedidos",
+   "titulo": "Pedidos que *se anotan solos.*",
+   "escena": "planilla"
   },
   {
-   "tipo": "punto",
-   "n": "4",
-   "titulo": "Reportes",
-   "texto": "Ventas y consultas de la semana, en tu mail cada lunes."
-  },
-  {
-   "tipo": "punto",
-   "n": "5",
-   "titulo": "Alta de pedidos",
-   "texto": "El pedido entra ordenado, sin copiar y pegar de un chat."
+   "tipo": "maqueta",
+   "chip": "4 · reportes",
+   "titulo": "El reporte te llega *cada lunes.*",
+   "escena": "reporte"
   },
   {
    "tipo": "comenta",
@@ -45,7 +44,7 @@
    "dm": "¡Hola! Te cuento cómo es la auditoría y qué recibís al final 👇"
   }
  ],
- "caption": "Cinco procesos que casi cualquier empresa puede automatizar rápido:\n\n1. Presupuestos\n2. Recordatorios de cobro\n3. Seguimiento de clientes que no compraron\n4. Reportes semanales\n5. Alta de pedidos\n\nPara saber cuáles te convienen primero, hacemos una auditoría de tus procesos, todo por escrito.\n\n👉 Comentá AUDITORIA y te mando cómo es.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
+ "caption": "Cuatro procesos que casi cualquier empresa puede automatizar, y cómo se ven funcionando:\n\n1. Presupuestos que se arman solos con tus precios\n2. Recordatorios de cobro\n3. Pedidos que se anotan solos en la planilla\n4. Un reporte semanal en tu mail\n\nPara saber cuáles te convienen primero, hacemos una auditoría de tus procesos.\n\n👉 Comentá AUDITORIA y te mando cómo es.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
  "palabra_clave": "AUDITORIA",
  "historia_cierre": {
   "tag": "Comentá en el posteo",
@@ -59,13 +58,12 @@
   "3.png",
   "4.png",
   "5.png",
-  "6.png",
-  "7.png"
+  "6.png"
  ],
  "historias": [
   "h1.png",
   "h2.png"
  ],
  "estado": "publicado",
- "publicado": "2026-10-17 (a mano)"
+ "publicado": "2026-10-17 (a mano, versión realista)"
 }
