@@ -3,374 +3,105 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pronto Estudio</title>
-<meta name="description" content="Tu negocio en piloto automático: Instagram que publica solo, respuestas automáticas en WhatsApp e Instagram y una web que toma pedidos. Armalo acá, miralo con tu marca y lo dejamos andando en 72 h.">
-<meta property="og:title" content="Pronto Estudio · Tu negocio en piloto automático">
-<meta property="og:description" content="Armalo con tu logo y tus fotos y miralo funcionando antes de pagar. Sin reuniones.">
+<title>Pronto Estudio · ¿Qué tipo de negocio tenés?</title>
+<meta name="description" content="Elegí tu tipo de negocio: locales, tiendas online, inmobiliarias, concesionarias, consultorios, estudios, institutos y eventos. Instalado en 72 h, con garantía.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pronto Estudio · ¿Qué tipo de negocio tenés?">
+<meta property="og:description" content="Elegí tu tipo de negocio: locales, tiendas online, inmobiliarias, concesionarias, consultorios, estudios, institutos y eventos. Instalado en 72 h, con garantía.">
+<meta property="og:url" content="https://bigdaddy69-crypto.github.io/prontoestudio/">
 <meta property="og:image" content="https://bigdaddy69-crypto.github.io/prontoestudio/og.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://bigdaddy69-crypto.github.io/prontoestudio/">
+<script>try{var t=new URLSearchParams(location.search).get('tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f4ee;--tinta:#0d1220;--gris:#5f6575;--linea:#e2ddd2;--card:#fff;--suave:#efece4;--lima:#c8ff3e;--acento:#0d1220;--osc:#0d1220}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0f1a;--tinta:#f2f3f6;--gris:#a3a9b8;--linea:#232a3d;--card:#141a2a;--suave:#1a2134;--acento:#c8ff3e}}
-:root[data-theme="dark"]{--bg:#0b0f1a;--tinta:#f2f3f6;--gris:#a3a9b8;--linea:#232a3d;--card:#141a2a;--suave:#1a2134;--acento:#c8ff3e}
+:root{--bg:#f6f4ee;--tinta:#0d1220;--gris:#5b6172;--linea:#e2ddd2;--card:#fff;--suave:#efece4;--osc:#0d1220;--lima:#c8ff3e;
+ --v:#C8FF3D;--vink:#0d1220;--vtxt:#58712C;--vsoft:#F0F6D5}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0f1a;--tinta:#f2f3f6;--gris:#a3a9b8;--linea:#232a3d;--card:#141a2a;--suave:#1a2134;--vtxt:#C8FF3D;--vsoft:#2D3A20}}
+:root[data-theme="dark"]{--bg:#0b0f1a;--tinta:#f2f3f6;--gris:#a3a9b8;--linea:#232a3d;--card:#141a2a;--suave:#1a2134;--vtxt:#C8FF3D;--vsoft:#2D3A20}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--tinta);line-height:1.5}
+html{-webkit-text-size-adjust:100%}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tinta);line-height:1.5;overflow-x:hidden}
 a{color:inherit}img{max-width:100%;display:block}
-.wrap{max-width:1160px;margin:0 auto;padding:0 16px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:800;text-decoration:none;border-radius:99px;padding:14px 22px;border:2px solid transparent;cursor:pointer;text-align:center;line-height:1.2}
+.btn.v{background:var(--v);color:var(--vink)}
+.btn.borde{border-color:var(--linea);color:var(--tinta);background:transparent}
+.btn.chico{padding:10px 16px;font-size:14px}
+.btn svg{width:18px;height:18px;flex:none}
+h2{font-size:clamp(28px,4.4vw,44px);line-height:1.06;font-weight:900;letter-spacing:-.03em}
+.baj{color:var(--gris);margin-top:10px;max-width:680px;font-size:18px}
+.sec{padding:56px 0;border-top:1px solid var(--linea)}
+.tag{font-size:13px;font-weight:800;letter-spacing:.2em;color:var(--vtxt);text-transform:uppercase}
+footer{border-top:1px solid var(--linea);padding:28px 0 44px;color:var(--gris);font-size:14px}
+footer .otro{display:inline-block;margin-bottom:10px;color:var(--tinta);font-weight:700}
+
 header{display:flex;align-items:center;justify-content:space-between;padding:18px 0;gap:12px}
 .marca{font-weight:900;font-size:20px;letter-spacing:-.02em;text-decoration:none}
 .marca i{font-style:normal;background:var(--lima);color:var(--osc);padding:0 6px;border-radius:6px;margin-left:2px}
-.btn{display:inline-block;font:inherit;font-weight:800;text-decoration:none;border-radius:99px;padding:14px 22px;border:2px solid transparent;cursor:pointer;text-align:center}
-.btn.lima{background:var(--lima);color:var(--osc)}
-.btn.borde{border-color:var(--linea);color:var(--tinta);background:transparent}
-.btn.chico{padding:10px 16px;font-size:14px}
-h2{font-size:clamp(28px,4.4vw,46px);line-height:1.04;font-weight:900;letter-spacing:-.03em}
-.baj{color:var(--gris);margin-top:10px;max-width:660px;font-size:18px}
-.sec{padding:60px 0;border-top:1px solid var(--linea)}
-.tag{font-size:13px;font-weight:800;letter-spacing:.22em;color:var(--gris);text-transform:uppercase}
-/* hero */
-.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:36px;align-items:center;padding:30px 0 60px}
-@media (max-width:880px){.hero{grid-template-columns:minmax(0,1fr)}}
-.hero h1{font-size:clamp(38px,6.6vw,74px);line-height:.98;font-weight:900;letter-spacing:-.04em;margin-top:14px}
-.hero h1 em{font-style:normal;background:linear-gradient(transparent 58%,var(--lima) 58%,var(--lima) 92%,transparent 92%)}
-.hero p{font-size:clamp(17px,2vw,20px);color:var(--gris);margin-top:18px;max-width:600px}
-.hero .acc{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
-.mini{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;font-size:14px;color:var(--gris);font-weight:600}
+.intro{padding:28px 0 26px}
+.intro h1{font-size:clamp(36px,6.4vw,68px);line-height:1;font-weight:900;letter-spacing:-.04em;margin-top:12px;max-width:900px}
+.intro p{font-size:clamp(17px,2vw,20px);color:var(--gris);margin-top:16px;max-width:640px}
+.intro .tag{color:var(--gris)}
+.big{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:760px){.big{grid-template-columns:minmax(0,1fr)}}
+.vc{--c:#000;--ci:#fff;display:flex;flex-direction:column;gap:10px;text-decoration:none;border-radius:28px;padding:26px;min-height:220px;background:var(--c);color:var(--ci);position:relative;overflow:hidden;transition:transform .15s}
+.vc:hover{transform:translateY(-3px)}
+.vc .em{font-size:34px;line-height:1}
+.vc b{font-size:clamp(28px,3.6vw,38px);font-weight:900;letter-spacing:-.03em;line-height:1}
+.vc .bj{font-size:17px;font-weight:700;opacity:.95;max-width:420px}
+.vc .pq{font-size:14.5px;opacity:.85;margin-top:auto}
+.vc .ir{font-weight:800;font-size:15px}
+.mas{margin-top:34px}
+.mas h2{font-size:clamp(22px,3vw,28px)}
+.chic{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:14px}
+.vs{display:flex;gap:12px;align-items:flex-start;text-decoration:none;background:var(--card);border:1px solid var(--linea);border-radius:20px;padding:16px;min-width:0}
+.vs .em{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:20px}
+.vs b{display:block;font-size:18px;letter-spacing:-.01em}
+.vs span{display:block;color:var(--gris);font-size:14px;margin-top:4px}
+.otros{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px;margin-top:40px}
+.ot{background:var(--card);border:1px solid var(--linea);border-radius:22px;padding:20px;text-decoration:none;display:block}
+.ot b{display:block;font-size:18px}
+.ot span{display:block;color:var(--gris);font-size:15px;margin-top:4px}
+.ot em{display:block;font-style:normal;font-weight:800;margin-top:10px}
+.mini{display:flex;gap:8px 18px;flex-wrap:wrap;margin-top:30px;font-size:14px;color:var(--gris);font-weight:600}
 .mini b{color:var(--tinta)}
-.escena{position:relative;min-height:440px}
-.tel{background:#0d1220;border:10px solid #232a3d;border-radius:44px;padding:16px 12px;color:#fff;width:min(300px,78%);box-shadow:0 30px 80px rgba(13,18,32,.35)}
-.tel .u{font-weight:800;font-size:14px;padding:0 4px 10px;display:flex;justify-content:space-between}
-.tel .u span{color:#c8ff3e;font-size:12px}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
-.grid3 img,.grid3 div{aspect-ratio:4/5;object-fit:cover;width:100%;border-radius:3px;background:#232a3d}
-.burbujas{position:absolute;right:0;bottom:10px;width:min(290px,70%);display:flex;flex-direction:column;gap:8px}
-.bur{font-size:14px;line-height:1.35;padding:10px 14px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
-.bur.c{background:var(--card);color:var(--tinta);border:1px solid var(--linea);align-self:flex-start;border-bottom-left-radius:4px}
-.bur.b{background:#c8ff3e;color:#0d1220;font-weight:600;align-self:flex-end;border-bottom-right-radius:4px}
-.bur small{display:block;font-size:11px;opacity:.6;margin-top:2px}
-/* módulos */
-.mods{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px;margin-top:30px}
-.mod{background:var(--card);border:1px solid var(--linea);border-radius:26px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
-.mod .vis{background:var(--osc);height:210px;display:flex;align-items:center;justify-content:center;padding:18px;position:relative;overflow:hidden}
-.mod .cuerpo{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
-.mod h3{font-size:22px;letter-spacing:-.01em}
-.mod p{color:var(--gris)}
-.mod ul{list-style:none;display:flex;flex-direction:column;gap:6px;font-size:15px}
-.mod li:before{content:"✓ ";font-weight:900;color:var(--acento)}
-.precio{font-size:24px;font-weight:900;margin-top:auto;padding-top:8px}.precio small{font-size:14px;font-weight:600;color:var(--gris)}
-.fila3{display:flex;gap:8px;width:100%;max-width:330px}
-.fila3 img{flex:1;min-width:0;aspect-ratio:4/5;object-fit:cover;border-radius:10px}
-.navw{width:100%;max-width:330px;background:#fff;border-radius:12px;overflow:hidden;color:#0d1220}
-.navw .barra{background:#e9e6de;height:18px;display:flex;gap:4px;align-items:center;padding:0 8px}
-.navw .barra i{width:6px;height:6px;border-radius:9px;background:#c9c4b8}
-.navw .h{padding:16px;display:flex;gap:12px;align-items:center}
-.navw .h b{display:block;font-size:17px;line-height:1.1}
-.navw .h span{display:inline-block;margin-top:8px;background:#25d366;color:#fff;font-size:11px;font-weight:800;padding:6px 10px;border-radius:99px}
-.navw .h div.f{width:96px;aspect-ratio:1;border-radius:10px;background:#efe9dc url('casos/maq-3.jpg') center/cover;flex:none}
-/* casos */
-.casos{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:16px;margin-top:30px}
-@media (max-width:880px){.casos{grid-template-columns:minmax(0,1fr)}}
-.caso{background:var(--card);border:1px solid var(--linea);border-radius:26px;padding:24px;display:flex;flex-direction:column;gap:14px;min-width:0}
-.caso .rubro{font-size:13px;font-weight:800;letter-spacing:.16em;color:var(--gris);text-transform:uppercase}
-.caso h3{font-size:24px;letter-spacing:-.02em;line-height:1.15}
-.caso p{color:var(--gris)}
-.caso .imgs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.caso .imgs img{border-radius:14px;aspect-ratio:4/5;object-fit:cover;width:100%}
-.caso.osc{background:var(--osc);color:#f2f3f6;border-color:var(--osc)}
-.caso.osc p,.caso.osc .rubro{color:#a3a9b8}
-.caso .n{font-size:clamp(40px,6vw,64px);font-weight:900;letter-spacing:-.04em;color:#c8ff3e;line-height:1}
-.nota{font-size:13px;color:var(--gris)}
-/* configurador */
-.conf{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:24px;margin-top:30px;align-items:start}
-@media (max-width:900px){.conf{grid-template-columns:minmax(0,1fr)}}
-.form{background:var(--card);border:1px solid var(--linea);border-radius:24px;padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
-.form h4{font-size:15px;font-weight:800;margin-top:4px}
-label{font-size:14px;font-weight:700;display:flex;flex-direction:column;gap:6px;min-width:0}
-input[type=text],select,textarea{font:inherit;padding:11px 12px;border-radius:12px;border:1px solid var(--linea);background:var(--bg);color:var(--tinta);width:100%}
-textarea{min-height:64px;resize:vertical}
-input[type=file]{max-width:100%;width:100%;font-size:14px}
-input[type=color]{width:52px;height:38px;border:none;background:none}
-.dos{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end}
-.checks{display:flex;flex-direction:column;gap:8px}
-.chk{display:flex;flex-direction:row;align-items:flex-start;gap:10px;background:var(--suave);border-radius:14px;padding:12px;font-weight:600;cursor:pointer}
-.chk input{margin-top:4px;accent-color:#7fb800}
-.chk small{display:block;color:var(--gris);font-weight:500}
-.vista{background:var(--card);border:1px solid var(--linea);border-radius:24px;padding:16px;min-width:0}
-.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
-.tab{font:inherit;font-weight:800;font-size:14px;border:1px solid var(--linea);background:transparent;color:var(--tinta);border-radius:99px;padding:8px 14px;cursor:pointer}
-.tab.on{background:var(--tinta);color:var(--bg);border-color:var(--tinta)}
-.panel{display:none}.panel.on{display:block}
-.ig{background:#fff;color:#111;border-radius:18px;padding:16px;max-width:460px;margin:0 auto}
-.ig .perfil{display:flex;gap:14px;align-items:center}
-.ig .av{width:68px;height:68px;border-radius:99px;background:#eee center/cover;border:3px solid var(--c,#0d1220);flex:none;display:grid;place-items:center;font-weight:900;font-size:24px;color:#fff}
-.ig .perfil b{font-size:16px}.ig .perfil small{display:block;color:#666;font-size:13px}
-.ig .g{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:14px}
-.ig .g .p{aspect-ratio:4/5;background:#e9e6de center/cover;position:relative;overflow:hidden;border-radius:2px}
-.ig .g .p .t{position:absolute;inset:auto 0 0 0;padding:8px;font-size:11px;font-weight:900;line-height:1.1;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.75))}
-.ig .g .p.nuevo:after{content:"NUEVO";position:absolute;top:6px;left:6px;font-size:9px;font-weight:900;background:#c8ff3e;color:#0d1220;padding:2px 5px;border-radius:4px}
-.ig .g .p.vacio{background:#f1efe9}
-.ig .g .p.liso{background:var(--c,#0d1220);display:flex;align-items:flex-end}
-.ig .g .p.liso .t{background:none;font-size:13px}
-.cal{display:flex;gap:6px;margin-top:12px}.cal div{flex:1;text-align:center;font-size:11px;font-weight:800;padding:8px 2px;border-radius:8px;background:#f1efe9;color:#888}.cal .on{background:var(--c,#0d1220);color:#fff}
-.chat{background:#efe7dd;border-radius:18px;padding:14px;max-width:460px;margin:0 auto;display:flex;flex-direction:column;gap:8px;color:#111}
-.chat .top{display:flex;gap:10px;align-items:center;background:#075e54;color:#fff;margin:-14px -14px 6px;padding:12px 14px;border-radius:18px 18px 0 0;font-weight:700}
-.chat .top .av{width:34px;height:34px;border-radius:99px;background:#fff center/cover;flex:none}
-.chat .m{max-width:82%;padding:8px 12px;border-radius:12px;font-size:14px;line-height:1.35;white-space:pre-line}
-.chat .in{background:#fff;align-self:flex-start;border-top-left-radius:2px}
-.chat .out{background:#d9fdd3;align-self:flex-end;border-top-right-radius:2px}
-.chat .m small{display:block;font-size:10px;color:#777;text-align:right}
-.web{background:#fff;color:#111;border-radius:16px;overflow:hidden;max-width:520px;margin:0 auto;border:1px solid #e5e1d8}
-.web .barra{background:#ece9e2;padding:8px 12px;font-size:12px;color:#777;display:flex;gap:6px;align-items:center}
-.web .barra i{width:8px;height:8px;border-radius:9px;background:#cfcabd}
-.web .nav{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid #eee;font-weight:900}
-.web .nav img{height:28px;width:auto}
-.web .hh{padding:22px 16px;background:var(--c,#0d1220);color:#fff}
-.web .hh b{font-size:26px;line-height:1.05;display:block;letter-spacing:-.02em}
-.web .hh span{display:inline-block;margin-top:12px;background:#25d366;color:#fff;font-weight:800;font-size:13px;padding:9px 14px;border-radius:99px}
-.web .prods{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:14px 16px}
-.web .prods div{font-size:12px;font-weight:700}
-.web .prods .f{aspect-ratio:1;background:#eee center/cover;border-radius:8px;margin-bottom:6px}
-.total{margin-top:16px;background:var(--suave);border-radius:18px;padding:18px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
-.total b{font-size:26px;letter-spacing:-.02em}.total small{display:block;color:var(--gris);font-size:13px}
-.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:14px;margin-top:28px}
-.paso{background:var(--card);border:1px solid var(--linea);border-radius:22px;padding:22px}
-.paso b{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:99px;background:var(--lima);color:var(--osc);font-weight:900}
-.paso h3{font-size:19px;margin-top:12px}.paso p{color:var(--gris);margin-top:6px}
-.faq{margin-top:24px;display:flex;flex-direction:column;gap:10px}
-details{background:var(--card);border:1px solid var(--linea);border-radius:18px;padding:18px 20px}
-summary{font-weight:800;cursor:pointer;font-size:17px}
-details p{color:var(--gris);margin-top:10px}
-.otros{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
-.otros a{font-size:14px;font-weight:700;text-decoration:none;border:1px solid var(--linea);border-radius:99px;padding:8px 14px;background:var(--card)}
-footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);font-size:14px}
 </style>
+<script>(function(){var h=location.hash;if(['#armalo','#casos','#partes','#empresas'].indexOf(h)>-1){location.replace('piloto/'+h)}})()</script>
 </head>
 <body>
 <div class="wrap">
 <header>
-  <a class="marca" href="#">Pronto<i>Estudio</i></a>
-  <a class="btn lima chico" href="#armalo">Armá el tuyo</a>
+  <a class="marca" href="./">Pronto<i>Estudio</i></a>
+  <a class="btn borde chico" href="https://wa.me/5491124689346?text=Hola%21%20Vengo%20de%20la%20web%20de%20Pronto%20Estudio%20y%20no%20s%C3%A9%20bien%20qu%C3%A9%20servicio%20necesito" target="_blank" rel="noopener">No sé cuál es el mío</a>
 </header>
-
-<section class="hero">
-  <div>
-    <div class="tag">Para negocios que no tienen tiempo</div>
-    <h1>Tu negocio en <em>piloto automático.</em></h1>
-    <p>Instagram que publica solo, respuestas automáticas en WhatsApp e Instagram y una web que toma pedidos. Lo armás acá con tu logo y tus fotos, lo ves funcionando y lo dejamos andando en 72 h. Sin reuniones.</p>
-    <div class="acc">
-      <a class="btn lima" href="#armalo">Armá el tuyo en 1 minuto →</a>
-      <a class="btn borde" href="#casos">Ver casos reales</a>
-    </div>
-    <div class="mini"><span><b>72 h</b> instalado</span><span><b>Sin</b> reuniones ni contratos</span><span><b>Ronda de cambios</b> incluida</span></div>
-  </div>
-  <div class="escena" style="min-height:0">
-    <img src="marca/hero.jpg" alt="El sistema funcionando: un Instagram que publicó solo y un WhatsApp que contesta y recibe pedidos fuera de horario" style="width:100%;border-radius:28px;box-shadow:0 30px 80px rgba(13,18,32,.3)">
+<section class="intro">
+  <div class="tag">Hacemos que tu negocio atienda, venda y se ordene solo</div>
+  <h1>¿Qué tipo de negocio tenés?</h1>
+  <p>Elegí el tuyo: cada rubro tiene su servicio, sus precios y un ejemplo andando para que lo pruebes. Instalado en 72 h, con garantía.</p>
+</section>
+<div class="big">
+  <a class="vc" href="mostrador/" style="--c:#FF7A1A;--ci:#0d1220"><span class="em" aria-hidden="true">🏪</span><b>Mostrador</b><span class="bj">Tu WhatsApp atiende como tu mejor empleado</span><span class="pq">Para locales, gastronomía, peluquerías y barberías, gimnasios, almacenes, distribuidoras y heladerías</span><span class="ir">Ver Mostrador →</span></a>
+  <a class="vc" href="carrito/" style="--c:#7C5CFF;--ci:#ffffff"><span class="em" aria-hidden="true">🛒</span><b>Carrito Lleno</b><span class="bj">Tu tienda online lista para vender, en 72 h</span><span class="pq">Para tiendas online: el que arranca y el que ya vende</span><span class="ir">Ver Carrito Lleno →</span></a>
+  <a class="vc" href="portero/" style="--c:#1597A6;--ci:#0d1220"><span class="em" aria-hidden="true">🏠</span><b>Portero</b><span class="bj">Ninguna consulta se queda en la puerta</span><span class="pq">Para inmobiliarias</span><span class="ir">Ver Portero →</span></a>
+  <a class="vc" href="disponible/" style="--c:#FF4D4D;--ci:#0d1220"><span class="em" aria-hidden="true">🚗</span><b>Sigue Disponible</b><span class="bj">Contestá primero y vendé el auto</span><span class="pq">Para concesionarias y agencias de usados</span><span class="ir">Ver Sigue Disponible →</span></a>
+</div>
+<section class="mas">
+  <h2>Más rubros</h2>
+  <div class="chic">
+    <a class="vs" href="turno/"><span class="em" style="background:#22B39A;color:#0d1220" aria-hidden="true">📅</span><span><b>Turno Firme</b><span>Tu agenda llena, sin ausencias</span><span>Para consultorios, odontología, kinesiología, nutrición y centros de estética</span></span></a>
+    <a class="vs" href="carpeta/"><span class="em" style="background:#3D7BFF;color:#0d1220" aria-hidden="true">📁</span><span><b>Carpeta al Día</b><span>Los papeles llegan ordenados y nada se vence</span><span>Para estudios contables y jurídicos, escribanías y productores de seguros</span></span></a>
+    <a class="vs" href="inscripto/"><span class="em" style="background:#F5B700;color:#0d1220" aria-hidden="true">🎓</span><span><b>Inscripto</b><span>Inscripciones sin colapso y cuotas al día</span><span>Para institutos, academias y cursos</span></span></a>
+    <a class="vs" href="fecha/"><span class="em" style="background:#FF5CA8;color:#0d1220" aria-hidden="true">🎉</span><span><b>Fecha Libre</b><span>Presupuesto en 1 minuto, antes que la competencia</span><span>Para salones, catering, fotógrafos y turismo</span></span></a>
   </div>
 </section>
+<div class="otros">
+  <a class="ot" href="piloto/#armalo"><b>¿Querés armarlo vos, con tu logo?</b><span>Instagram que publica solo, respuestas automáticas y web de pedidos: lo ves con tu marca en 1 minuto.</span><em>Armá el tuyo →</em></a>
+  <a class="ot" href="piloto/#empresas"><b>¿Tenés una empresa?</b><span>Mapa de Horas Perdidas: te decimos por escrito qué automatizar, en qué orden y cuántas horas ahorra.</span><em>Ver la auditoría →</em></a>
 </div>
-
-<section class="sec" id="casos"><div class="wrap">
-  <div class="tag">Casos reales</div>
-  <h2>Hecho por el sistema, para clientes reales.</h2>
-  <p class="baj">Son trabajos reales. Tapamos nombres y logos porque son de nuestros clientes.</p>
-  <div class="casos">
-    <div class="caso">
-      <div class="rubro">Distribuidor de maquinaria gastronómica</div>
-      <h3>Instagram en piloto automático: un carrusel diseñado por día, con su propio material.</h3>
-      <p>El sistema toma lo que filman en el showroom, arma carruseles con su marca y los publica solo, en su horario. El dueño no toca nada.</p>
-      <div class="imgs"><img src="casos/maq-1.jpg" alt="Carrusel real: portada"><img src="casos/maq-2.jpg" alt="Carrusel real: paso a paso"><img src="casos/maq-3.jpg" alt="Carrusel real: vitrina"></div>
-    </div>
-    <div class="caso osc">
-      <div class="rubro">Marca de alimentos en Shopify</div>
-      <div class="n">$883.140</div>
-      <h3>en ventas atribuidas en sus primeros 10 días.</h3>
-      <p>Un sistema de 7 flujos de mail automáticos en Klaviyo: bienvenida, carrito abandonado y más.</p>
-      <p class="nota" style="color:#a3a9b8">Ventas atribuidas por Klaviyo a los mails.</p>
-    </div>
-  </div>
-</div></section>
-
-<section class="sec" id="partes"><div class="wrap">
-  <div class="tag">Qué incluye</div>
-  <h2>3 partes. Elegís las que necesitás.</h2>
-  <div class="mods">
-    <div class="mod">
-      <div class="vis"><div class="fila3"><img src="casos/maq-1.jpg" alt=""><img src="casos/maq-2.jpg" alt=""><img src="casos/maq-3.jpg" alt=""></div></div>
-      <div class="cuerpo"><h3>📲 Instagram que publica solo</h3>
-        <p>Posteos e historias todas las semanas, con tu marca, tus fotos y tu tono.</p>
-        <ul><li>Carruseles y posteos diseñados, no fotos sueltas</li><li>Historias diarias</li><li>Lo frenás cuando quieras con un mensaje</li></ul>
-        <div class="precio">$150.000 <small>instalación + $60.000/mes</small></div></div>
-    </div>
-    <div class="mod">
-      <div class="vis"><div style="width:100%;max-width:330px;display:flex;flex-direction:column;gap:8px">
-        <div class="bur c" style="align-self:flex-start">¿Qué horario tienen?</div>
-        <div class="bur b" style="align-self:flex-end">De lunes a sábado de 9 a 19. ¿Querés que te reserve un turno?</div>
-        <div class="bur c" style="align-self:flex-start">Sí, para el jueves</div></div></div>
-      <div class="cuerpo"><h3>💬 Respuestas automáticas</h3>
-        <p>Tu WhatsApp Business y tu Instagram contestan solos lo que te preguntan siempre, a cualquier hora.</p>
-        <ul><li>Bienvenida, horarios, envíos, formas de pago</li><li>Mensaje fuera de horario y catálogo</li><li>Te pasa la conversación cuando hace falta una persona</li></ul>
-        <div class="precio">$120.000 <small>instalación + $30.000/mes</small></div></div>
-    </div>
-    <div class="mod">
-      <div class="vis"><div class="navw"><div class="barra"><i></i><i></i><i></i></div><div class="h"><div class="f"></div><div><b>Tu negocio, online</b><span>Pedir por WhatsApp</span></div></div></div></div>
-      <div class="cuerpo"><h3>🛒 Web que toma pedidos</h3>
-        <p>Tu web con tus productos: el cliente elige y el pedido te llega armado por WhatsApp.</p>
-        <ul><li>Con tu dominio o uno gratis</li><li>Productos, precios y fotos</li><li>Sin comisiones por venta</li></ul>
-        <div class="precio">$150.000 <small>pago único</small></div></div>
-    </div>
-  </div>
-  <p class="baj" style="font-size:16px">Las 3 juntas: <b>15% menos</b> en la instalación.</p>
-</div></section>
-
-<section class="sec" id="armalo"><div class="wrap">
-  <div class="tag">Armalo con tu negocio</div>
-  <h2>Cargá lo tuyo y miralo funcionando.</h2>
-  <p class="baj">Todo queda en tu navegador: no subimos tus fotos a ningún lado. Cuando te guste, nos lo mandás y lo dejamos andando.</p>
-  <div class="conf">
-    <div class="form">
-      <label>Nombre del negocio<input type="text" id="fNom" value="Tu Negocio" maxlength="40"></label>
-      <label>Rubro<select id="fRub">
-        <option>Tienda online</option><option>Gastronomía</option><option>Estética y belleza</option><option>Salud y consultorios</option>
-        <option>Indumentaria</option><option>Ferretería y corralón</option><option>Inmobiliaria</option><option>Distribuidora</option><option>Servicios</option><option>Otro</option></select></label>
-      <div class="dos"><label>Tu logo<input type="file" id="fLogo" accept="image/*"></label><label>Color<input type="color" id="fCol" value="#0d1220"></label></div>
-      <label>3 fotos de tus productos o de tu local<input type="file" id="fFotos" accept="image/*" multiple></label>
-      <h4>Lo que te preguntan siempre</h4>
-      <label>Horario<input type="text" id="fHor" value="Lunes a sábado de 9 a 19"></label>
-      <label>Envíos o zona<input type="text" id="fEnv" value="Enviamos a todo el país"></label>
-      <label>Formas de pago<input type="text" id="fPag" value="Transferencia, tarjeta y Mercado Pago"></label>
-      <h4>Qué querés</h4>
-      <div class="checks">
-        <label class="chk"><input type="checkbox" id="mIg" checked><span>Instagram que publica solo<small>$150.000 + $60.000/mes</small></span></label>
-        <label class="chk"><input type="checkbox" id="mRe" checked><span>Respuestas automáticas<small>$120.000 + $30.000/mes</small></span></label>
-        <label class="chk"><input type="checkbox" id="mWe"><span>Web que toma pedidos<small>$150.000, pago único</small></span></label>
-      </div>
-      <label>¿Algo más que necesites?<textarea id="fExtra" placeholder="Ej.: quiero que publique las promos del fin de semana"></textarea></label>
-    </div>
-    <div class="vista">
-      <div class="tabs"><button class="tab on" data-p="ig">Tu Instagram</button><button class="tab" data-p="re">Tus respuestas</button><button class="tab" data-p="we">Tu web</button></div>
-      <div class="panel on" id="p-ig">
-        <div class="ig">
-          <div class="perfil"><div class="av" id="igAv"></div><div><b id="igUsr">tunegocio</b><small id="igRub">Tienda online</small><small>Publica solo · lunes, miércoles y viernes</small></div></div>
-          <div class="g" id="igG"></div>
-          <div class="cal"><div class="on">LUN</div><div>MAR</div><div class="on">MIÉ</div><div>JUE</div><div class="on">VIE</div><div>SÁB</div></div>
-        </div>
-      </div>
-      <div class="panel" id="p-re"><div class="chat" id="chat"></div></div>
-      <div class="panel" id="p-we"><div class="web" id="web"></div></div>
-      <div class="total">
-        <div><small>Instalación</small><b id="tIns">$270.000</b><small id="tMes">+ $90.000 por mes</small></div>
-        <a class="btn lima" id="quiero" target="_blank" rel="noopener" href="#">Lo quiero así →</a>
-      </div>
-      <p class="nota" style="margin-top:10px">Te llega a nuestro WhatsApp con lo que elegiste. Te respondemos por escrito y arrancamos en el día.</p>
-    </div>
-  </div>
-</div></section>
-
-<section class="sec" id="empresas" style="background:#0D1220;color:#F2F3F6;border-top:none"><div class="wrap">
-  <div class="tag" style="color:#C8FF3E">Para empresas</div>
-  <h2>Auditoría de automatización.</h2>
-  <p class="baj" style="color:#C9CEDB">Para empresas y negocios con más movimiento: revisamos cómo trabajan hoy y te decimos qué automatizar, en qué orden y cuánto tiempo se ahorra. Todo por escrito, sin reuniones.</p>
-  <div class="pasos">
-    <div class="paso" style="background:#151B2C;border-color:#2A3147"><b>1</b><h3>Cuestionario</h3><p style="color:#C9CEDB">Atención, ventas, cobros, pedidos y reportes: cómo lo hacen hoy, con ejemplos reales.</p></div>
-    <div class="paso" style="background:#151B2C;border-color:#2A3147"><b>2</b><h3>Análisis</h3><p style="color:#C9CEDB">Detectamos todo lo que se repite y lo que depende de que alguien se acuerde.</p></div>
-    <div class="paso" style="background:#151B2C;border-color:#2A3147"><b>3</b><h3>Plan por escrito</h3><p style="color:#C9CEDB">Qué automatizar, en qué orden, horas que se ahorran (estimadas) y cuánto cuesta implementarlo.</p></div>
-    <div class="paso" style="background:#C8FF3E;border-color:#C8FF3E;color:#0D1220"><b style="background:#0D1220;color:#C8FF3E">$</b><h3>$350.000</h3><p style="color:#0D1220">En 5 días hábiles. Si después lo implementamos juntos, se descuenta del total.</p></div>
-  </div>
-  <div style="margin-top:26px"><a class="btn lima" data-wa="Hola Arian! Quiero la auditoría de automatización para mi empresa. (PE-AUD)" href="#">Quiero la auditoría →</a></div>
-</div></section>
-
-<section class="sec"><div class="wrap">
-  <h2>Cómo trabajamos</h2>
-  <div class="pasos">
-    <div class="paso"><b>1</b><h3>Lo armás acá</h3><p>Elegís qué querés y lo ves con tu marca en el momento.</p></div>
-    <div class="paso"><b>2</b><h3>Nos escribís</h3><p>Por WhatsApp. Te pedimos accesos y algunas fotos más.</p></div>
-    <div class="paso"><b>3</b><h3>Pagás y arrancamos</h3><p>La instalación, por adelantado. El mes, a mes: lo cortás cuando quieras.</p></div>
-    <div class="paso"><b>4</b><h3>Funciona solo</h3><p>En 72 h queda andando. Cambios, siempre por mensaje.</p></div>
-  </div>
-</div></section>
-
-<section class="sec"><div class="wrap">
-  <h2>Preguntas</h2>
-  <div class="faq">
-    <details><summary>¿Hay que hacer reuniones o llamadas?</summary><p>No. Todo se hace por WhatsApp y queda por escrito. Si algo no se entiende, te mandamos un ejemplo con tu negocio.</p></details>
-    <details><summary>¿Necesito saber de tecnología?</summary><p>No. Nos das acceso a tu Instagram y tu WhatsApp Business siguiendo una guía paso a paso, y nosotros hacemos el resto.</p></details>
-    <details><summary>¿Las respuestas automáticas reemplazan a una persona?</summary><p>No. Contestan lo que te preguntan siempre (horarios, envíos, pagos) y te pasan la conversación cuando hace falta una persona.</p></details>
-    <details><summary>¿Hay contrato o permanencia?</summary><p>No. El mes se paga mes a mes y lo cortás con un mensaje.</p></details>
-    <details><summary>¿Y si quiero cambiar algo?</summary><p>La instalación incluye una ronda de cambios. Después, cada cambio se pide por mensaje.</p></details>
-    <details><summary>¿Trabajan fuera de Argentina?</summary><p>Sí, con México, Chile y Uruguay. Se cobra en dólares.</p></details>
-  </div>
-  <div class="otros"><span class="nota" style="align-self:center">También hacemos:</span>
-    <a href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=kit">Piezas para fechas comerciales</a>
-    <a href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=rg">Catálogo de regalos empresariales</a>
-    <a href="https://bigdaddy69-crypto.github.io/muestras/simulador/?s=test">Tienda en regla</a>
-  </div>
-</div></section>
-
-<footer><div class="wrap">Pronto Estudio · Buenos Aires, Argentina</div></footer>
-
-<script>
-const WA = '5491124689346'
-const $ = (s) => document.querySelector(s)
-const plata = (n) => '$' + Math.round(n).toLocaleString('es-AR')
-let logo = null, fotos = []
-const leer = (f) => new Promise((ok) => { const r = new FileReader(); r.onload = () => ok(r.result); r.readAsDataURL(f) })
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
-const usuario = (n) => (n || 'tunegocio').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '') || 'tunegocio'
-const DEMO = ['casos/maq-1.jpg', 'casos/maq-2.jpg', 'casos/maq-3.jpg']
-const TITULOS = { 'Gastronomía': ['El plato de la semana', 'Así lo preparamos', 'Reservá tu mesa'], 'Estética y belleza': ['Antes de tu turno', 'Lo que más nos piden', 'Turnos de la semana'], 'Indumentaria': ['Llegó lo nuevo', 'Cómo combinarlo', 'Talles y envíos'] }
-function titulos(r) { return TITULOS[r] || ['Lo nuevo de la semana', 'Cómo lo hacemos', 'Pedí el tuyo'] }
-
-function render() {
-  const nom = $('#fNom').value.trim() || 'Tu Negocio', rub = $('#fRub').value, col = $('#fCol').value
-  document.querySelectorAll('.ig,.web').forEach((e) => e.style.setProperty('--c', col))
-  const fs = fotos.length ? fotos : DEMO, propias = fotos.length > 0
-  // Instagram
-  const av = $('#igAv'); av.style.background = logo ? `#fff url(${logo}) center/contain no-repeat` : col
-  av.textContent = logo ? '' : nom.charAt(0).toUpperCase()
-  $('#igUsr').textContent = usuario(nom); $('#igRub').textContent = rub
-  const t = titulos(rub)
-  let g = ''
-  for (let i = 0; i < 6; i++) {
-    if (i < 3 && propias) g += `<div class="p nuevo" style="background-image:url(${fs[i % fs.length]})"><div class="t">${esc(t[i])}</div></div>`
-    else if (i < 3) g += `<div class="p nuevo liso"><div class="t">${esc(t[i])}</div></div>`
-    else g += '<div class="p vacio"></div>'
-  }
-  $('#igG').innerHTML = g
-  // respuestas
-  const hh = '22:4'
-  $('#chat').innerHTML = `<div class="top"><div class="av" style="background:${logo ? `#fff url(${logo}) center/contain no-repeat` : col}"></div>${esc(nom)}</div>
-    <div class="m in">Hola! ¿Qué horario tienen?<small>${hh}6</small></div>
-    <div class="m out">¡Hola! Gracias por escribir a ${esc(nom)} 😊\n${esc($('#fHor').value)}. ¿En qué te puedo ayudar?<small>${hh}6 ✓✓</small></div>
-    <div class="m in">¿Hacen envíos?<small>${hh}7</small></div>
-    <div class="m out">${esc($('#fEnv').value)}. ¿Me pasás tu zona y te digo el costo?<small>${hh}7 ✓✓</small></div>
-    <div class="m in">¿Cómo se paga?<small>${hh}8</small></div>
-    <div class="m out">${esc($('#fPag').value)}. Si querés, te paso con alguien del equipo para cerrar el pedido 👇<small>${hh}8 ✓✓</small></div>`
-  // web
-  $('#web').innerHTML = `<div class="barra"><i></i><i></i><i></i>&nbsp;${usuario(nom)}.com.ar</div>
-    <div class="nav">${logo ? `<img src="${logo}" alt="">` : esc(nom)}<span style="font-size:13px;font-weight:700">Productos · Contacto</span></div>
-    <div class="hh"><b>${esc(nom)}</b><div style="opacity:.8;font-size:14px;margin-top:6px">${esc(rub)} · ${esc($('#fEnv').value)}</div><span>Pedir por WhatsApp</span></div>
-    <div class="prods">${fs.slice(0, 3).map((f, i) => `<div><div class="f" style="${propias ? `background-image:url(${f})` : `background:${col};opacity:${.55 + i * .15}`}"></div>Producto ${i + 1}</div>`).join('')}</div>`
-  // total
-  const m = { ig: $('#mIg').checked, re: $('#mRe').checked, we: $('#mWe').checked }
-  let ins = (m.ig ? 150000 : 0) + (m.re ? 120000 : 0) + (m.we ? 150000 : 0)
-  const mes = (m.ig ? 60000 : 0) + (m.re ? 30000 : 0)
-  if (m.ig && m.re && m.we) ins *= 0.85
-  $('#tIns').textContent = ins ? plata(ins) : '—'
-  $('#tMes').textContent = mes ? `+ ${plata(mes)} por mes` : (ins ? 'pago único' : 'Elegí al menos una parte')
-  const partes = [m.ig && 'Instagram que publica solo', m.re && 'respuestas automáticas', m.we && 'web que toma pedidos'].filter(Boolean)
-  const txt = `Hola Arian! Armé mi negocio en piloto automático en la web.\nNegocio: ${nom} (${rub})\nQuiero: ${partes.join(', ') || '(no elegí)'}\nTotal: ${ins ? plata(ins) : '-'}${mes ? ' + ' + plata(mes) + '/mes' : ''}` +
-    ($('#fExtra').value.trim() ? `\nTambién: ${$('#fExtra').value.trim()}` : '') + '\n(PE-AUTO)'
-  $('#quiero').href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(txt)
-}
-document.querySelectorAll('.form input,.form select,.form textarea').forEach((e) => e.addEventListener('input', render))
-$('#fLogo').addEventListener('change', async (e) => { logo = e.target.files[0] ? await leer(e.target.files[0]) : null; render() })
-$('#fFotos').addEventListener('change', async (e) => { fotos = await Promise.all([...e.target.files].slice(0, 3).map(leer)); render() })
-document.querySelectorAll('.tab').forEach((b) => b.addEventListener('click', () => {
-  document.querySelectorAll('.tab').forEach((x) => x.classList.toggle('on', x === b))
-  document.querySelectorAll('.panel').forEach((p) => p.classList.toggle('on', p.id === 'p-' + b.dataset.p))
-}))
-render()
-</script>
+<div class="mini"><span><b>72 h</b> instalado</span><span><b>100%</b> de devolución si a las 72 h no está andando</span><span><b>Sin</b> reuniones ni permanencia</span><span><b>5</b> instalaciones por semana</span></div>
+</div>
+<footer style="margin-top:48px"><div class="wrap">Pronto Estudio · Buenos Aires, Argentina</div></footer>
 </body>
 </html>

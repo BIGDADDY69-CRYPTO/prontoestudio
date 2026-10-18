@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#6b2d5c">
+<title>Peluquería Tijeras de Oro · Turnos y consultas por WhatsApp</title>
+<meta name="description" content="Sacá turno en Peluquería Tijeras de Oro eligiendo día y horario, y mandalo por WhatsApp.">
+<style>
+:root{--c:#6b2d5c;--cs:color-mix(in srgb,var(--c) 9%,#fff);--cm:color-mix(in srgb,var(--c) 22%,#fff);--bg:#f5f5f3;--card:#fff;--tx:#17181a;--mu:#696d73;--li:#e4e4e0;--wa:#1fa855;--ok:#127a3e}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"Marca",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif,"Noto Color Emoji";background:var(--bg);color:var(--tx);padding-bottom:100px;line-height:1.35}
+body.sinpie{padding-bottom:24px}
+button,input,textarea{font-family:inherit}
+.demo{background:#111;color:#fff;font-size:12px;text-align:center;padding:6px 12px;letter-spacing:.02em}
+header{background:var(--c);color:#fff;padding:20px 16px 16px;background-image:radial-gradient(circle at 94% 8%,rgba(255,255,255,.16) 0 64px,transparent 65px),radial-gradient(circle at 78% 100%,rgba(255,255,255,.09) 0 44px,transparent 45px)}
+.marca{display:flex;align-items:center;gap:12px;max-width:640px;margin:0 auto}
+.logo{width:54px;height:54px;border-radius:15px;background:#fff;color:var(--c);display:grid;place-items:center;font-weight:800;font-size:23px;overflow:hidden;flex:none}
+.logo img{width:100%;height:100%;object-fit:contain}
+h1{font-size:21px;line-height:1.15}
+header p{font-size:13.5px;opacity:.92;margin-top:3px}
+.datos{max-width:640px;margin:12px auto 0;display:flex;flex-wrap:wrap;gap:6px}
+.datos span{font-size:12px;background:rgba(255,255,255,.18);padding:4px 10px;border-radius:99px}
+.datos .abierto::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#7CFFB0;margin-right:6px;vertical-align:1px}
+.datos .cerrado::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#ffb4a8;margin-right:6px;vertical-align:1px}
+.tabs{position:sticky;top:0;z-index:6;background:var(--bg);padding:12px 16px 10px;border-bottom:1px solid var(--li)}
+.tabs div{max-width:640px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);background:#e8e8e4;border-radius:12px;padding:4px;gap:4px}
+.tab{border:0;background:transparent;border-radius:9px;padding:10px 4px;font-size:14.5px;font-weight:600;color:var(--mu);cursor:pointer}
+.tab.on{background:#fff;color:var(--tx);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+main{padding:2px 16px 0;max-width:640px;margin:0 auto}
+section[hidden]{display:none}
+.paso{display:flex;align-items:center;gap:9px;margin:20px 2px 10px}
+.paso b{width:24px;height:24px;border-radius:50%;background:var(--c);color:#fff;font-size:13px;display:grid;place-items:center;flex:none}
+.paso.off b{background:#c9c9c4}
+.paso h2{font-size:16px;font-weight:700}
+.paso.off h2{color:var(--mu)}
+.paso .listo{margin-left:auto;font-size:12.5px;color:var(--c);font-weight:600;background:none;border:0;cursor:pointer;padding:4px 0}
+h3.sub{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);margin:20px 2px 8px}
+.nota{font-size:13px;color:var(--mu);margin:2px 2px 10px;line-height:1.45}
+.srv{background:var(--card);border:1.5px solid transparent;border-radius:14px;padding:12px 14px;margin-bottom:8px;display:flex;gap:12px;align-items:center;cursor:pointer;width:100%;text-align:left;color:var(--tx);font-size:inherit}
+.srv.on{border-color:var(--c);background:var(--cs)}
+.srv .rd{width:22px;height:22px;border-radius:50%;border:2px solid #c9c9c4;flex:none;display:grid;place-items:center}
+.srv.multi .rd{border-radius:7px}
+.srv.on .rd{border-color:var(--c);background:var(--c)}
+.srv.on .rd::after{content:"";width:8px;height:8px;border-radius:50%;background:#fff}
+.srv.multi.on .rd::after{width:10px;height:5px;border-radius:0;background:none;border:solid #fff;border-width:0 0 2.5px 2.5px;transform:rotate(-45deg) translate(1px,-1px)}
+.srv .info{flex:1;min-width:0}
+.srv .nom{font-size:15.5px;font-weight:650;line-height:1.25}
+.srv .des{font-size:12.5px;color:var(--mu);margin-top:3px;line-height:1.35}
+.srv .meta{font-size:12.5px;color:var(--mu);margin-top:5px}
+.srv .pr{font-size:15px;font-weight:700;white-space:nowrap;text-align:right;flex:none}
+.srv .pr.cons{font-size:12.5px;font-weight:600;color:var(--mu)}
+.dias{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;scrollbar-width:none;margin:0 -16px;padding-left:16px;padding-right:16px}
+.dias::-webkit-scrollbar{display:none}
+.dia{flex:none;width:66px;border:1.5px solid var(--li);background:#fff;border-radius:14px;padding:9px 0 8px;text-align:center;cursor:pointer;color:var(--tx)}
+.dia small{display:block;font-size:12px;color:var(--mu);font-weight:600}
+.dia b{display:block;font-size:19px;margin-top:2px}
+.dia i{display:block;font-style:normal;font-size:10.5px;color:var(--mu);margin-top:2px}
+.dia.on{background:var(--c);border-color:var(--c);color:#fff}
+.dia.on small,.dia.on i{color:rgba(255,255,255,.88)}
+.franja{font-size:12px;font-weight:700;color:var(--mu);margin:12px 2px 7px}
+.horas{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+.hora{border:1.5px solid var(--li);background:#fff;border-radius:11px;padding:10px 0;font-size:15px;font-weight:600;cursor:pointer;color:var(--tx)}
+.hora.on{background:var(--c);border-color:var(--c);color:#fff}
+.honesto{display:flex;gap:9px;align-items:flex-start;background:#eef7f1;color:#1d4d32;border-radius:12px;padding:10px 12px;font-size:13px;margin-top:12px;line-height:1.4}
+.honesto::before{content:"✓";font-weight:800;flex:none}
+.vacio{background:#fff;border:1.5px dashed var(--li);border-radius:14px;color:var(--mu);font-size:13.5px;text-align:center;padding:16px}
+.form{background:var(--card);border-radius:14px;padding:14px}
+.form label{display:block;font-size:12.5px;color:var(--mu);margin:0 0 6px;font-weight:600}
+.form input,.form textarea{width:100%;font-size:16px;padding:11px 12px;border:1px solid var(--li);border-radius:10px;margin-bottom:12px;background:#fff;color:var(--tx)}
+.form textarea{resize:vertical}
+.form input:focus,.form textarea:focus{outline:2px solid var(--cm);border-color:var(--c)}
+.form :last-child{margin-bottom:0}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{border:1.5px solid var(--li);background:#fff;border-radius:99px;padding:8px 13px;font-size:14px;color:var(--tx);cursor:pointer}
+.chip.on{background:var(--c);border-color:var(--c);color:#fff}
+.pol{background:#fff8e6;color:#6b4a00;border-radius:12px;padding:11px 13px;font-size:13px;line-height:1.45;margin-top:12px}
+.pol b{display:block;margin-bottom:2px}
+.err{background:#fdecea;color:#a3261b;font-size:13px;border-radius:10px;padding:10px 12px;margin-top:10px}
+.pie{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--li);padding:12px 16px calc(12px + env(safe-area-inset-bottom));z-index:9;box-shadow:0 -6px 20px rgba(0,0,0,.05)}
+.pie[hidden]{display:none}
+.pie>div{max-width:640px;margin:0 auto;display:flex;align-items:center;gap:12px}
+.pie .res{flex:1;min-width:0}
+.pie small{display:block;font-size:12px;color:var(--mu);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pie b{display:block;font-size:15.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn{background:var(--c);color:#fff;border:0;border-radius:12px;padding:13px 16px;font-size:15px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:7px;text-align:center}
+.btn:disabled{opacity:.4;cursor:default}
+.btn.wa{background:var(--wa)}
+.btn.sec{background:#fff;color:var(--c);border:2px solid var(--c)}
+.btn.full{width:100%;margin-top:12px;padding:15px}
+.wa-ic{width:19px;height:19px;flex:none}
+.tarjeta{background:var(--card);border-radius:14px;padding:4px 14px}
+.hor{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--li);font-size:14px}
+.hor:last-child{border:0}
+.hor span:last-child{text-align:right;color:var(--tx)}
+.hor.hoy{font-weight:700}
+.hor.hoy span:first-child::after{content:"hoy";font-size:10.5px;font-weight:700;background:var(--c);color:#fff;border-radius:99px;padding:2px 7px;margin-left:7px;vertical-align:1px}
+.hor .cer{color:var(--mu)}
+.lugar{background:var(--card);border-radius:14px;padding:14px;display:flex;gap:12px;align-items:center}
+.lugar .info{flex:1;min-width:0;font-size:14px}
+.lugar small{display:block;color:var(--mu);font-size:12.5px;margin-top:2px}
+.lugar .btn{padding:10px 13px;font-size:13.5px;flex:none}
+details{background:var(--card);border-radius:14px;margin-bottom:8px;overflow:hidden}
+summary{list-style:none;padding:14px 44px 14px 14px;font-size:15px;font-weight:650;cursor:pointer;position:relative;line-height:1.3}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";position:absolute;right:18px;top:50%;width:8px;height:8px;border:solid var(--mu);border-width:0 2px 2px 0;transform:translateY(-70%) rotate(45deg);transition:transform .15s}
+details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+details p{padding:0 14px 14px;font-size:14px;color:#3d4046;line-height:1.5}
+.hoja{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;z-index:20;align-items:flex-end;justify-content:center}
+.hoja.on{display:flex}
+.panel{background:#fff;width:100%;max-width:640px;max-height:90vh;overflow:auto;border-radius:18px 18px 0 0;padding:22px 18px calc(20px + env(safe-area-inset-bottom));text-align:center}
+.panel .ic{width:58px;height:58px;border-radius:50%;background:#e6f6ec;display:grid;place-items:center;margin:0 auto 10px;font-size:28px}
+.panel h3{font-size:19px;margin-bottom:6px}
+.panel p{font-size:14px;color:var(--mu);margin:6px 0;line-height:1.5}
+.panel p b{color:var(--tx)}
+.panel .btn{width:100%;margin-top:10px;padding:14px}
+footer{max-width:640px;margin:28px auto 0;padding:0 16px;font-size:12px;color:var(--mu);text-align:center;line-height:1.5}
+body.cap .pie{position:static;box-shadow:none;margin-top:18px}
+body.cap{padding-bottom:0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="marca"><div class="logo">P</div>
+  <div><h1>Peluquería Tijeras de Oro</h1><p>Turnos y consultas por WhatsApp</p></div></div>
+  <div class="datos" id="datos"></div>
+</header>
+<nav class="tabs"><div>
+  <button class="tab" data-tab="t1" id="tab-t1"></button>
+  <button class="tab" data-tab="t2">💬 Consultas</button>
+  <button class="tab" data-tab="t3">📍 Info</button>
+</div></nav>
+<main>
+  <section id="t1"></section>
+  <section id="t2" hidden></section>
+  <section id="t3" hidden></section>
+</main>
+<footer>Peluquería Tijeras de Oro · Calle Ejemplo 567 · Rosario, Santa Fe<br>Mar a Vie 09:00 a 13:00 y 15:00 a 20:00 · Sáb 09:00 a 15:00</footer>
+<div class="pie" id="pie"><div>
+  <div class="res"><small id="pie-a"></small><b id="pie-b"></b></div>
+  <button class="btn wa" id="pedir" disabled></button>
+</div></div>
+<div class="hoja" id="hoja"><div class="panel" id="panel"></div></div>
+<script>
+const D = {"slug": "peluqueria-tijeras-de-oro", "negocio": "Peluquería Tijeras de Oro", "rubro": "Peluquería", "whatsapp": "5491124689346", "modo": true, "horarios": [[], [[540, 780], [900, 1200]], [[540, 780], [900, 1200]], [[540, 780], [900, 1200]], [[540, 780], [900, 1200]], [[540, 900]], []], "feriados": ["20/11", "08/12", "25/12"], "antic": 2.0, "dias": 14, "paso": 30, "servicios": [{"nombre": "Corte de dama", "desc": "Lavado, corte y brushing.", "dur": 60, "precio": 18000.0}, {"nombre": "Corte de caballero", "desc": "Corte con lavado.", "dur": 30, "precio": 12000.0}, {"nombre": "Color raíz", "desc": "Tintura en raíz con lavado y secado.", "dur": 90, "precio": 28000.0}, {"nombre": "Mechas / balayage", "desc": "Depende del largo y del color de partida.", "dur": 180, "precio": null}, {"nombre": "Peinado para evento", "desc": "Recogido o ondas.", "dur": 60, "precio": 22000.0}, {"nombre": "Alisado", "desc": "Depende del largo.", "dur": 150, "precio": "desde $45.000"}], "consultas": ["Precio de mechas o balayage", "Peinado para un evento", "Otra consulta"], "faq": [{"p": "¿Atienden sin turno?", "r": "Si hay un lugar libre, sí, pero con turno no esperás. Lo sacás desde esta página en un minuto."}, {"p": "¿Cómo se paga?", "r": "Efectivo, transferencia, débito y Mercado Pago."}, {"p": "¿Cuánto salen las mechas?", "r": "Depende del largo y del color que tengas hoy. Mandanos una foto por Consultas y te pasamos el precio."}, {"p": "¿Y si llego tarde?", "r": "Te esperamos 15 minutos. Pasado ese tiempo, puede que tengamos que pasarte a otro horario."}, {"p": "¿Usan productos sin formol?", "r": "Sí, en alisados trabajamos sin formol. Si tenés alguna alergia, avisanos antes del turno."}], "politica": "Si no podés venir, avisanos con 24 h de anticipación así le damos el lugar a otra persona. Si faltás sin avisar, la seña no se devuelve.", "sena": {"pct": 30.0, "link": ""}, "campos": [], "direccion": "Calle Ejemplo 567", "zona": "Rosario, Santa Fe", "maps": "https://www.google.com/maps/search/?api=1&query=Calle%20Ejemplo%20567%2C%20Rosario%2C%20Santa%20Fe", "titulo_pedidos": "Presupuesto", "nota_ejemplo": "", "resumen": [["Mar a Vie", "09:00 a 13:00 y 15:00 a 20:00"], ["Sáb", "09:00 a 15:00"]]};
+const KEY = "agenda-" + D.slug;
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const fmt = n => "$ " + n.toLocaleString("es-AR", {minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2});
+const pad = n => String(n).padStart(2, "0");
+const hhmm = m => pad(Math.floor(m / 60)) + ":" + pad(m % 60);
+const pct = n => (n % 1 ? n.toLocaleString("es-AR") : n) + "%";
+const CORTO = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"];
+const MES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+const LARGO = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
+const WA_IC = `<svg class="wa-ic" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>`;
+const Q = new URLSearchParams(location.search);
+const CAPTURA = /^#(captura|mensaje|slots)/.test(location.hash) || Q.has("medir");
+
+// Hora de Argentina (UTC-3, sin horario de verano) guardada en los campos UTC de un Date.
+// ?ahora=2026-10-15T08:30 la fija a mano (solo para verificar).
+function ahora() {
+  const q = Q.get("ahora");
+  if (q) { const d = new Date(q.slice(0, 16) + ":00Z"); if (!isNaN(d)) return d }
+  return new Date(Date.now() - 3 * 3600e3);
+}
+function esFeriado(d) {
+  const dd = pad(d.getUTCDate()) + "/" + pad(d.getUTCMonth() + 1);
+  return D.feriados.includes(dd) || D.feriados.includes(dd + "/" + d.getUTCFullYear());
+}
+// Días que se ofrecen: dentro de los próximos D.dias, sin feriados ni días cerrados.
+// Con dur: cada día trae sus horarios (cada D.paso min, el servicio tiene que terminar antes del cierre
+// del bloque y empezar después de ahora + anticipación mínima); los días sin horarios libres no aparecen.
+function calendario(dur) {
+  const now = ahora(), lim = now.getTime() + D.antic * 3600e3;
+  const base = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const out = [];
+  for (let i = 0; i < D.dias; i++) {
+    const t = base + i * 864e5, d = new Date(t), dow = (d.getUTCDay() + 6) % 7;
+    if (esFeriado(d)) continue;
+    const rangos = D.horarios[dow];
+    if (!rangos.length) continue;
+    const slots = [];
+    if (dur) {
+      for (const [a, b] of rangos) for (let m = a; m + dur <= b; m += D.paso) if (t + m * 60e3 >= lim) slots.push(m);
+      if (!slots.length) continue;
+    } else if (!rangos.some(([, b]) => t + b * 60e3 > lim)) continue;
+    out.push({t, i, dow, dd: pad(d.getUTCDate()) + "/" + pad(d.getUTCMonth() + 1), slots});
+  }
+  return out;
+}
+const diaCorto = x => x.i === 0 ? "Hoy" : x.i === 1 ? "Mañana" : CORTO[x.dow];
+const diaLargo = x => `el ${LARGO[x.dow]} ${x.dd}`;
+const precioTxt = s => s.precio == null ? "Consultar" : typeof s.precio === "number" ? fmt(s.precio) : s.precio;
+const durTxt = m => m >= 60 ? (Math.floor(m / 60) + " h" + (m % 60 ? " " + (m % 60) + " min" : "")) : m + " min";
+const senaDe = s => D.sena && typeof s.precio === "number" ? Math.ceil(s.precio * D.sena.pct / 100 / 100) * 100 : 0;
+
+let S = {tab: "t1", srv: -1, dia: null, hora: null, sel: [], pref: null, motivo: ""};
+let F = {nom: "", tel: "", nota: "", extra: {}, cmsg: ""};
+try { const g = JSON.parse(localStorage.getItem(KEY) || "{}"); if (g.F) Object.assign(F, g.F) } catch (e) {}
+const guardar = () => { if (CAPTURA) return; try { localStorage.setItem(KEY, JSON.stringify({F: {nom: F.nom, tel: F.tel}})) } catch (e) {} };
+
+// ---------- encabezado: abierto / cerrado ahora ----------
+function estadoAhora() {
+  const now = ahora(), m = now.getUTCHours() * 60 + now.getUTCMinutes();
+  const base = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const hoy = new Date(base), dow = (hoy.getUTCDay() + 6) % 7;
+  if (!esFeriado(hoy)) for (const [a, b] of D.horarios[dow]) if (m >= a && m < b) return `<span class="abierto">Abierto ahora · hasta las ${hhmm(b)}</span>`;
+  for (let i = 0; i < 8; i++) {
+    const d = new Date(base + i * 864e5), w = (d.getUTCDay() + 6) % 7;
+    if (esFeriado(d)) continue;
+    const r = D.horarios[w].find(([a]) => i > 0 || a > m);
+    if (r) return `<span class="cerrado">Cerrado ahora · abre ${i === 0 ? "hoy" : i === 1 ? "mañana" : CORTO[w].toLowerCase()} a las ${hhmm(r[0])}</span>`;
+  }
+  return "";
+}
+function encabezado() {
+  $("datos").innerHTML = estadoAhora() + (D.zona ? `<span>📍 ${esc(D.zona)}</span>` : D.direccion ? `<span>📍 ${esc(D.direccion)}</span>` : "");
+}
+
+// ---------- 1) turnos ----------
+function paso(n, txt, off, extra) {
+  return `<div class="paso${off ? " off" : ""}"><b>${n}</b><h2>${txt}</h2>${extra || ""}</div>`;
+}
+function tarjetaSrv(s, i, on, multi) {
+  const cons = typeof s.precio !== "number";
+  const meta = [s.dur ? "⏱ " + durTxt(s.dur) : ""].filter(Boolean).join(" · ");
+  return `<button class="srv${multi ? " multi" : ""}${on ? " on" : ""}" data-srv="${i}"><span class="rd"></span>
+    <span class="info"><div class="nom">${esc(s.nombre)}</div>${s.desc ? `<div class="des">${esc(s.desc)}</div>` : ""}
+    ${meta ? `<div class="meta">${meta}</div>` : ""}</span>
+    <span class="pr${cons ? " cons" : ""}">${esc(precioTxt(s))}</span></button>`;
+}
+function formDatos(pref) {
+  const ext = D.campos.map((c, j) => `<label for="x${j}">${esc(c.label)}${c.req ? " *" : ""}</label>
+    <input id="x${j}" data-extra="${j}" value="${esc(F.extra[j] || "")}">`).join("");
+  return `<div class="form">
+    <label for="f-nom">Tu nombre *</label><input id="f-nom" data-f="nom" autocomplete="name" value="${esc(F.nom)}">
+    <label for="f-tel">Teléfono</label><input id="f-tel" data-f="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="Si es otro que este WhatsApp" value="${esc(F.tel)}">
+    ${ext}
+    <label for="f-nota">${pref}</label><textarea id="f-nota" data-f="nota" rows="2">${esc(F.nota)}</textarea>
+  </div><div id="faltas"></div>`;
+}
+function politica() {
+  if (!D.politica && !D.sena) return "";
+  let t = "";
+  if (D.sena) t += `Para confirmar ${D.modo ? "el turno" : "el trabajo"} se pide una seña del ${pct(D.sena.pct)}${D.sena.link ? " (por Mercado Pago)" : ""}. `;
+  return `<div class="pol"><b>Antes de pedir</b>${esc(t + D.politica)}</div>`;
+}
+function vistaTurnos() {
+  const s = D.servicios[S.srv];
+  let h = paso(1, "Elegí el servicio", false) + D.servicios.map((x, i) => tarjetaSrv(x, i, i === S.srv)).join("");
+  if (!s) {
+    h += paso(2, "Elegí el día", true) + paso(3, "Elegí el horario", true) + paso(4, "Tus datos", true);
+    return h;
+  }
+  const cal = calendario(s.dur);
+  if (!cal.some(x => x.t === S.dia)) { S.dia = null; S.hora = null }
+  h += paso(2, "Elegí el día", false);
+  h += cal.length ? `<div class="dias">` + cal.map(x => `<button class="dia${x.t === S.dia ? " on" : ""}" data-dia="${x.t}">
+      <small>${diaCorto(x)}</small><b>${x.dd.slice(0, 2)}</b><i>${MES[+x.dd.slice(3) - 1]}</i></button>`).join("") + `</div>`
+    : `<div class="vacio">No hay horarios libres en los próximos ${D.dias} días. Escribinos por Consultas y lo vemos.</div>`;
+  const d = cal.find(x => x.t === S.dia);
+  if (d && !d.slots.includes(S.hora)) S.hora = null;
+  h += paso(3, "Elegí el horario", !d);
+  if (d) {
+    const fr = [["Mañana", m => m < 780], ["Tarde", m => m >= 780 && m < 1200], ["Noche", m => m >= 1200]];
+    for (const [nom, f] of fr) {
+      const ls = d.slots.filter(f);
+      if (ls.length) h += `<div class="franja">${nom}</div><div class="horas">` + ls.map(m =>
+        `<button class="hora${m === S.hora ? " on" : ""}" data-hora="${m}">${hhmm(m)}</button>`).join("") + `</div>`;
+    }
+    h += `<div class="honesto">Te confirmamos por WhatsApp: el horario queda reservado cuando respondemos.</div>`;
+  }
+  h += paso(4, "Tus datos", S.hora == null) + formDatos("Nota (opcional)") + politica();
+  return h;
+}
+
+// ---------- 1 bis) presupuesto / pedido (modo_turnos: false) ----------
+function vistaPedidos() {
+  let h = paso(1, "¿Qué necesitás?", false, `<span class="listo">${S.sel.length ? S.sel.length + " elegido" + (S.sel.length > 1 ? "s" : "") : "Podés elegir varios"}</span>`);
+  h += D.servicios.map((x, i) => tarjetaSrv(x, i, S.sel.includes(i), true)).join("");
+  const cal = calendario(0).slice(0, 8);
+  if (cal.length) {
+    h += paso(2, "¿Qué día te queda cómodo?", false, `<span class="listo" style="color:var(--mu)">Opcional</span>`);
+    h += `<div class="dias">` + cal.map(x => `<button class="dia${x.t === S.pref ? " on" : ""}" data-pref="${x.t}">
+      <small>${diaCorto(x)}</small><b>${x.dd.slice(0, 2)}</b><i>${MES[+x.dd.slice(3) - 1]}</i></button>`).join("") + `</div>`;
+    h += `<p class="nota">Es una preferencia: el día y el horario los coordinamos por WhatsApp.</p>`;
+  }
+  h += paso(cal.length ? 3 : 2, "Tus datos", false) + formDatos("Contanos qué pasa o qué necesitás");
+  h += politica();
+  return h;
+}
+function cuentaPedido() {
+  const ls = S.sel.map(i => D.servicios[i]);
+  const conPrecio = ls.filter(s => typeof s.precio === "number");
+  return {ls, total: conPrecio.reduce((a, s) => a + s.precio, 0), consultar: ls.length - conPrecio.length};
+}
+
+// ---------- 2) consultas ----------
+function vistaConsultas() {
+  const mot = D.consultas.length ? [...D.consultas, "Otra cosa"] : [];
+  return `<div class="paso"><b>💬</b><h2>¿En qué te ayudamos?</h2></div>
+    ${mot.length ? `<div class="chips" style="margin-bottom:12px">` + mot.map(m => `<button class="chip${S.motivo === m ? " on" : ""}" data-motivo="${esc(m)}">${esc(m)}</button>`).join("") + `</div>` : ""}
+    <div class="form">
+      <label for="c-msg">Tu consulta *</label><textarea id="c-msg" data-f="cmsg" rows="4" placeholder="Escribí acá tu pregunta">${esc(F.cmsg)}</textarea>
+      <label for="c-nom">Tu nombre *</label><input id="c-nom" data-f="nom" autocomplete="name" value="${esc(F.nom)}">
+    </div>
+    <div id="c-faltas"></div>
+    <button class="btn wa full" id="consultar">${WA_IC} Enviar consulta por WhatsApp</button>
+    <p class="nota" style="text-align:center;margin-top:10px">Se abre WhatsApp con tu mensaje armado: solo tenés que mandarlo.</p>`;
+}
+
+// ---------- 3) info ----------
+function vistaInfo() {
+  const hoy = (ahora().getUTCDay() + 6) % 7;
+  let h = `<h3 class="sub">Horarios de atención</h3><div class="tarjeta">` + D.horarios.map((r, i) =>
+    `<div class="hor${i === hoy ? " hoy" : ""}"><span>${["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"][i]}</span>
+     <span${r.length ? "" : ' class="cer"'}>${r.length ? r.map(([a, b]) => hhmm(a) + " a " + hhmm(b)).join("<br>") : "Cerrado"}</span></div>`).join("") + `</div>`;
+  if (D.feriados.length) h += `<p class="nota" style="margin-top:8px">Feriados sin atención: ${D.feriados.map(esc).join(", ")}.</p>`;
+  if (D.direccion) h += `<h3 class="sub">Dónde estamos</h3><div class="lugar"><div class="info"><b>${esc(D.direccion)}</b>${D.zona ? `<small>${esc(D.zona)}</small>` : ""}</div>
+    <a class="btn" href="${esc(D.maps)}" target="_blank" rel="noopener">Cómo llegar</a></div>`;
+  if (D.politica || D.sena) h += `<h3 class="sub">${D.modo ? "Turnos, cancelaciones y seña" : "Cómo trabajamos"}</h3>` + politica().replace('class="pol"', 'class="pol" style="margin-top:0"').replace("<b>Antes de pedir</b>", "");
+  if (D.faq.length) h += `<h3 class="sub">Preguntas frecuentes</h3>` + D.faq.map((f, i) =>
+    `<details${location.hash === "#captura-info" && i === 0 ? " open" : ""}><summary>${esc(f.p)}</summary><p>${esc(f.r)}</p></details>`).join("");
+  h += `<a class="btn wa full" href="https://wa.me/${D.whatsapp}" target="_blank" rel="noopener">${WA_IC} Escribinos por WhatsApp</a>`;
+  return h;
+}
+
+// ---------- pie, mensajes, envío ----------
+function pie() {
+  const p = $("pie");
+  p.hidden = S.tab !== "t1"; document.body.classList.toggle("sinpie", p.hidden);
+  if (p.hidden) return;
+  if (D.modo) {
+    const s = D.servicios[S.srv], d = s && calendario(s.dur).find(x => x.t === S.dia);
+    $("pie-a").textContent = s ? s.nombre + (s.dur ? " · " + durTxt(s.dur) : "") : "Elegí servicio, día y horario";
+    $("pie-b").textContent = d && S.hora != null ? `${diaCorto(d)} ${d.dd} · ${hhmm(S.hora)} h` : d ? `${diaCorto(d)} ${d.dd} · elegí el horario` : s ? "Elegí el día" : "Tu turno";
+    $("pedir").innerHTML = WA_IC + " Pedir turno";
+    $("pedir").disabled = !(d && S.hora != null);
+  } else {
+    const k = cuentaPedido();
+    $("pie-a").textContent = k.ls.length ? `${k.ls.length} ${k.ls.length === 1 ? "servicio" : "servicios"}${k.total ? " · precio de referencia" : ""}` : "Elegí uno o más servicios";
+    $("pie-b").textContent = !k.ls.length ? "Elegí qué necesitás" : k.total ? fmt(k.total) + (k.consultar ? " + a consultar" : "") : "Precio por WhatsApp";
+    $("pedir").innerHTML = WA_IC + " Pedir " + D.titulo_pedidos.toLowerCase();
+    $("pedir").disabled = !k.ls.length;
+  }
+}
+function pintar() {
+  document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.tab === S.tab));
+  ["t1", "t2", "t3"].forEach(t => $(t).hidden = t !== S.tab);
+  if (S.tab === "t1") $("t1").innerHTML = D.modo ? vistaTurnos() : vistaPedidos();
+  if (S.tab === "t2") $("t2").innerHTML = vistaConsultas();
+  if (S.tab === "t3") $("t3").innerHTML = vistaInfo();
+  pie();
+}
+function datosMsg() {
+  let t = `\n👤 ${F.nom.trim()}`;
+  if (F.tel.trim()) t += `\n📞 ${F.tel.trim()}`;
+  D.campos.forEach((c, j) => { const v = (F.extra[j] || "").trim(); if (v) t += `\n• ${c.label}: ${v}` });
+  if (F.nota.trim()) t += `\n📝 ${F.nota.trim()}`;
+  return t;
+}
+function mensajeTurno() {
+  const s = D.servicios[S.srv], d = calendario(s.dur).find(x => x.t === S.dia);
+  let t = `Hola! Quiero un turno: ${s.nombre} ${diaLargo(d)} a las ${hhmm(S.hora)}.\n`;
+  t += `(${durTxt(s.dur)}${typeof s.precio === "number" ? " · " + fmt(s.precio) : s.precio ? " · " + s.precio : ""})\n`;
+  t += datosMsg();
+  const sn = senaDe(s);
+  if (D.sena) t += `\n\nSé que el turno se confirma con una seña del ${pct(D.sena.pct)}${sn ? " (" + fmt(sn) + ")" : ""}.`;
+  t += `\n\nLo pedí desde la página de turnos. Quedo a la espera de la confirmación.`;
+  return t;
+}
+function mensajePedido() {
+  const k = cuentaPedido();
+  let t = `Hola! Quiero pedir ${D.titulo_pedidos.toLowerCase()} por:\n`;
+  k.ls.forEach(s => t += `• ${s.nombre} — ${precioTxt(s)}\n`);
+  if (k.total) t += `Precio de referencia: ${fmt(k.total)}${k.consultar ? " + lo que hay que consultar" : ""}\n`;
+  const d = S.pref && calendario(0).find(x => x.t === S.pref);
+  if (d) t += `📅 Me queda cómodo ${diaLargo(d)}\n`;
+  t += datosMsg();
+  return t;
+}
+function mensajeConsulta() {
+  return `Hola! Te escribo${S.motivo ? " por: " + S.motivo : " con una consulta"}.\n\n${F.cmsg.trim()}\n\n👤 ${F.nom.trim()}`;
+}
+function faltas() {
+  const f = [];
+  if (!F.nom.trim()) f.push("Escribí tu nombre.");
+  D.campos.forEach((c, j) => { if (c.req && !(F.extra[j] || "").trim()) f.push(`Completá: ${c.label}.`) });
+  return f;
+}
+function abrirWA(t) { window.open(`https://wa.me/${D.whatsapp}?text=${encodeURIComponent(t)}`, "_blank") }
+function listo(tipo) {
+  let h = `<div class="ic">✓</div>`;
+  if (tipo === "turno") {
+    const s = D.servicios[S.srv], d = calendario(s.dur).find(x => x.t === S.dia), sn = senaDe(s);
+    h += `<h3>Se abrió WhatsApp con tu pedido</h3><p>Mandá el mensaje: <b>${esc(s.nombre)}, ${esc(diaLargo(d))} a las ${hhmm(S.hora)}</b>.</p>
+      <p>El horario queda reservado cuando te respondemos por WhatsApp.</p>`;
+    if (D.sena) h += D.sena.link
+      ? `<p>El turno se confirma con la seña del ${pct(D.sena.pct)}${sn ? ` (<b>${fmt(sn)}</b>)` : ""}. Pagala cuando te confirmemos el horario.</p><a class="btn" href="${esc(D.sena.link)}" target="_blank" rel="noopener">Pagar la seña con Mercado Pago</a>`
+      : `<p>El turno se confirma con una seña del ${pct(D.sena.pct)}${sn ? ` (<b>${fmt(sn)}</b>)` : ""}: te pasamos cómo pagarla por WhatsApp.</p>`;
+  } else if (tipo === "pedido") {
+    h += `<h3>Se abrió WhatsApp con tu pedido</h3><p>Mandá el mensaje y te respondemos por ahí con el ${esc(D.titulo_pedidos.toLowerCase())}.</p>`;
+  } else {
+    h += `<h3>Se abrió WhatsApp con tu consulta</h3><p>Mandá el mensaje y te respondemos por ahí.</p>`;
+  }
+  h += `<button class="btn sec" data-cerrar="1">Volver</button>`;
+  $("panel").innerHTML = h; $("hoja").classList.add("on");
+}
+
+document.addEventListener("input", e => {
+  const el = e.target;
+  if (el.dataset.f) { F[el.dataset.f] = el.value; guardar() }
+  if (el.dataset.extra !== undefined) F.extra[el.dataset.extra] = el.value;
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  const d = b.dataset;
+  if (d.tab) { S.tab = d.tab; pintar(); window.scrollTo({top: 0}) }
+  else if (d.srv !== undefined) {
+    const i = +d.srv;
+    if (D.modo) { S.srv = i; pintar(); setTimeout(() => document.querySelector(".paso:nth-of-type(2), .dias")?.scrollIntoView({behavior: "smooth", block: "center"}), 30) }
+    else { S.sel = S.sel.includes(i) ? S.sel.filter(x => x !== i) : [...S.sel, i].sort((a, b) => a - b); pintar() }
+  }
+  else if (d.dia !== undefined) { S.dia = +d.dia; pintar(); document.querySelector(".horas")?.scrollIntoView({behavior: "smooth", block: "center"}) }
+  else if (d.hora !== undefined) { S.hora = +d.hora; pintar(); $("f-nom")?.scrollIntoView({behavior: "smooth", block: "center"}) }
+  else if (d.pref !== undefined) { S.pref = S.pref === +d.pref ? null : +d.pref; pintar() }
+  else if (d.motivo !== undefined) { S.motivo = S.motivo === d.motivo ? "" : d.motivo; pintar(); $("c-msg").focus() }
+  else if (d.cerrar) $("hoja").classList.remove("on");
+  else if (b.id === "pedir") {
+    const f = faltas();
+    $("faltas").innerHTML = f.map(t => `<div class="err">${esc(t)}</div>`).join("");
+    if (f.length) { $("faltas").scrollIntoView({block: "center", behavior: "smooth"}); return }
+    abrirWA(D.modo ? mensajeTurno() : mensajePedido()); listo(D.modo ? "turno" : "pedido");
+  }
+  else if (b.id === "consultar") {
+    const f = [];
+    if (!F.cmsg.trim()) f.push("Escribí tu consulta.");
+    if (!F.nom.trim()) f.push("Escribí tu nombre.");
+    $("c-faltas").innerHTML = f.map(t => `<div class="err">${esc(t)}</div>`).join("");
+    if (f.length) return;
+    abrirWA(mensajeConsulta()); listo("consulta");
+  }
+});
+$("hoja").addEventListener("click", e => { if (e.target.id === "hoja") $("hoja").classList.remove("on") });
+
+$("tab-t1").textContent = D.modo ? "📅 Turnos" : "🧾 " + D.titulo_pedidos;
+// Ejemplo cargado para la captura (#captura), para leer el mensaje (#mensaje) o para ver los slots (#slots)
+if (/^#(captura|mensaje|prueba)/.test(location.hash)) {
+  F = {nom: "Martín Pérez", tel: "11 5555-0101", nota: "", extra: {}, cmsg: ""};
+  // el ejemplo de cada campo sale del config; el del auto queda solo para talleres (antes salía en cualquier rubro)
+  const taller = /taller|mec[aá]nic|auto|gomer/i.test(D.rubro + " " + D.negocio);
+  D.campos.forEach((c, j) => F.extra[j] = c.ejemplo || (taller ? ["Peugeot 208 1.6, 2019", "AB 123 CD"][j] || "" : ""));
+  if (D.modo) {
+    S.srv = Math.min(1, D.servicios.length - 1);
+    const cal = calendario(D.servicios[S.srv].dur);
+    const d = cal.find(x => x.i >= 1 && x.slots.length >= 4) || cal[0];
+    if (d) { S.dia = d.t; S.hora = d.slots[Math.min(3, d.slots.length - 1)] }
+    F.nota = "Si se puede, con el mismo de la otra vez";
+  } else {
+    S.sel = [0, 2].filter(i => i < D.servicios.length);
+    const cal = calendario(0); S.pref = (cal[1] || cal[0] || {}).t || null;
+    F.nota = taller ? "Hace ruido al frenar y ya le toca el service" : (D.nota_ejemplo || "");
+  }
+  if (location.hash === "#captura-info") S.tab = "t3";
+  if (location.hash.startsWith("#captura")) document.body.classList.add("cap");
+}
+encabezado(); pintar();
+if (location.hash === "#mensaje") {
+  document.body.innerHTML = "<pre id='out'></pre>";
+  $("out").textContent = (D.modo ? mensajeTurno() : mensajePedido()) + "\n---\n" + (S.motivo = D.consultas[0] || "", F.cmsg = "¿Atienden con tarjeta?", mensajeConsulta());
+}
+if (location.hash === "#slots") {
+  const out = {};
+  D.servicios.forEach((s, i) => out[i] = calendario(s.dur).map(x => ({dd: x.dd, slots: x.slots.map(hhmm)})));
+  document.body.innerHTML = "<pre id='out'></pre>"; $("out").textContent = JSON.stringify(out);
+}
+if (Q.has("medir")) document.fonts.ready.then(() => { document.title = "ALTO:" + Math.ceil(document.documentElement.scrollHeight + 24) });  // medir con las fuentes ya cargadas (en Linux la Inter llega tarde)
+// #prueba (web_wa.probar): toca «Pedir» de verdad y deja la URL de wa.me que abriría
+window.PRUEBA = {disparar() { $("pedir").click() }};
+
+(function () {
+  const h = location.hash;
+  if (h !== "#prueba" && h !== "#captura") return;
+  const P = window.PRUEBA || {};
+  if (P.llenar) P.llenar();
+  if (h === "#captura") { document.body.classList.add("cap"); return }
+  let url = null;
+  window.open = u => { url = u; return null };
+  try { if (P.disparar) P.disparar() } catch (e) { url = "ERROR: " + e }
+  // ancho de un celular angosto: se fuerza y se mira qué elemento se sale
+  document.documentElement.style.width = "360px";
+  document.body.style.width = "360px";
+  void document.body.offsetWidth;
+  const fuera = [];
+  // lo que está adentro de un carrusel con scroll horizontal (galería de fotos, chips) se sale a propósito
+  // y lo que cuelga de una barra fija (position: fixed) se mide contra la ventana real, no contra el ancho forzado
+  const enScroll = el => { for (let p = el.parentElement; p && p !== document.body; p = p.parentElement) {
+    const cs = getComputedStyle(p);
+    if (cs.position === "fixed") return true;
+    if (/(auto|scroll)/.test(cs.overflowX) && p.getBoundingClientRect().right <= 360 + 1) return true } return false };
+  document.querySelectorAll("body *").forEach(el => {
+    const r = el.getBoundingClientRect();
+    if (r.width && r.right > 360 + 1 && getComputedStyle(el).position !== "fixed" && !el.closest(".hoja") && !enScroll(el))
+      fuera.push((el.tagName + "." + (el.className || "")).slice(0, 60) + " " + Math.round(r.right) + "px");
+  });
+  const links = [...document.querySelectorAll('a[href*="wa.me/"]')].map(a => a.href);
+  const pre = document.createElement("pre"); pre.id = "prueba";
+  pre.textContent = JSON.stringify({url, links, fuera: fuera.slice(0, 8), n_fuera: fuera.length});
+  document.body.appendChild(pre);
+})();
+
+</script>
+
+<!-- Pronto Estudio: franja de ejemplo + WhatsApp del ejemplo al operador -->
+<style>
+#pe-franja{position:fixed;top:0;left:0;right:0;z-index:2147483000;background:#FF7A1A;color:#0d1220;font:700 13.5px/1.3 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:9px 14px;display:flex;gap:6px 14px;align-items:center;justify-content:center;flex-wrap:wrap;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+#pe-franja b{font-weight:900;letter-spacing:.06em}
+#pe-franja a{color:inherit;text-decoration:underline;font-weight:800;white-space:nowrap}
+#pe-modal{position:fixed;inset:0;z-index:2147483001;background:rgba(10,14,25,.6);display:none;align-items:center;justify-content:center;padding:16px}
+#pe-modal.on{display:flex}
+#pe-modal .bx{background:#fff;color:#0d1220;border-radius:22px;max-width:440px;width:100%;padding:20px;font:15px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-height:90vh;overflow:auto}
+#pe-modal h3{font-size:19px;margin:0 0 6px}
+#pe-modal p{margin:0 0 10px;color:#4b5161}
+#pe-modal pre{white-space:pre-wrap;word-break:break-word;background:#d9fdd3;border-radius:12px;padding:12px;font:14px/1.4 Inter,system-ui,sans-serif;margin:0 0 12px;max-height:40vh;overflow:auto}
+#pe-modal .ac{display:flex;gap:8px;flex-wrap:wrap}
+#pe-modal .ac a,#pe-modal .ac button{flex:1 1 auto;font:800 14.5px/1.2 Inter,system-ui,sans-serif;border-radius:99px;padding:12px 14px;text-align:center;text-decoration:none;cursor:pointer;border:2px solid #0d1220}
+#pe-modal .ac a{background:#FF7A1A;color:#0d1220;border-color:#FF7A1A}
+#pe-modal .ac button{background:#fff;color:#0d1220}
+</style>
+<div id="pe-franja" role="note"><span><b>EJEMPLO</b> — negocio ficticio armado por Mostrador · Pronto Estudio</span><a href="../../../mostrador/">Ver Mostrador →</a></div>
+<div id="pe-modal" role="dialog" aria-modal="true" aria-labelledby="pe-mt"><div class="bx">
+<h3 id="pe-mt">Así le llegaría por WhatsApp</h3>
+<p>Es un ejemplo: este mensaje <b>no se manda a nadie</b>. En tu negocio, le llega armado a tu WhatsApp.</p>
+<pre id="pe-txt"></pre>
+<div class="ac"><a id="pe-ir" target="_blank" rel="noopener">Quiero esto en mi negocio</a><button type="button" id="pe-cerrar">Seguir probando</button></div>
+</div></div>
+<script>
+(function(){
+  var NOM="Mostrador", IR="https://wa.me/5491124689346?text=Hola%21%20Vengo%20del%20ejemplo%20de%20Mostrador%20%28PE-MOS%29";
+  var f=document.getElementById('pe-franja'), m=document.getElementById('pe-modal');
+  document.getElementById('pe-ir').href=IR;
+  function ajustar(){
+    var h=f.offsetHeight; document.documentElement.style.scrollPaddingTop=h+'px';
+    document.body.style.paddingTop=h+'px';
+    var els=document.body.getElementsByTagName('*');
+    for(var i=0;i<els.length;i++){var e=els[i]; if(e===f||f.contains(e)||e===m||m.contains(e))continue;
+      var s=getComputedStyle(e); if((s.position==='sticky'||s.position==='fixed')&&parseFloat(s.top)<h&&s.top!=='auto'){e.style.top=h+'px'}}
+  }
+  function texto(u){try{var q=new URL(u,location.href).searchParams.get('text');return q||''}catch(e){return ''}}
+  function mostrar(u){var t=texto(u);document.getElementById('pe-txt').textContent=t||'(el mensaje con los datos que completaste)';m.classList.add('on')}
+  function esWa(u){return /(^|\/\/)(wa\.me|api\.whatsapp\.com|web\.whatsapp\.com)\b/i.test(String(u||''))}
+  var abrir=window.open;
+  window.open=function(u){ if(esWa(u)){mostrar(String(u));return null} return abrir.apply(window,arguments) };
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a||a.id==='pe-ir')return;
+    if(esWa(a.href)){e.preventDefault();e.stopPropagation();mostrar(a.href)}
+    else if(/^tel:/i.test(a.getAttribute('href')||'')){e.preventDefault();e.stopPropagation();document.getElementById('pe-txt').textContent='En el ejemplo, el botón de llamar está desactivado.';m.classList.add('on')}
+  },true);
+  document.getElementById('pe-cerrar').onclick=function(){m.classList.remove('on')};
+  m.addEventListener('click',function(e){if(e.target===m)m.classList.remove('on')});
+  if(document.readyState!=='loading')ajustar();else document.addEventListener('DOMContentLoaded',ajustar);
+  window.addEventListener('load',ajustar);window.addEventListener('resize',ajustar);
+})();
+</script>
+</body>
+</html>

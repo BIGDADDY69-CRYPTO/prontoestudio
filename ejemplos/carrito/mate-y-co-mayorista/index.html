@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Mate &amp; Co Mayorista · Pedido mayorista</title>
+<style>
+:root{--c:#24443a;--bg:#f6f7f9;--card:#fff;--tx:#14171c;--mu:#6b7280;--li:#e5e7eb}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Marca",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif,"Noto Color Emoji";background:var(--bg);color:var(--tx);padding-bottom:96px}
+.demo{background:#111;color:#fff;font-size:12px;text-align:center;padding:6px 12px;letter-spacing:.02em}
+header{background:var(--c);color:#fff;padding:20px 16px 18px}
+.marca{display:flex;align-items:center;gap:12px}
+.logo{width:48px;height:48px;border-radius:12px;background:#fff;color:var(--c);display:grid;place-items:center;font-weight:800;font-size:20px;overflow:hidden;flex:none}
+.logo img{width:100%;height:100%;object-fit:contain}
+h1{font-size:20px;line-height:1.2}
+header p{font-size:13px;opacity:.9;margin-top:2px}
+.cond{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
+.cond span{font-size:11.5px;background:rgba(255,255,255,.18);padding:4px 9px;border-radius:99px}
+.barra{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 16px 8px}
+.buscar{width:100%;font-size:16px;padding:11px 14px;border:1px solid var(--li);border-radius:12px;background:#fff}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--li);background:#fff;border-radius:99px;padding:6px 12px;font-size:13px;color:var(--tx);cursor:pointer}
+.chip.on{background:var(--c);border-color:var(--c);color:#fff}
+main{padding:0 16px;max-width:720px;margin:0 auto}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);margin:18px 2px 8px}
+.prod{background:var(--card);border-radius:14px;padding:12px 12px 12px 14px;display:flex;align-items:center;gap:12px;margin-bottom:8px;border:1px solid transparent}
+.prod.sel{border-color:var(--c)}
+.info{flex:1;min-width:0}
+.nom{font-size:15px;font-weight:600;line-height:1.25}
+.meta{font-size:12px;color:var(--mu);margin-top:3px}
+.pre{font-size:15px;font-weight:700;margin-top:4px}
+.esc{font-size:11.5px;color:var(--c);margin-top:2px;font-weight:600}
+.step{display:flex;align-items:center;border:1px solid var(--li);border-radius:10px;overflow:hidden;flex:none}
+.step button{width:36px;height:38px;border:0;background:#fff;font-size:20px;color:var(--c);cursor:pointer}
+.step input{width:44px;height:38px;border:0;text-align:center;font-size:15px;font-weight:600;-moz-appearance:textfield}
+.step input::-webkit-outer-spin-button,.step input::-webkit-inner-spin-button{-webkit-appearance:none}
+.pie{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--li);padding:12px 16px calc(12px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;z-index:9}
+.pie .tot{flex:1}
+.pie small{display:block;font-size:12px;color:var(--mu)}
+.pie b{font-size:18px}
+.btn{background:var(--c);color:#fff;border:0;border-radius:12px;padding:13px 18px;font-size:15px;font-weight:700;cursor:pointer}
+.btn:disabled{opacity:.4}
+.hoja{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;z-index:20;align-items:flex-end;justify-content:center}
+.hoja.on{display:flex}
+.panel{background:#fff;width:100%;max-width:720px;max-height:88vh;overflow:auto;border-radius:18px 18px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom))}
+.panel h3{font-size:18px;margin-bottom:12px;display:flex;justify-content:space-between}
+.cerrar{background:none;border:0;font-size:22px;color:var(--mu);cursor:pointer}
+.lin{display:flex;justify-content:space-between;gap:10px;font-size:14px;padding:7px 0;border-bottom:1px solid var(--li)}
+.lin span:last-child{white-space:nowrap;font-weight:600}
+.sum{margin:10px 0 14px}
+.sum .lin{border:0;padding:3px 0}
+.sum .lin.t{font-size:17px;padding-top:8px}
+.aviso{background:#fff7e6;color:#8a5a00;font-size:13px;border-radius:10px;padding:9px 12px;margin-bottom:12px}
+label{display:block;font-size:12.5px;color:var(--mu);margin:8px 0 4px}
+.panel input,.panel textarea{width:100%;font-size:16px;padding:10px 12px;border:1px solid var(--li);border-radius:10px;font-family:inherit}
+.panel .btn{width:100%;margin-top:14px;padding:15px}
+.vacio{text-align:center;color:var(--mu);padding:40px 0;font-size:14px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="marca"><div class="logo">M</div>
+  <div><h1>Mate &amp; Co Mayorista</h1><p>Armá tu pedido y mandalo por WhatsApp</p></div></div>
+  <div class="cond"><span>Mínimo de compra $150.000</span><span>6 unidades por producto</span><span>Desde 12 u. y 48 u., mejor precio</span><span>Envíos a todo el país</span></div>
+</header>
+<div class="barra">
+  <input class="buscar" id="q" type="search" placeholder="Buscar producto o código" autocomplete="off">
+  <div class="chips" id="chips"></div>
+</div>
+<main id="lista"></main>
+<div class="pie">
+  <div class="tot"><small id="cant">Sin productos</small><b id="total">$ 0</b></div>
+  <button class="btn" id="ver" disabled>Ver pedido</button>
+</div>
+<div class="hoja" id="hoja"><div class="panel">
+  <h3>Tu pedido <button class="cerrar" id="cerrar" aria-label="Cerrar">×</button></h3>
+  <div id="lineas"></div>
+  <div class="sum" id="sum"></div>
+  <div id="aviso"></div>
+  <label for="f-nom">Nombre y negocio</label><input id="f-nom" autocomplete="organization">
+  
+  <label for="f-dir">Dirección de entrega / localidad</label><input id="f-dir" autocomplete="street-address">
+  <label for="f-not">Notas (opcional)</label><textarea id="f-not" rows="2"></textarea>
+  <button class="btn" id="enviar">Enviar pedido por WhatsApp</button>
+</div></div>
+<script>
+const D = {"slug": "mate-co-mayorista", "whatsapp": "5491124689346", "iva": "incluido", "minimo": 150000, "productos": [{"codigo": "MC-01", "nombre": "Mate Imperial de Calabaza", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 24100.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 22700.0}, {"desde": 48, "precio": 21200.0}]}, {"codigo": "MC-02", "nombre": "Mate Camionero de Calabaza", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 20200.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 19000.0}, {"desde": 48, "precio": 17800.0}]}, {"codigo": "MC-03", "nombre": "Mate Torpedo de Calabaza", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 17300.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 16300.0}, {"desde": 48, "precio": 15200.0}]}, {"codigo": "MC-04", "nombre": "Mate de Algarrobo", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 11700.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 11000.0}, {"desde": 48, "precio": 10300.0}]}, {"codigo": "MC-05", "nombre": "Mate de Vidrio Forrado en Cuero", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 10200.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 9600.0}, {"desde": 48, "precio": 9000.0}]}, {"codigo": "MC-06", "nombre": "Mate Térmico de Acero", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 13600.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 12800.0}, {"desde": 48, "precio": 12000.0}]}, {"codigo": "MC-07", "nombre": "Mate de Cerámica Esmaltada", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 9200.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 8600.0}, {"desde": 48, "precio": 8100.0}]}, {"codigo": "MC-08", "nombre": "Mate de Silicona", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 6100.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 5700.0}, {"desde": 48, "precio": 5400.0}]}, {"codigo": "MC-09", "nombre": "Bombilla Pico de Loro de Alpaca", "categoria": "Bombillas", "unidad": "unidad", "descripcion": "", "precio": 15400.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 14500.0}, {"desde": 48, "precio": 13600.0}]}, {"codigo": "MC-10", "nombre": "Bombilla de Acero Chata", "categoria": "Bombillas", "unidad": "unidad", "descripcion": "", "precio": 5500.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 5200.0}, {"desde": 48, "precio": 4800.0}]}, {"codigo": "MC-11", "nombre": "Bombilla con Resorte", "categoria": "Bombillas", "unidad": "unidad", "descripcion": "", "precio": 4600.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 4300.0}, {"desde": 48, "precio": 4000.0}]}, {"codigo": "MC-12", "nombre": "Bombilla de Caña", "categoria": "Bombillas", "unidad": "unidad", "descripcion": "", "precio": 3700.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 3500.0}, {"desde": 48, "precio": 3300.0}]}, {"codigo": "MC-13", "nombre": "Termo de Acero 1 L", "categoria": "Termos", "unidad": "unidad", "descripcion": "", "precio": 34000.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 32000.0}, {"desde": 48, "precio": 29900.0}]}, {"codigo": "MC-14", "nombre": "Set Yerbera y Azucarera", "categoria": "Accesorios", "unidad": "unidad", "descripcion": "", "precio": 9900.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 9300.0}, {"desde": 48, "precio": 8700.0}]}, {"codigo": "MC-15", "nombre": "Matera de Cuero", "categoria": "Materas", "unidad": "unidad", "descripcion": "", "precio": 29100.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 27400.0}, {"desde": 48, "precio": 25600.0}]}, {"codigo": "MC-16", "nombre": "Kit Matero Completo", "categoria": "Kits", "unidad": "unidad", "descripcion": "", "precio": 61900.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 58200.0}, {"desde": 48, "precio": 54500.0}]}, {"codigo": "MC-17", "nombre": "Cepillo Limpia Bombillas", "categoria": "Accesorios", "unidad": "unidad", "descripcion": "", "precio": 1800.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 1700.0}, {"desde": 48, "precio": 1600.0}]}, {"codigo": "MC-18", "nombre": "Porta Termo de Cuero", "categoria": "Materas", "unidad": "unidad", "descripcion": "", "precio": 14200.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 13300.0}, {"desde": 48, "precio": 12500.0}]}, {"codigo": "MC-19", "nombre": "Mate Grabado Personalizado", "categoria": "Mates", "unidad": "unidad", "descripcion": "", "precio": 26600.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 25000.0}, {"desde": 48, "precio": 23400.0}]}, {"codigo": "MC-20", "nombre": "Set Regalo Mate y Bombilla", "categoria": "Kits", "unidad": "unidad", "descripcion": "", "precio": 21600.0, "minimo": 6, "escalas": [{"desde": 12, "precio": 20300.0}, {"desde": 48, "precio": 19000.0}]}]};
+const KEY = "pedido-" + D.slug;
+let q = "", cat = "Todos", ped = {};
+try { ped = JSON.parse(localStorage.getItem(KEY) || "{}") } catch (e) {}
+const $ = id => document.getElementById(id);
+const fmt = n => "$ " + n.toLocaleString("es-AR", {minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2});
+const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const unit = (p, c) => { let u = p.precio; for (const e of p.escalas) if (c >= e.desde) u = e.precio; return u };
+const guardar = () => { try { localStorage.setItem(KEY, JSON.stringify(ped)) } catch (e) {} };
+const cats = ["Todos", ...new Set(D.productos.map(p => p.categoria))];
+D.productos.forEach((p, i) => p.i = i);
+
+function chips() {
+  $("chips").innerHTML = cats.length > 2 ? cats.map(c =>
+    `<button class="chip${c === cat ? " on" : ""}" data-c="${c}">${c}</button>`).join("") : "";
+}
+function lista() {
+  const v = D.productos.filter(p => (cat === "Todos" || p.categoria === cat) &&
+    (!q || norm(p.nombre + " " + p.codigo).includes(norm(q))));
+  if (!v.length) { $("lista").innerHTML = '<p class="vacio">No encontramos ese producto.</p>'; return }
+  let html = "", grupo = null;
+  for (const p of v) {
+    if (p.categoria !== grupo && cats.length > 2) { grupo = p.categoria; html += `<h2>${grupo}</h2>` }
+    const c = ped[p.i] || 0, u = unit(p, c);
+    const sig = p.escalas.find(e => c < e.desde);
+    const meta = [p.codigo, p.unidad, p.minimo ? "mín. " + p.minimo : ""].filter(Boolean).join(" · ");
+    html += `<div class="prod${c ? " sel" : ""}"><div class="info">
+      <div class="nom">${p.nombre}</div>${meta ? `<div class="meta">${meta}</div>` : ""}${p.descripcion ? `<div class="meta">${p.descripcion}</div>` : ""}
+      <div class="pre">${fmt(u)}${D.iva === "mas" ? ' <small style="font-weight:500;color:var(--mu)">+ IVA</small>' : ""}</div>
+      ${sig ? `<div class="esc">Desde ${sig.desde} u.: ${fmt(sig.precio)}</div>` : ""}</div>
+      <div class="step"><button data-i="${p.i}" data-d="-1" aria-label="Menos">−</button>
+      <input inputmode="numeric" value="${c}" data-i="${p.i}" aria-label="Cantidad">
+      <button data-i="${p.i}" data-d="1" aria-label="Más">+</button></div></div>`;
+  }
+  $("lista").innerHTML = html;
+}
+function cuentas() {
+  const l = Object.entries(ped).filter(([, c]) => c > 0).map(([i, c]) => {
+    const p = D.productos[i], u = unit(p, c); return {p, c, u, s: u * c} });
+  const sub = l.reduce((a, x) => a + x.s, 0);
+  const iva = D.iva === "mas" ? sub * 0.21 : 0;
+  return {l, sub, iva, tot: sub + iva, u: l.reduce((a, x) => a + x.c, 0)};
+}
+function pie() {
+  const k = cuentas();
+  $("cant").textContent = k.l.length ? `${k.l.length} productos · ${k.u} u.` : "Sin productos";
+  $("total").textContent = fmt(k.tot);
+  $("ver").disabled = !k.l.length;
+}
+function faltas(k) {
+  const f = [];
+  if (D.minimo && k.sub < D.minimo) f.push(`El pedido mínimo es ${fmt(D.minimo)}${D.iva === "mas" ? " + IVA" : ""}. Te faltan ${fmt(D.minimo - k.sub)}.`);
+  k.l.forEach(x => { if (x.p.minimo && x.c < x.p.minimo) f.push(`${x.p.nombre}: mínimo ${x.p.minimo} u.`) });
+  return f;
+}
+function hoja() {
+  const k = cuentas(), f = faltas(k);
+  $("lineas").innerHTML = k.l.map(x => `<div class="lin"><span>${x.c} × ${x.p.nombre}</span><span>${fmt(x.s)}</span></div>`).join("");
+  $("sum").innerHTML = (D.iva === "mas" ? `<div class="lin"><span>Subtotal</span><span>${fmt(k.sub)}</span></div>
+    <div class="lin"><span>IVA 21%</span><span>${fmt(k.iva)}</span></div>` : "") +
+    `<div class="lin t"><span>Total${D.iva === "incluido" ? " (IVA incluido)" : ""}</span><span>${fmt(k.tot)}</span></div>`;
+  $("aviso").innerHTML = f.map(t => `<div class="aviso">${t}</div>`).join("");
+  $("enviar").disabled = f.length > 0;
+  $("hoja").classList.add("on");
+}
+function set(i, c) {
+  c = Math.max(0, Math.min(99999, parseInt(c) || 0));
+  if (c) ped[i] = c; else delete ped[i];
+  guardar(); lista(); pie();
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.c) { cat = b.dataset.c; chips(); lista() }
+  else if (b.dataset.d) set(b.dataset.i, (ped[b.dataset.i] || 0) + +b.dataset.d);
+});
+document.addEventListener("change", e => { if (e.target.dataset.i) set(e.target.dataset.i, e.target.value) });
+$("q").addEventListener("input", e => { q = e.target.value; lista() });
+$("ver").onclick = hoja;
+$("cerrar").onclick = () => $("hoja").classList.remove("on");
+$("hoja").onclick = e => { if (e.target.id === "hoja") $("hoja").classList.remove("on") };
+$("enviar").onclick = () => {
+  const k = cuentas(), nom = $("f-nom").value.trim();
+  if (!nom) { $("f-nom").focus(); return }
+  let t = `Hola! Quiero hacer este pedido:\n\n`;
+  k.l.forEach(x => t += `• ${x.c} × ${x.p.nombre}${x.p.unidad ? " [" + x.p.unidad + "]" : ""}${x.p.codigo ? " (" + x.p.codigo + ")" : ""} — ${fmt(x.s)}\n`);
+  t += D.iva === "mas" ? `\nSubtotal: ${fmt(k.sub)}\nIVA 21%: ${fmt(k.iva)}\n` : "\n";
+  t += `*Total: ${fmt(k.tot)}*\n\n👤 ${nom}`;
+  if ($("f-cuando") && $("f-cuando").value.trim()) t += `\n🕒 ${$("f-cuando").value.trim()}`;
+  if ($("f-dir").value.trim()) t += `\n📍 ${$("f-dir").value.trim()}`;
+  if ($("f-not").value.trim()) t += `\n📝 ${$("f-not").value.trim()}`;
+  window.open(`https://wa.me/${D.whatsapp}?text=${encodeURIComponent(t)}`, "_blank");
+};
+if (location.hash === "#captura") { ped = {}; D.productos.slice(0, 3).forEach((p, n) => ped[p.i] = Math.max(p.minimo || 0, [12, 4, 2][n])) }
+chips(); lista(); pie();
+</script>
+
+<!-- Pronto Estudio: franja de ejemplo + WhatsApp del ejemplo al operador -->
+<style>
+#pe-franja{position:fixed;top:0;left:0;right:0;z-index:2147483000;background:#7C5CFF;color:#ffffff;font:700 13.5px/1.3 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:9px 14px;display:flex;gap:6px 14px;align-items:center;justify-content:center;flex-wrap:wrap;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+#pe-franja b{font-weight:900;letter-spacing:.06em}
+#pe-franja a{color:inherit;text-decoration:underline;font-weight:800;white-space:nowrap}
+#pe-modal{position:fixed;inset:0;z-index:2147483001;background:rgba(10,14,25,.6);display:none;align-items:center;justify-content:center;padding:16px}
+#pe-modal.on{display:flex}
+#pe-modal .bx{background:#fff;color:#0d1220;border-radius:22px;max-width:440px;width:100%;padding:20px;font:15px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-height:90vh;overflow:auto}
+#pe-modal h3{font-size:19px;margin:0 0 6px}
+#pe-modal p{margin:0 0 10px;color:#4b5161}
+#pe-modal pre{white-space:pre-wrap;word-break:break-word;background:#d9fdd3;border-radius:12px;padding:12px;font:14px/1.4 Inter,system-ui,sans-serif;margin:0 0 12px;max-height:40vh;overflow:auto}
+#pe-modal .ac{display:flex;gap:8px;flex-wrap:wrap}
+#pe-modal .ac a,#pe-modal .ac button{flex:1 1 auto;font:800 14.5px/1.2 Inter,system-ui,sans-serif;border-radius:99px;padding:12px 14px;text-align:center;text-decoration:none;cursor:pointer;border:2px solid #0d1220}
+#pe-modal .ac a{background:#7C5CFF;color:#ffffff;border-color:#7C5CFF}
+#pe-modal .ac button{background:#fff;color:#0d1220}
+</style>
+<div id="pe-franja" role="note"><span><b>EJEMPLO</b> — negocio ficticio armado por Carrito Lleno · Pronto Estudio</span><a href="../../../carrito/">Ver Carrito Lleno →</a></div>
+<div id="pe-modal" role="dialog" aria-modal="true" aria-labelledby="pe-mt"><div class="bx">
+<h3 id="pe-mt">Así le llegaría por WhatsApp</h3>
+<p>Es un ejemplo: este mensaje <b>no se manda a nadie</b>. En tu negocio, le llega armado a tu WhatsApp.</p>
+<pre id="pe-txt"></pre>
+<div class="ac"><a id="pe-ir" target="_blank" rel="noopener">Quiero esto en mi negocio</a><button type="button" id="pe-cerrar">Seguir probando</button></div>
+</div></div>
+<script>
+(function(){
+  var NOM="Carrito Lleno", IR="https://wa.me/5491124689346?text=Hola%21%20Vengo%20del%20ejemplo%20de%20Carrito%20Lleno%20%28PE-CAR%29";
+  var f=document.getElementById('pe-franja'), m=document.getElementById('pe-modal');
+  document.getElementById('pe-ir').href=IR;
+  function ajustar(){
+    var h=f.offsetHeight; document.documentElement.style.scrollPaddingTop=h+'px';
+    document.body.style.paddingTop=h+'px';
+    var els=document.body.getElementsByTagName('*');
+    for(var i=0;i<els.length;i++){var e=els[i]; if(e===f||f.contains(e)||e===m||m.contains(e))continue;
+      var s=getComputedStyle(e); if((s.position==='sticky'||s.position==='fixed')&&parseFloat(s.top)<h&&s.top!=='auto'){e.style.top=h+'px'}}
+  }
+  function texto(u){try{var q=new URL(u,location.href).searchParams.get('text');return q||''}catch(e){return ''}}
+  function mostrar(u){var t=texto(u);document.getElementById('pe-txt').textContent=t||'(el mensaje con los datos que completaste)';m.classList.add('on')}
+  function esWa(u){return /(^|\/\/)(wa\.me|api\.whatsapp\.com|web\.whatsapp\.com)\b/i.test(String(u||''))}
+  var abrir=window.open;
+  window.open=function(u){ if(esWa(u)){mostrar(String(u));return null} return abrir.apply(window,arguments) };
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a||a.id==='pe-ir')return;
+    if(esWa(a.href)){e.preventDefault();e.stopPropagation();mostrar(a.href)}
+    else if(/^tel:/i.test(a.getAttribute('href')||'')){e.preventDefault();e.stopPropagation();document.getElementById('pe-txt').textContent='En el ejemplo, el botón de llamar está desactivado.';m.classList.add('on')}
+  },true);
+  document.getElementById('pe-cerrar').onclick=function(){m.classList.remove('on')};
+  m.addEventListener('click',function(e){if(e.target===m)m.classList.remove('on')});
+  if(document.readyState!=='loading')ajustar();else document.addEventListener('DOMContentLoaded',ajustar);
+  window.addEventListener('load',ajustar);window.addEventListener('resize',ajustar);
+})();
+</script>
+</body>
+</html>
