@@ -1,0 +1,36 @@
+{
+ "fecha": "2026-11-02",
+ "serie": "Un rubro por día · peluquería",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "13:00",
+   "sticker": "quiz",
+   "texto_sticker": "¿Cuál se pierde más?",
+   "opciones": [
+    "El de la mañana",
+    "El que piden de noche"
+   ],
+   "correcta": "El que piden de noche",
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "10:00",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "17:30",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": "MUESTRA"
+  }
+ ]
+}

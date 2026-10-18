@@ -1,0 +1,36 @@
+{
+ "fecha": "2026-10-31",
+ "serie": "Lo que te preguntan a las 23 h",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "12:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Después de las 23?",
+   "opciones": [
+    "Sí, siempre",
+    "Trato de no"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "23:52",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "18:00",
+   "sticker": "pregunta",
+   "texto_sticker": "Ayer contesté el último a las…",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  }
+ ]
+}

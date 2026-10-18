@@ -1,0 +1,105 @@
+{
+ "fecha": "2026-10-28",
+ "pilar": "rubro",
+ "serie": "Un rubro por día",
+ "reemplaza": "programado/2026-10-28 (La IA es cara y complicada)",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/rubros/inmobiliaria.jpg",
+   "chip": "un rubro por día",
+   "tag": "Inmobiliaria",
+   "titulo": "\"¿Sigue disponible?\" *Contestalo una sola vez.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Julián",
+     "Hola, sigue disponible el 2 amb?",
+     "21:18"
+    ]
+   ],
+   "notis_top": 220
+  },
+  {
+   "tipo": "proceso",
+   "chip": "así funciona",
+   "titulo": "Filtra *antes de la visita.*",
+   "pasos": [
+    {
+     "t": "Te preguntan",
+     "ui": "in",
+     "texto": "Hola, sigue disponible el 2 ambientes de Caballito?",
+     "hora": "21:18"
+    },
+    {
+     "t": "Sale la respuesta",
+     "ui": "out",
+     "texto": "¡Hola! Te paso las fichas de lo disponible, con precio, expensas y requisitos 👇",
+     "hora": "21:18"
+    },
+    {
+     "t": "Te avisa a vos",
+     "ui": "noti",
+     "titulo": "Visita pedida",
+     "texto": "Julián · jue 18:30 · leyó los requisitos",
+     "hora": "21:24"
+    }
+   ]
+  },
+  {
+   "tipo": "lista",
+   "chip": "para guardar",
+   "titulo": "Lo que va *en el primer mensaje.*",
+   "items": [
+    [
+     "Precio y expensas",
+     "Así no te escribe quien no llega."
+    ],
+    [
+     "La garantía que piden",
+     "Propietaria, seguro de caución o recibo."
+    ],
+    [
+     "Fotos y zona",
+     "Las fichas, no 20 fotos sueltas."
+    ],
+    [
+     "Horarios de visita",
+     "Que elija uno y te avise."
+    ]
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "MUESTRA",
+   "titulo": "¿Te armo el mensaje *de tu inmobiliaria?*",
+   "texto": "Lo ves armado antes de pagar.",
+   "dm": "¡Hola! Pasame el nombre de tu inmobiliaria y te armo la muestra 👇"
+  }
+ ],
+ "caption": "En una inmobiliaria, la pregunta del día es \"¿sigue disponible?\". Y detrás vienen precio, expensas y qué garantía piden.\n\nSi el primer mensaje ya lleva las fichas con precio, expensas y requisitos, te ahorrás la charla con quien no califica y llegás a la visita con alguien que ya sabe todo.\n\nLo de abajo es lo mínimo que tendría que tener ese primer mensaje. Guardalo.\n\n👉 Comentá MUESTRA y te armo el mensaje con tu inmobiliaria, antes de pagar.\n\n#inmobiliaria #inmobiliariasargentina #corredorinmobiliario #whatsappbusiness",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "MUESTRA",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *MUESTRA*",
+  "texto": "y te armo el mensaje de tu inmobiliaria.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

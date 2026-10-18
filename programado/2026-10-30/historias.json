@@ -1,0 +1,45 @@
+{
+ "fecha": "2026-10-30",
+ "serie": "Desafío · concesionaria",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "10:30",
+   "sticker": "cuenta",
+   "texto_sticker": "Desafío concesionaria · vie 21:00",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "13:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Te pasa?",
+   "opciones": [
+    "Todas las semanas",
+    "A veces"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "23:40",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s4.png",
+   "hora": "21:30",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": "WHATSAPP"
+  }
+ ]
+}

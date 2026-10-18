@@ -1,0 +1,37 @@
+{
+ "fecha": "2026-10-29",
+ "serie": "Cómo trabajo",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "13:00",
+   "sticker": "quiz",
+   "texto_sticker": "¿Cuánto tarda?",
+   "opciones": [
+    "Un mes",
+    "Dos semanas",
+    "72 h"
+   ],
+   "correcta": "72 h",
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "17:30",
+   "sticker": "pregunta",
+   "texto_sticker": "Lo que me frena es…",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  }
+ ]
+}

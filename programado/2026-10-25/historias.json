@@ -1,0 +1,37 @@
+{
+ "fecha": "2026-10-25",
+ "serie": "Preguntas de domingo",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "12:00",
+   "sticker": "quiz",
+   "texto_sticker": "¿Qué se automatiza?",
+   "opciones": [
+    "La bienvenida",
+    "El fuera de horario",
+    "Las dos"
+   ],
+   "correcta": "Las dos",
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "18:00",
+   "sticker": "pregunta",
+   "texto_sticker": "Me gustaría que conteste solo…",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  }
+ ]
+}

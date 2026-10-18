@@ -1,0 +1,36 @@
+{
+ "fecha": "2026-11-01",
+ "serie": "Antes / después",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "12:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Qué preferís?",
+   "opciones": [
+    "Contestar a las 9",
+    "Que conteste al toque"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "20:30",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": "MUESTRA"
+  }
+ ]
+}

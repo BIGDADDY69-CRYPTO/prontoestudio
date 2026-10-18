@@ -1,0 +1,135 @@
+{
+ "fecha": "2026-11-02",
+ "pilar": "rubro",
+ "serie": "Un rubro por día",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/rubros/peluqueria.jpg",
+   "chip": "un rubro por día",
+   "tag": "Peluquería",
+   "titulo": "Si tenés peluquería, *guardá esto.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Caro",
+     "Tenés turno el sábado? corte y color",
+     "22:47"
+    ]
+   ],
+   "notis_top": 220,
+   "pos": "center 30%"
+  },
+  {
+   "tipo": "lista",
+   "chip": "checklist",
+   "titulo": "Lo que tu WhatsApp *puede hacer solo.*",
+   "items": [
+    [
+     "Bienvenida con link de turnos",
+     "La clienta elige día y horario sin esperarte."
+    ],
+    [
+     "Fuera de horario que no pierde el turno",
+     "A las 22:47 contesta igual, con el link."
+    ],
+    [
+     "Precios por servicio",
+     "Corte, color, alisado. Una lista, siempre al día."
+    ],
+    [
+     "Recordatorio el día antes",
+     "Confirma o reprograma con un toque."
+    ],
+    [
+     "Pedido de reseña",
+     "Al rato de irse, sale solo."
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "respuesta automática",
+   "titulo": "22:47. *Cerrado, pero contesta.*",
+   "contacto": "Caro",
+   "hora": "22:47",
+   "mensajes": [
+    [
+     "in",
+     "Hola! tenés turno el sábado? corte y color",
+     "22:47"
+    ],
+    [
+     "auto",
+     "fuera de horario"
+    ],
+    [
+     "out",
+     "¡Hola! Gracias por escribir a Estudio Mara. Ya cerramos, pero podés reservar acá y te llega la confirmación 👇",
+     "22:47"
+    ],
+    [
+     "in",
+     "listo, reservé sábado 15 h",
+     "22:50"
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "recordatorio",
+   "titulo": "Y el viernes, *le recuerda.*",
+   "hora": "10:00",
+   "fecha": "viernes 30 de octubre",
+   "lock": [
+    [
+     "pe",
+     "RECORDATORIO",
+     "Mañana tenés turno a las 15:00",
+     "Corte y color · Estudio Mara. ¿Confirmás?",
+     "10:00"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Caro",
+     "Confirmo! nos vemos mañana",
+     "10:04"
+    ]
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "MUESTRA",
+   "titulo": "¿Lo querés ver *con tu peluquería?*",
+   "texto": "Te armo la muestra con tu nombre y tus servicios, antes de pagar.",
+   "dm": "¡Hola! Pasame el nombre de tu peluquería y te armo la muestra 👇"
+  }
+ ],
+ "caption": "Si tenés peluquería, el turno que se pierde casi siempre es el que te piden de noche.\n\nA las 22:47 ya cerraste, no contestás, y a la mañana la clienta ya reservó en otro lado.\n\nTu WhatsApp puede contestar cerrado, mandar el link para elegir horario, recordar el turno el día antes y pedir la reseña cuando se va. Vos seguís cortando.\n\nGuardalo para cuando te sientes a ordenarlo.\n\n👉 Comentá MUESTRA y te armo el ejemplo con tu peluquería antes de pagar nada.\n\n#peluqueria #peluqueriaargentina #turnosonline #whatsappbusiness #emprendedoresargentinos",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "MUESTRA",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *MUESTRA*",
+  "texto": "y te armo el ejemplo con tu peluquería.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

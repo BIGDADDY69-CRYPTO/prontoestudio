@@ -1,0 +1,36 @@
+{
+ "fecha": "2026-10-28",
+ "serie": "Un rubro por día · inmobiliaria",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "13:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Cuántas por día?",
+   "opciones": [
+    "Menos de 10",
+    "Más de 10"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "21:18",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "21:30",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": "MUESTRA"
+  }
+ ]
+}

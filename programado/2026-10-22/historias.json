@@ -1,0 +1,36 @@
+{
+ "fecha": "2026-10-22",
+ "serie": "La pregunta Nº 40",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "13:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Más de 10 por día?",
+   "opciones": [
+    "Sí, todos los días",
+    "No tanto"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "11:02",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "17:30",
+   "sticker": "pregunta",
+   "texto_sticker": "La pregunta que más me hacen es…",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  }
+ ]
+}

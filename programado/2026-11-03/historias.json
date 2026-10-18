@@ -1,0 +1,38 @@
+{
+ "fecha": "2026-11-03",
+ "serie": "Lo que te preguntan a las 23 h",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "10:30",
+   "sticker": "cuenta",
+   "texto_sticker": "Reel: las 23 h · mar 21:00",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "13:00",
+   "sticker": "encuesta",
+   "texto_sticker": "Mi negocio es…",
+   "opciones": [
+    "Local a la calle",
+    "Vendo online",
+    "Servicios / turnos",
+    "Empresa"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "17:30",
+   "sticker": "pregunta",
+   "texto_sticker": "Anoche me preguntaron…",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  }
+ ]
+}

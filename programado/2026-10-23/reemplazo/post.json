@@ -1,0 +1,120 @@
+{
+ "fecha": "2026-10-23",
+ "pilar": "rubro",
+ "serie": "Un rubro por día",
+ "reemplaza": "programado/2026-10-23 (La IA no te reemplaza)",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/pack-caja.jpg",
+   "chip": "un rubro por día",
+   "tag": "Merch de fútbol",
+   "titulo": "Si vendés camisetas, *el domingo explota.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Nico",
+     "Tenés la titular en L?",
+     "19:05"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "facu_10",
+     "Cuánto la retro?",
+     "19:06"
+    ]
+   ],
+   "notis_top": 220
+  },
+  {
+   "tipo": "lista",
+   "chip": "checklist",
+   "titulo": "Lo que te preguntan *después del partido.*",
+   "items": [
+    [
+     "*\"¿La tenés en L?\"*",
+     "Catálogo con talles y stock al día."
+    ],
+    [
+     "*\"¿Cuánto la retro?\"*",
+     "Precios en el catálogo, no en tu memoria."
+    ],
+    [
+     "*\"¿Envían a Córdoba?\"*",
+     "Costo y demora por zona, en la bienvenida."
+    ],
+    [
+     "*\"¿Hay de nene?\"*",
+     "Talles infantiles marcados aparte."
+    ],
+    [
+     "*\"¿Cómo pago?\"*",
+     "Alias o link, siempre el mismo texto."
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "domingo 19:05",
+   "titulo": "Termina el partido. *Se apilan.*",
+   "hora": "19:05",
+   "fecha": "domingo 18 de octubre",
+   "lock": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Nico",
+     "Tenés la titular en L?",
+     "19:05"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "facu_10",
+     "Cuánto la retro?",
+     "19:06"
+    ],
+    [
+     "pe",
+     "RESPUESTA AUTOMÁTICA",
+     "Enviada",
+     "Catálogo con talles y envíos",
+     "19:06"
+    ]
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "WHATSAPP",
+   "titulo": "¿Lo dejamos listo *para el próximo partido?*",
+   "texto": "Te mando qué preguntas dejar contestando solas.",
+   "dm": "¡Hola! Te paso qué dejar contestando solo en tu WhatsApp 👇"
+  }
+ ],
+ "caption": "Si vendés camisetas, ya sabés lo que pasa el domingo a la noche.\n\nTermina el partido y te escriben todos juntos: talle L, cuánto la retro, si envían a Córdoba, si hay de nene, cómo se paga.\n\nSon 5 preguntas. Siempre las mismas. Se pueden contestar con un catálogo con talles y stock al día y una bienvenida que ya diga envíos y medios de pago.\n\nGuardalo para antes del próximo partido.\n\n👉 Comentá WHATSAPP y te mando qué dejar contestando solo.\n\n#camisetasdefutbol #emprendedoresargentinos #ventasporwhatsapp #whatsappbusiness",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "WHATSAPP",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *WHATSAPP*",
+  "texto": "y te paso qué dejar contestando solo.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

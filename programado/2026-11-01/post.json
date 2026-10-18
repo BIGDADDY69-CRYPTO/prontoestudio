@@ -1,0 +1,134 @@
+{
+ "fecha": "2026-11-01",
+ "pilar": "guardable",
+ "serie": "Para guardar",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/pedidos-celu.jpg",
+   "chip": "guardalo",
+   "tag": "WhatsApp Business",
+   "titulo": "5 mensajes que tu WhatsApp *tendría que contestar solo.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Cliente nuevo",
+     "Hola! hacen envíos?",
+     "23:47"
+    ]
+   ],
+   "notis_top": 260
+  },
+  {
+   "tipo": "lista",
+   "chip": "los 5 de siempre",
+   "titulo": "Los que te llegan *todos los días.*",
+   "items": [
+    [
+     "La bienvenida",
+     "Quién sos, horarios y qué te pueden pedir. Sale sola con el primer mensaje."
+    ],
+    [
+     "El fuera de horario",
+     "\"Ya cerramos, mañana a las 9 te respondo\". Mejor que el visto."
+    ],
+    [
+     "*\"¿Precio?\"*",
+     "El catálogo con precios, en un toque."
+    ],
+    [
+     "*\"¿Hacen envíos?\"*",
+     "Zonas, costo y demora. La que más se repite."
+    ],
+    [
+     "*\"¿Cómo pago?\"*",
+     "Alias, link o efectivo. Lo escribís una vez."
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "mensaje de bienvenida",
+   "titulo": "Así se ve *la bienvenida.*",
+   "contacto": "Sole",
+   "hora": "21:40",
+   "mensajes": [
+    [
+     "in",
+     "Hola! tienen catálogo?",
+     "21:40"
+    ],
+    [
+     "auto",
+     "mensaje de bienvenida"
+    ],
+    [
+     "out",
+     "¡Hola! Gracias por escribir a Almacén Dora. Atendemos de lunes a sábado de 9 a 20. Te dejo el catálogo con precios 👇",
+     "21:40"
+    ],
+    [
+     "in",
+     "gracias!! ahora miro",
+     "21:41"
+    ]
+   ]
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "fuera de horario",
+   "titulo": "Y a las 23 h, *el fuera de horario.*",
+   "hora": "23:12",
+   "fecha": "jueves 29 de octubre",
+   "lock": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Cliente nuevo",
+     "Mañana abren temprano?",
+     "23:12"
+    ],
+    [
+     "pe",
+     "RESPUESTA AUTOMÁTICA",
+     "Enviada",
+     "Ya cerramos. Mañana a las 9 te respondo.",
+     "23:12"
+    ]
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "WHATSAPP",
+   "titulo": "¿Querés los 5 textos *listos para copiar?*",
+   "texto": "Te los mando por mensaje privado.",
+   "dm": "¡Hola! Acá tenés los 5 mensajes para pegar en tu WhatsApp 👇"
+  }
+ ],
+ "caption": "Hay 5 mensajes que contestás todos los días y que tu WhatsApp podría mandar solo.\n\nLa bienvenida. El fuera de horario. El precio. Los envíos. Cómo pagar.\n\nSon siempre iguales. Si los escribís una vez y los dejás configurados en WhatsApp Business, dejás de copiar y pegar a la noche y nadie queda en visto.\n\nGuardalo y esta semana armá aunque sea los dos primeros.\n\n👉 Comentá WHATSAPP y te mando los 5 textos listos para copiar.\n\n#whatsappbusiness #emprendedoresargentinos #comerciolocal #atencionalcliente",
+ "hora_feed": "11:00",
+ "hora_historias": [
+  "10:00",
+  "20:00"
+ ],
+ "palabra_clave": "WHATSAPP",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Escribí *WHATSAPP*",
+  "texto": "y te paso los 5 textos por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

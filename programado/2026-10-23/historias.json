@@ -1,0 +1,36 @@
+{
+ "fecha": "2026-10-23",
+ "serie": "Un rubro por día · merch",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "13:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Qué hacés?",
+   "opciones": [
+    "Contesto todo",
+    "El lunes"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "19:05",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "17:30",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": "WHATSAPP"
+  }
+ ]
+}

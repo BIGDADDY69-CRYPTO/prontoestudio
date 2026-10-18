@@ -1,0 +1,139 @@
+{
+ "fecha": "2026-11-03",
+ "pilar": "antes_despues",
+ "serie": "Antes / después",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/rubros/ropa.jpg",
+   "chip": "antes / después",
+   "tag": "Tienda de ropa",
+   "titulo": "El WhatsApp de una tienda, *antes y después.*",
+   "notis": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Meli",
+     "Hola!! hacen envíos?",
+     "11:02"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "juli.p",
+     "Tenés el jean negro en 40?",
+     "11:05"
+    ]
+   ],
+   "notis_top": 220
+  },
+  {
+   "tipo": "versus",
+   "chip": "la diferencia",
+   "titulo": "Lo mismo, *otro sábado.*",
+   "izq": {
+    "t": "Antes",
+    "items": [
+     "\"¿Hacen envíos?\" a mano, 40 veces",
+     "Lo de las 23 h lo ves a las 10",
+     "Fotos de a una para mostrar talles",
+     "El pedido, perdido en el chat"
+    ]
+   },
+   "der": {
+    "t": "Después",
+    "items": [
+     "Envíos y costo salen solos",
+     "El fuera de horario contesta por vos",
+     "Catálogo con talles en un toque",
+     "El pedido te llega armado"
+    ]
+   }
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "respuesta automática",
+   "titulo": "Sábado 11:02. *Contesta sola.*",
+   "contacto": "Meli",
+   "hora": "11:02",
+   "mensajes": [
+    [
+     "in",
+     "Hola!! hacen envíos?",
+     "11:02"
+    ],
+    [
+     "auto",
+     "respuesta automática"
+    ],
+    [
+     "out",
+     "¡Hola! Gracias por escribir a Lupe Ropa. Enviamos a todo el país: CABA $4.500, llega en 24 h. Te dejo el catálogo con talles 👇",
+     "11:02"
+    ],
+    [
+     "in",
+     "genial, ya elijo",
+     "11:03"
+    ]
+   ]
+  },
+  {
+   "tipo": "proceso",
+   "chip": "del catálogo al pedido",
+   "titulo": "Y el pedido *llega armado.*",
+   "pasos": [
+    {
+     "t": "Elige en el catálogo",
+     "ui": "in",
+     "texto": "Quiero el jean negro en 40 y la remera blanca M",
+     "hora": "11:06"
+    },
+    {
+     "t": "Te llega el pedido",
+     "ui": "noti",
+     "titulo": "Pedido nuevo",
+     "texto": "2 productos · envío CABA · $52.400",
+     "hora": "11:07"
+    },
+    {
+     "t": "Queda anotado",
+     "ui": "fila",
+     "texto": "Meli|Jean + remera|$52.400"
+    }
+   ]
+  },
+  {
+   "tipo": "comenta",
+   "palabra": "AUTOMATIZACION",
+   "titulo": "¿Querés el después *en tu tienda?*",
+   "texto": "Te mando la guía para dejarlo andando.",
+   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo 👇"
+  }
+ ],
+ "caption": "Mismo sábado, misma tienda, dos WhatsApp distintos.\n\nAntes: contestás \"¿hacen envíos?\" a mano mientras atendés el probador, los mensajes de la noche los ves a la mañana y los pedidos quedan perdidos entre audios.\n\nDespués: la bienvenida ya dice envíos y costo, el catálogo muestra talles y precios, y el pedido te llega armado.\n\nNo es magia, es dejar escrito una vez lo que repetís todos los días.\n\n👉 Comentá AUTOMATIZACION y te mando la guía.\n\n#tiendaderopa #emprendedorasargentinas #whatsappbusiness #ventasporwhatsapp #comerciolocal",
+ "hora_feed": "12:30",
+ "hora_historias": [
+  "09:30",
+  "20:00"
+ ],
+ "palabra_clave": "AUTOMATIZACION",
+ "historia_cierre": {
+  "tag": "Respondé esta historia",
+  "titulo": "Pedime *la guía.*",
+  "texto": "Escribí AUTOMATIZACION y te la mando por mensaje privado.",
+  "boton": "Respondé acá 👇"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "listo"
+}

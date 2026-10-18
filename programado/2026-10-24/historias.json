@@ -1,0 +1,45 @@
+{
+ "fecha": "2026-10-24",
+ "serie": "Un rubro por día · peluquería",
+ "historias": [
+  {
+   "archivo": "s1.png",
+   "hora": "10:30",
+   "sticker": "cuenta",
+   "texto_sticker": "Reel: la peluquería de las 22:47 · sáb 19:00",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s2.png",
+   "hora": "13:00",
+   "sticker": "encuesta",
+   "texto_sticker": "¿Te piden turno de noche?",
+   "opciones": [
+    "Siempre",
+    "A veces"
+   ],
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s3.png",
+   "hora": "08:10",
+   "sticker": null,
+   "texto_sticker": null,
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  },
+  {
+   "archivo": "s4.png",
+   "hora": "17:30",
+   "sticker": "slider",
+   "texto_sticker": "Slider con 😩",
+   "opciones": null,
+   "correcta": null,
+   "palabra": null
+  }
+ ]
+}
