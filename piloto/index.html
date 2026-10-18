@@ -183,7 +183,7 @@ footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);f
       <div class="imgs"><img src="../casos/maq-1.jpg" alt="Carrusel real: portada"><img src="../casos/maq-2.jpg" alt="Carrusel real: paso a paso"><img src="../casos/maq-3.jpg" alt="Carrusel real: vitrina"></div>
     </div>
     <div class="caso osc">
-      <div class="rubro">Marca de alimentos en Shopify</div>
+      <div class="rubro">Mails automáticos · Shopify</div>
       <div class="n">$883.140</div>
       <h3>en ventas atribuidas en sus primeros 10 días.</h3>
       <p>Un sistema de 7 flujos de mail automáticos en Klaviyo: bienvenida, carrito abandonado y más.</p>
@@ -211,7 +211,8 @@ footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);f
       <div class="cuerpo"><h3>💬 Respuestas automáticas</h3>
         <p>Tu WhatsApp Business y tu Instagram contestan solos lo que te preguntan siempre, a cualquier hora.</p>
         <ul><li>Bienvenida, horarios, envíos, formas de pago</li><li>Mensaje fuera de horario y catálogo</li><li>Te pasa la conversación cuando hace falta una persona</li></ul>
-        <div class="precio">$120.000 <small>instalación + $30.000/mes</small></div></div>
+        <div class="precio">$150.000 <small>Nunca Más en Visto · pago único</small></div>
+        <p class="nota">De regalo: cartel con QR para el local, catálogo de WhatsApp de hasta 30 productos y guía de respuestas para tu equipo.</p></div>
     </div>
     <div class="mod">
       <div class="vis"><div class="navw"><div class="barra"><i></i><i></i><i></i></div><div class="h"><div class="f"></div><div><b>Tu negocio, online</b><span>Pedir por WhatsApp</span></div></div></div></div>
@@ -221,7 +222,11 @@ footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);f
         <div class="precio">$150.000 <small>pago único</small></div></div>
     </div>
   </div>
-  <p class="baj" style="font-size:16px">Las 3 juntas: <b>15% menos</b> en la instalación.</p>
+  <div class="pasos">
+    <div class="paso"><h3>Nunca Más en Visto</h3><p>Respuestas automáticas en tu WhatsApp, con el cartel QR, el catálogo y la guía de regalo.</p><div class="precio">$150.000</div></div>
+    <div class="paso" style="border-color:var(--acento)"><h3>Pedidos en Automático ⭐</h3><p>Todo lo anterior + Instagram que responde + web que toma pedidos + recordatorio de seguimiento para las consultas frías.</p><div class="precio">$220.000 <small>+ $35.000 por mes desde el 2.º mes</small></div></div>
+    <div class="paso"><h3>Negocio en Piloto Automático</h3><p>Todo lo anterior + Instagram que publica solo, con el primer mes de contenido incluido.</p><div class="precio">$350.000 <small>+ $60.000 por mes</small></div></div>
+  </div>
 </div></section>
 
 <section class="sec" id="armalo"><div class="wrap">
@@ -243,7 +248,7 @@ footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);f
       <h4>Qué querés</h4>
       <div class="checks">
         <label class="chk"><input type="checkbox" id="mIg" checked><span>Instagram que publica solo<small>$150.000 + $60.000/mes</small></span></label>
-        <label class="chk"><input type="checkbox" id="mRe" checked><span>Respuestas automáticas<small>$120.000 + $30.000/mes</small></span></label>
+        <label class="chk"><input type="checkbox" id="mRe" checked><span>Respuestas automáticas<small>$150.000, pago único</small></span></label>
         <label class="chk"><input type="checkbox" id="mWe"><span>Web que toma pedidos<small>$150.000, pago único</small></span></label>
       </div>
       <label>¿Algo más que necesites?<textarea id="fExtra" placeholder="Ej.: quiero que publique las promos del fin de semana"></textarea></label>
@@ -260,7 +265,7 @@ footer{border-top:1px solid var(--linea);padding:26px 0 40px;color:var(--gris);f
       <div class="panel" id="p-re"><div class="chat" id="chat"></div></div>
       <div class="panel" id="p-we"><div class="web" id="web"></div></div>
       <div class="total">
-        <div><small>Instalación</small><b id="tIns">$270.000</b><small id="tMes">+ $90.000 por mes</small></div>
+        <div><small id="tPaq">Instalación</small><b id="tIns">$300.000</b><small id="tMes">+ $60.000 por mes</small></div>
         <a class="btn lima" id="quiero" target="_blank" rel="noopener" href="#">Lo quiero así →</a>
       </div>
       <p class="nota" style="margin-top:10px">Te llega a nuestro WhatsApp con lo que elegiste. Te respondemos por escrito y arrancamos en el día.</p>
@@ -354,13 +359,18 @@ function render() {
     <div class="prods">${fs.slice(0, 3).map((f, i) => `<div><div class="f" style="${propias ? `background-image:url(${f})` : `background:${col};opacity:${.55 + i * .15}`}"></div>Producto ${i + 1}</div>`).join('')}</div>`
   // total
   const m = { ig: $('#mIg').checked, re: $('#mRe').checked, we: $('#mWe').checked }
-  let ins = (m.ig ? 150000 : 0) + (m.re ? 120000 : 0) + (m.we ? 150000 : 0)
-  const mes = (m.ig ? 60000 : 0) + (m.re ? 30000 : 0)
-  if (m.ig && m.re && m.we) ins *= 0.85
+  // Precios vigentes (cashflow-hq/docs/precios-irresistibles.md): las combinaciones que son un paquete van a su precio.
+  let ins = (m.ig ? 150000 : 0) + (m.re ? 150000 : 0) + (m.we ? 150000 : 0)
+  let mes = m.ig ? 60000 : 0, paq = ''
+  if (m.ig && m.re && m.we) { ins = 350000; mes = 60000; paq = 'Negocio en Piloto Automático' }
+  else if (m.re && m.we && !m.ig) { ins = 220000; mes = 35000; paq = 'Pedidos en Automático' }
+  else if (m.re && !m.ig && !m.we) { paq = 'Nunca Más en Visto' }
+  $('#tPaq').textContent = paq ? `${paq} · instalación` : 'Instalación'
   $('#tIns').textContent = ins ? plata(ins) : '—'
-  $('#tMes').textContent = mes ? `+ ${plata(mes)} por mes` : (ins ? 'pago único' : 'Elegí al menos una parte')
+  $('#tMes').textContent = mes ? `+ ${plata(mes)} por mes${paq === 'Pedidos en Automático' ? ' desde el 2.º mes' : ''}` : (ins ? 'pago único' : 'Elegí al menos una parte')
   const partes = [m.ig && 'Instagram que publica solo', m.re && 'respuestas automáticas', m.we && 'web que toma pedidos'].filter(Boolean)
-  const txt = `Hola Arian! Armé mi negocio en piloto automático en la web.\nNegocio: ${nom} (${rub})\nQuiero: ${partes.join(', ') || '(no elegí)'}\nTotal: ${ins ? plata(ins) : '-'}${mes ? ' + ' + plata(mes) + '/mes' : ''}` +
+  const quiero = partes.length ? (paq ? `${paq} (${partes.join(', ')})` : partes.join(', ')) : '(no elegí)'
+  const txt = `Hola Arian! Armé mi negocio en piloto automático en la web.\nNegocio: ${nom} (${rub})\nQuiero: ${quiero}\nTotal: ${ins ? plata(ins) : '-'}${mes ? ' + ' + plata(mes) + '/mes' : ''}` +
     ($('#fExtra').value.trim() ? `\nTambién: ${$('#fExtra').value.trim()}` : '') + '\n(PE-AUTO)'
   $('#quiero').href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(txt)
 }
