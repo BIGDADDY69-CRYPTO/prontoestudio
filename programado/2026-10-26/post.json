@@ -3,22 +3,33 @@
  "pilar": "rubro",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/mostrador-tablet.jpg",
-   "chip": "turnos",
-   "tag": "Estética, salud y servicios",
+   "tipo": "portada",
    "titulo": "Turnos que *se agendan solos.*",
-   "notis": [
+   "hora": "11:21",
+   "fecha": "lunes 26 de octubre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
+     "Lucía",
+     "Hola! ¿Tenés turno el jueves a la tarde?",
+     "11:20"
+    ],
+    [
+     "pe",
+     "RESPUESTA AUTOMÁTICA",
+     "Enviada",
+     "Horarios libres del jueves y el link para reservar",
+     "11:20"
+    ],
+    [
+     "pe",
+     "TURNOS",
      "Turno confirmado",
      "Jueves 17 h · Lucía",
-     "ahora"
+     "11:21"
     ]
-   ],
-   "notis_top": 640,
-   "pos": "center"
+   ]
   },
   {
    "tipo": "proceso",
@@ -84,5 +95,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Estética, salud y servicios",
+ "tema": "crema"
 }
