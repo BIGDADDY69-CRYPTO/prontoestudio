@@ -3,22 +3,9 @@
  "pilar": "rubro",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/tablet-pedidos.jpg",
-   "chip": "tiendas",
-   "tag": "Tiendas y emprendimientos",
+   "tipo": "portada",
    "titulo": "Del «¿precio?» *al pedido anotado.*",
-   "notis": [
-    [
-     "pe",
-     "TU WEB",
-     "Pedido nuevo",
-     "2 productos · llegó armado",
-     "ahora"
-    ]
-   ],
-   "notis_top": 260,
-   "pos": "center"
+   "escena": "pedido"
   },
   {
    "tipo": "proceso",
@@ -81,5 +68,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Tiendas y emprendimientos",
+ "tema": "oscuro"
 }
