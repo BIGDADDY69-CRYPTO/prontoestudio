@@ -4,28 +4,40 @@
  "serie": "Hacé la cuenta",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/cafe-duena.jpg",
-   "chip": "hacé la cuenta",
-   "tag": "Tu tiempo",
+   "tipo": "portada",
    "titulo": "¿Cuánto te lleva *contestar el precio?*",
-   "notis": [
+   "hora": "20:12",
+   "fecha": "miércoles 4 de noviembre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
-     "Cliente",
+     "Lu",
      "precio?",
-     "20:14"
+     "20:02"
     ],
     [
      "ig",
      "INSTAGRAM",
-     "Mensaje nuevo",
+     "agos.m",
      "precio porfa",
-     "20:16"
+     "20:05"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Nati",
+     "cuánto sale el grande?",
+     "20:09"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Cliente nuevo",
+     "precio y envío?",
+     "20:12"
     ]
-   ],
-   "notis_top": 220
+   ]
   },
   {
    "tipo": "lista",
@@ -125,5 +137,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Tu tiempo",
+ "tema": "oscuro"
 }
