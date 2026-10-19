@@ -3,14 +3,9 @@
  "pilar": "ia",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/equipo-laptop.jpg",
-   "chip": "inteligencia artificial",
-   "tag": "Mitos de la IA",
+   "tipo": "portada",
    "titulo": "«La IA es *cara y complicada.*»",
-   "notis": [],
-   "notis_top": 300,
-   "pos": "center"
+   "escena": "ia"
   },
   {
    "tipo": "versus",
@@ -70,5 +65,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Mitos de la IA",
+ "tema": "crema"
 }

@@ -5,21 +5,40 @@
  "reemplaza": "programado/2026-10-28 (La IA es cara y complicada)",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/rubros/inmobiliaria.jpg",
-   "chip": "un rubro por día",
-   "tag": "Inmobiliaria",
+   "tipo": "portada",
    "titulo": "\"¿Sigue disponible?\" *Contestalo una sola vez.*",
-   "notis": [
+   "hora": "21:26",
+   "fecha": "miércoles 28 de octubre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
      "Julián",
      "Hola, sigue disponible el 2 amb?",
      "21:18"
+    ],
+    [
+     "pe",
+     "RESPUESTA AUTOMÁTICA",
+     "Enviada",
+     "Fichas con precio, expensas y requisitos",
+     "21:18"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Romina",
+     "Sigue disponible?",
+     "21:26"
+    ],
+    [
+     "pe",
+     "RESPUESTA AUTOMÁTICA",
+     "Enviada",
+     "Fichas con precio, expensas y requisitos",
+     "21:26"
     ]
-   ],
-   "notis_top": 220
+   ]
   },
   {
    "tipo": "proceso",
@@ -101,5 +120,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Inmobiliaria",
+ "tema": "crema"
 }
