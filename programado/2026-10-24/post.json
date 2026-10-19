@@ -4,7 +4,6 @@
  "slides": [
   {
    "tipo": "maqueta",
-   "chip": "caso real",
    "titulo": "Este Instagram *se publica solo.*",
    "escena": "caso"
   },
@@ -67,5 +66,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Cómo funciona",
+ "tema": "crema"
 }
