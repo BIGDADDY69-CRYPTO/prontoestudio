@@ -4,21 +4,33 @@
  "serie": "Para guardar",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/pedidos-celu.jpg",
-   "chip": "guardalo",
-   "tag": "WhatsApp Business",
+   "tipo": "portada",
    "titulo": "5 mensajes que tu WhatsApp *tendría que contestar solo.*",
-   "notis": [
+   "hora": "23:52",
+   "fecha": "domingo 1 de noviembre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
      "Cliente nuevo",
      "Hola! hacen envíos?",
      "23:47"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Sole",
+     "tienen catálogo?",
+     "23:49"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "mica.r",
+     "precio?",
+     "23:52"
     ]
-   ],
-   "notis_top": 260
+   ]
   },
   {
    "tipo": "lista",
@@ -130,5 +142,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "WhatsApp Business",
+ "tema": "crema"
 }
