@@ -3,14 +3,15 @@
  "pilar": "pregunta",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/noche-insomnio.jpg",
-   "chip": "encuesta",
-   "tag": "Encuesta",
+   "tipo": "portada",
    "titulo": "¿Usás IA en *tu negocio?*",
-   "notis": [],
-   "notis_top": 280,
-   "pos": "center"
+   "escena": "encuesta",
+   "pregunta": "¿Usás IA en tu negocio?",
+   "opciones_ui": [
+    "Todos los días",
+    "A veces",
+    "Nunca"
+   ]
   },
   {
    "tipo": "pregunta",
@@ -90,5 +91,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Encuesta",
+ "tema": "oscuro"
 }

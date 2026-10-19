@@ -13,7 +13,13 @@
     "Las dos"
    ],
    "correcta": "Las dos",
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   },
   {
    "archivo": "s2.png",
@@ -22,7 +28,8 @@
    "texto_sticker": null,
    "opciones": null,
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": null
   },
   {
    "archivo": "s3.png",
@@ -31,7 +38,13 @@
    "texto_sticker": "Me gustaría que conteste solo…",
    "opciones": null,
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   }
  ]
 }
