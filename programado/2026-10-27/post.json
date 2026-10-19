@@ -3,14 +3,9 @@
  "pilar": "empresas",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/jefe-equipo.jpg",
-   "chip": "para empresas",
-   "tag": "Cobros",
+   "tipo": "portada",
    "titulo": "¿Alguien de tu equipo *persigue cobros?*",
-   "notis": [],
-   "notis_top": 280,
-   "pos": "center"
+   "escena": "cobros_lock"
   },
   {
    "tipo": "maqueta",
@@ -55,5 +50,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Cobros",
+ "tema": "oscuro"
 }
