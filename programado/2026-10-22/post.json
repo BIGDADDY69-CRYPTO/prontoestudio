@@ -3,14 +3,9 @@
  "pilar": "empresas",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/contable-calc.jpg",
-   "chip": "para empresas",
-   "tag": "Presupuestos",
+   "tipo": "portada",
    "titulo": "¿Cuánto tarda tu equipo en *hacer un presupuesto?*",
-   "notis": [],
-   "notis_top": 280,
-   "pos": "center"
+   "escena": "presupuestos_lock"
   },
   {
    "tipo": "maqueta",
@@ -75,5 +70,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Presupuestos",
+ "tema": "crema"
 }
