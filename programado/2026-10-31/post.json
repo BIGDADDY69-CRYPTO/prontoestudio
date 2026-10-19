@@ -3,14 +3,9 @@
  "pilar": "decision",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/equipo-reunion.jpg",
-   "chip": "paso a paso",
-   "tag": "Cómo arrancar",
+   "tipo": "portada",
    "titulo": "Querés automatizar, *¿por dónde empezás?*",
-   "notis": [],
-   "notis_top": 260,
-   "pos": "center"
+   "escena": "diag"
   },
   {
    "tipo": "proceso",
@@ -76,5 +71,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Cómo arrancar",
+ "tema": "oscuro"
 }
