@@ -3,50 +3,61 @@
  "pilar": "checklist",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/pedidos-celu.jpg",
-   "chip": "checklist",
-   "tag": "Hacé el test",
+   "tipo": "portada",
    "titulo": "¿Cuántas de estas *hacés a mano?*",
-   "notis": [],
-   "notis_top": 560,
-   "pos": "18% center"
+   "hora": "14:12",
+   "fecha": "viernes 30 de octubre",
+   "lock": [
+    [
+     "wa",
+     "WHATSAPP",
+     "Cliente",
+     "precio?",
+     "14:02"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Lu",
+     "¿Qué horario tienen hoy?",
+     "14:05"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "agos.m",
+     "¿Hacen envíos a Córdoba?",
+     "14:09"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Nati",
+     "¿Me pasás el alias?",
+     "14:12"
+    ]
+   ]
   },
   {
-   "tipo": "proceso",
-   "chip": "tareas que se automatizan",
+   "tipo": "lista",
    "titulo": "Contá *cuántas te pasan:*",
-   "pasos": [
-    {
-     "t": "Contestar precio y horario",
-     "ui": "noti",
-     "app": "wa",
-     "titulo": "15 veces por día",
-     "texto": "Se automatiza",
-     "hora": "1"
-    },
-    {
-     "t": "Anotar pedidos a mano",
-     "ui": "noti",
-     "titulo": "Cuaderno o planilla",
-     "texto": "Se automatiza",
-     "hora": "2"
-    },
-    {
-     "t": "Recordar turnos o cobros",
-     "ui": "noti",
-     "titulo": "Mensaje por mensaje",
-     "texto": "Se automatiza",
-     "hora": "3"
-    },
-    {
-     "t": "Publicar en Instagram",
-     "ui": "noti",
-     "app": "ig",
-     "titulo": "Cuando te acordás",
-     "texto": "Se automatiza",
-     "hora": "4"
-    }
+   "items": [
+    [
+     "Contestar precio y horario",
+     "Las mismas preguntas, todos los días. Se automatiza."
+    ],
+    [
+     "Anotar pedidos a mano",
+     "Cuaderno o planilla, uno por uno. Se automatiza."
+    ],
+    [
+     "Recordar turnos o cobros",
+     "Mensaje por mensaje. Se automatiza."
+    ],
+    [
+     "Publicar en Instagram",
+     "Cuando te acordás. Se automatiza."
+    ]
    ]
   },
   {
@@ -79,5 +90,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Hacé el test",
+ "tema": "crema"
 }

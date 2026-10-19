@@ -9,7 +9,13 @@
    "texto_sticker": "Desafío concesionaria · vie 21:00",
    "opciones": null,
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   },
   {
    "archivo": "s2.png",
@@ -21,7 +27,13 @@
     "A veces"
    ],
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   },
   {
    "archivo": "s3.png",
@@ -30,7 +42,8 @@
    "texto_sticker": null,
    "opciones": null,
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": null
   },
   {
    "archivo": "s4.png",
@@ -39,7 +52,8 @@
    "texto_sticker": null,
    "opciones": null,
    "correcta": null,
-   "palabra": "WHATSAPP"
+   "palabra": "WHATSAPP",
+   "zona_sticker": null
   }
  ]
 }
