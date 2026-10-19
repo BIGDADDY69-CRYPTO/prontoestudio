@@ -4,22 +4,33 @@
  "serie": "Un rubro por día",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/rubros/peluqueria.jpg",
-   "chip": "un rubro por día",
-   "tag": "Peluquería",
+   "tipo": "portada",
    "titulo": "Si tenés peluquería, *guardá esto.*",
-   "notis": [
+   "hora": "22:50",
+   "fecha": "lunes 2 de noviembre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
      "Caro",
      "Tenés turno el sábado? corte y color",
      "22:47"
+    ],
+    [
+     "pe",
+     "RESPUESTA AUTOMÁTICA",
+     "Enviada",
+     "El link para reservar tu turno",
+     "22:47"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Caro",
+     "listo, reservé sábado 15 h",
+     "22:50"
     ]
-   ],
-   "notis_top": 220,
-   "pos": "center 30%"
+   ]
   },
   {
    "tipo": "lista",
@@ -131,5 +142,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Peluquería",
+ "tema": "oscuro"
 }
