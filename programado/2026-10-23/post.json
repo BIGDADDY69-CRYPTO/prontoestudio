@@ -3,14 +3,9 @@
  "pilar": "ia",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/florista-celu.jpg",
-   "chip": "inteligencia artificial",
-   "tag": "IA sin vueltas",
+   "tipo": "portada",
    "titulo": "La IA no te reemplaza: *te saca lo aburrido.*",
-   "notis": [],
-   "notis_top": 620,
-   "pos": "center"
+   "escena": "ia"
   },
   {
    "tipo": "versus",
@@ -90,5 +85,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "IA sin vueltas",
+ "tema": "oscuro"
 }

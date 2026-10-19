@@ -5,12 +5,11 @@
  "reemplaza": "programado/2026-10-23 (La IA no te reemplaza)",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/pack-caja.jpg",
-   "chip": "un rubro por día",
-   "tag": "Merch de fútbol",
+   "tipo": "portada",
    "titulo": "Si vendés camisetas, *el domingo explota.*",
-   "notis": [
+   "hora": "19:07",
+   "fecha": "domingo 25 de octubre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
@@ -24,9 +23,22 @@
      "facu_10",
      "Cuánto la retro?",
      "19:06"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Marce",
+     "Envían a Córdoba?",
+     "19:06"
+    ],
+    [
+     "ig",
+     "INSTAGRAM",
+     "lauti.09",
+     "Hay de nene?",
+     "19:07"
     ]
-   ],
-   "notis_top": 220
+   ]
   },
   {
    "tipo": "lista",
@@ -116,5 +128,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Merch de fútbol",
+ "tema": "oscuro"
 }
