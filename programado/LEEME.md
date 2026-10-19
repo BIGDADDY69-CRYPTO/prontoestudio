@@ -12,7 +12,9 @@ Esta carpeta **no la publica nadie solo**: el publicador automático (`publicar_
 | `h2.png` | Historia «Respondé con PALABRA» | 20:00 | 20:00 |
 | `reel.mp4` + `reel.json` → `caption` | Reel (7 en total) | 21:00 | 19:00 |
 
-**Historias interactivas:** cada `s*.png` deja libre el centro (recuadro punteado) para el sticker. Al subirla, agregá el sticker que dice `historias.json` (`encuesta`, `quiz`, `pregunta`, `cuenta` = cuenta regresiva, `slider`) con el texto y las opciones de ahí, encima del recuadro. Business Suite no pone stickers: esas se suben desde el celular (o se programan sin sticker y se pierde lo interactivo).
+**Historias interactivas:** cada `s*.png` con sticker deja libre la zona de abajo de «Votá acá abajo» (sin recuadro; las coordenadas están en `historias.json` → `zona_sticker`: x 140, y 1080, 800×400 px). Al subirla, agregá el sticker que dice `historias.json` (`encuesta`, `quiz`, `pregunta`, `cuenta` = cuenta regresiva, `slider`) con el texto y las opciones de ahí, en esa zona.
+
+**Rediseño del 18/10 (sistema visual v2):** todas las piezas del 22/10 al 4/11 (y los `reemplazo/`) se rehicieron sin fotos de stock, con UI real (iPhone, WhatsApp, notebook) y tres temas que alternan (oscuro, crema y lima para los cierres). Las hojas para revisar cada día están en `_revision/AAAA-MM-DD.png`. Si alguno de estos días ya estaba cargado en Business Suite, hay que reemplazar las imágenes ahí. Business Suite no pone stickers: esas se suben desde el celular (o se programan sin sticker y se pierde lo interactivo).
 **Reels:** subilos desde la app, portada = el cuadro del segundo 1, y apenas sale **compartilo en historias** («Reel nuevo 👇»).
 
 ## Calendario 22/10 → 4/11
