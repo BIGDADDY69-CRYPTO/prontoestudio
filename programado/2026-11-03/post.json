@@ -4,12 +4,11 @@
  "serie": "Antes / después",
  "slides": [
   {
-   "tipo": "foto",
-   "foto": "fotos/rubros/ropa.jpg",
-   "chip": "antes / después",
-   "tag": "Tienda de ropa",
+   "tipo": "portada",
    "titulo": "El WhatsApp de una tienda, *antes y después.*",
-   "notis": [
+   "hora": "11:07",
+   "fecha": "sábado 31 de octubre",
+   "lock": [
     [
      "wa",
      "WHATSAPP",
@@ -23,9 +22,15 @@
      "juli.p",
      "Tenés el jean negro en 40?",
      "11:05"
+    ],
+    [
+     "wa",
+     "WHATSAPP",
+     "Agos",
+     "Tienen talle M?",
+     "11:07"
     ]
-   ],
-   "notis_top": 220
+   ]
   },
   {
    "tipo": "versus",
@@ -135,5 +140,7 @@
   "h1.png",
   "h2.png"
  ],
- "estado": "listo"
+ "estado": "listo",
+ "rubro": "Tienda de ropa",
+ "tema": "crema"
 }

@@ -9,7 +9,13 @@
    "texto_sticker": "Reel: las 23 h · mar 21:00",
    "opciones": null,
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   },
   {
    "archivo": "s2.png",
@@ -23,7 +29,13 @@
     "Empresa"
    ],
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   },
   {
    "archivo": "s3.png",
@@ -32,7 +44,13 @@
    "texto_sticker": "Anoche me preguntaron…",
    "opciones": null,
    "correcta": null,
-   "palabra": null
+   "palabra": null,
+   "zona_sticker": {
+    "x": 140,
+    "y": 1080,
+    "w": 800,
+    "h": 400
+   }
   }
  ]
 }
