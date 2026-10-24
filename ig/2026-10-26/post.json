@@ -1,64 +1,101 @@
-{
- "fecha": "2026-10-26",
- "pilar": "piloto_whatsapp",
- "slides": [
-  {
-   "tipo": "portada",
-   "tag": "Respuestas rápidas",
-   "titulo": "Lo que te preguntan siempre, *en un toque*"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "respuesta rápida",
-   "titulo": "Escribís «/» y *listo.*",
-   "escena": "chat"
-  },
-  {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "/horario",
-   "texto": "Tu horario completo, escrito una vez y bien."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "/envios",
-   "texto": "Cómo enviás y qué necesitás saber para darle el costo."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "/pedido",
-   "texto": "Qué datos te tienen que pasar para armar el pedido sin ida y vuelta."
-  },
-  {
-   "tipo": "comenta",
-   "palabra": "AUTOMATIZACION",
-   "titulo": "¿Querés las respuestas *ya escritas?*",
-   "texto": "Te mando la guía con todas, para copiar y pegar.",
-   "dm": "¡Hola! Acá tenés la guía para dejar tu WhatsApp contestando solo, en 10 minutos 👇"
-  }
- ],
- "caption": "Las respuestas rápidas de WhatsApp Business son lo más subestimado: escribís «/» y elegís la que necesitás.\n\nHorario, envíos, pagos, cómo hacer el pedido. Lo escribís una vez, bien, y no lo tipeás nunca más.\n\n👉 Comentá AUTOMATIZACION y te mando la guía con todas las respuestas para copiar.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "palabra_clave": "AUTOMATIZACION",
- "historia_cierre": {
-  "tag": "Comentá en el posteo",
-  "titulo": "Comentá *AUTOMATIZACION*",
-  "texto": "y te llega por mensaje privado.",
-  "boton": "Ver el posteo"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, desde la web de Instagram)"
+﻿{
+    "fecha":  "2026-10-26",
+    "pilar":  "mostrar",
+    "rubro":  "Lo que hacemos",
+    "tema":  "oscuro",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Un posteo por día *que enseña.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-1.png",
+                       "slide":  1,
+                       "total":  7,
+                       "comentarios":  [
+
+                                       ],
+                       "flota":  [
+                                     "ig",
+                                     "INSTAGRAM",
+                                     "he•••••••• comentó",
+                                     "Precio, por favor",
+                                     "21:08"
+                                 ],
+                       "flota_top":  470
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "Enseña la regla *que todos se saltean.*",
+                       "texto":  "Un dato fuerte por slide. El que lo lee aprende algo de su oficio.",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-2.png",
+                       "slide":  2,
+                       "total":  7
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "Con fotos reales *del negocio.*",
+                       "texto":  "Nada de stock: lo que se filma en el local, con el celular.",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-3.png",
+                       "slide":  3,
+                       "total":  7
+                   },
+                   {
+                       "tipo":  "proceso",
+                       "chip":  "lo que pasa después",
+                       "titulo":  "Y después, *las consultas.*",
+                       "pasos":  [
+                                     {
+                                         "t":  "Alguien comenta",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "he•••••••• comentó",
+                                         "texto":  "Precio, por favor",
+                                         "hora":  "21:08"
+                                     },
+                                     {
+                                         "t":  "Se le contesta",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "Respuesta publicada",
+                                         "texto":  "Te escribimos al WhatsApp con el precio",
+                                         "hora":  "21:09"
+                                     },
+                                     {
+                                         "t":  "Te llega al WhatsApp",
+                                         "ui":  "in",
+                                         "texto":  "Hola, vengo del posteo de la máquina. Me pasás el precio?",
+                                         "hora":  "21:12"
+                                     }
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "¿Cómo quedaría *con tu negocio?*",
+                       "texto":  "Comentá MUESTRA y te armamos un posteo de muestra con tus fotos, gratis.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "Esto es lo que hacemos: un posteo por día que enseña algo de tu rubro, con fotos reales de tu negocio, y que se publica solo.\n\nEl de la foto lo hicimos para un distribuidor de maquinaria para heladerías. No vende la máquina en la portada: enseña la regla que todos en el rubro se saltean y recién al final dice cómo pedirla. A las 3 horas ya tenía consultas en los comentarios.\n\nY el que comenta no se pierde: se le contesta y te llega al WhatsApp.\n\n¿Querés ver cómo quedaría con tu negocio? Comentá MUESTRA y te armamos uno de muestra con tus fotos, gratis.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png",
+                     "5.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

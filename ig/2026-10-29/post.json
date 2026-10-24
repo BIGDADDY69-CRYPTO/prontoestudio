@@ -1,56 +1,85 @@
-{
- "fecha": "2026-10-29",
- "pilar": "normas",
- "slides": [
-  {
-   "tipo": "portada",
-   "tag": "Tiendas online en Argentina",
-   "titulo": "El *botón de arrepentimiento*, en 3 puntos"
-  },
-  {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Qué es",
-   "texto": "Un link a la vista para pedir la baja de una compra online, sin registrarse. Hoy lo regula la Disposición 954/2025."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Dónde va",
-   "texto": "Visible desde el primer acceso a la tienda, sin tener que buscarlo."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "Qué pasa después",
-   "texto": "La tienda tiene que dar un código de la solicitud en 24 horas."
-  },
-  {
-   "tipo": "cierre",
-   "titulo": "¿Tu tienda *lo tiene?*",
-   "texto": "Hacé el test de 30 segundos en el link de la bio. No es asesoramiento legal.",
-   "boton": "Link en la bio",
-   "visual": false
-  }
- ],
- "caption": "Si vendés online en Argentina, tu tienda tiene que mostrar el botón de arrepentimiento: un link visible desde el primer acceso, sin registrarse, y la tienda tiene que dar un código de la solicitud en 24 horas (Disposición 954/2025).\n\nHacé el test de 30 segundos para ver si tu tienda lo tiene. Esto es información general, no asesoramiento legal.\n\n#tiendaonline #ecommerceargentina #emprendedoresargentinos",
- "historia_cierre": {
-  "tag": "Gratis · antes de pagar",
-  "titulo": "Armá tu negocio *en piloto automático.*",
-  "texto": "Con tu logo y tus fotos, en la web.",
-  "boton": "Link en la bio"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, desde la web de Instagram)"
+﻿{
+    "fecha":  "2026-10-29",
+    "pilar":  "mostrar",
+    "rubro":  "Un caso real",
+    "tema":  "crema",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Así se ve *un mes de contenido.*",
+                       "escena":  "grilla",
+                       "grilla":  [
+                                      "../marca/casos/maquinaria/portada-horapico.png",
+                                      "../marca/casos/maquinaria/portada-crema.png",
+                                      "../marca/casos/maquinaria/portada-pastelera.png",
+                                      "../marca/casos/maquinaria/portada-soft.png",
+                                      "../marca/casos/maquinaria/portada-leuda.png",
+                                      "../marca/casos/maquinaria/portada-frio.png",
+                                      "../marca/casos/maquinaria/slide-1.png",
+                                      "../marca/casos/maquinaria/portada-gustos.png",
+                                      "../marca/casos/maquinaria/portada-pistacho.png"
+                                  ]
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "Cada posteo, *un tema del rubro.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/portada-leuda.png",
+                       "slide":  1,
+                       "total":  8,
+                       "texto":  "Helado, soft, pastelería, panadería: lo que el cliente hace con la máquina."
+                   },
+                   {
+                       "tipo":  "lista",
+                       "titulo":  "De dónde salen *20 temas por mes.*",
+                       "items":  [
+                                     [
+                                         "Lo que te preguntan siempre",
+                                         "Cada pregunta del WhatsApp es un posteo"
+                                     ],
+                                     [
+                                         "La regla que todos se saltean",
+                                         "Y por qué vos no"
+                                     ],
+                                     [
+                                         "Cómo se hace, paso a paso",
+                                         "Lo que hacés todos los días, filmado"
+                                     ],
+                                     [
+                                         "Un producto por vez",
+                                         "Qué es, para quién y cómo se usa"
+                                     ],
+                                     [
+                                         "El antes y el después",
+                                         "El mismo local, con otra cara"
+                                     ]
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "¿Cómo sería *el mes de tu negocio?*",
+                       "texto":  "Comentá MUESTRA y te armamos un posteo de muestra con tus fotos, gratis.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "Así se ve un mes de contenido de un distribuidor de maquinaria para heladerías. Cada posteo es un tema distinto del rubro: helado sin maduración, soft en 30 cm, pastelera sin olla, cómo leudar sin madrugar.\n\nNinguno vende en la portada. Todos enseñan algo y recién al final dicen cómo consultar.\n\nLos temas no se inventan: salen de lo que los clientes preguntan todos los días, de lo que el negocio hace distinto y de lo que el rubro hace mal.\n\n¿Querés ver cómo sería el mes de tu negocio? Comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

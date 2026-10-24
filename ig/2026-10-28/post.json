@@ -1,68 +1,93 @@
-{
- "fecha": "2026-10-28",
- "pilar": "web_pedidos",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/tablet-pedidos.jpg",
-   "chip": "web que toma pedidos",
-   "tag": "Pedidos",
-   "titulo": "El pedido te llega *armado.*",
-   "notis": [
-    [
-     "pe",
-     "TU WEB",
-     "Pedido nuevo",
-     "2 productos · llegó a tu WhatsApp, armado.",
-     "10:21"
-    ]
-   ]
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "pedido nuevo",
-   "titulo": "El cliente elige, *vos confirmás.*",
-   "escena": "pedido"
-  },
-  {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Sin ida y vuelta",
-   "texto": "Productos, cantidades y total en un solo mensaje."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Sin comisiones",
-   "texto": "No es una plataforma que se queda con un porcentaje: la venta es tuya."
-  },
-  {
-   "tipo": "comenta",
-   "palabra": "PRECIOS",
-   "titulo": "¿Cuánto sale *tu web de pedidos?*",
-   "texto": "Te mando precios y un ejemplo funcionando.",
-   "dm": "¡Hola! Te paso los precios y cómo funciona: instalación una vez, el mes sin contrato 👇"
-  }
- ],
- "caption": "Una web simple donde el cliente elige los productos y el pedido te llega por WhatsApp, armado, con el total.\n\nSin ida y vuelta, sin comisiones por venta y con tus precios.\n\n👉 Comentá PRECIOS y te mando cuánto sale y un ejemplo funcionando.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "palabra_clave": "PRECIOS",
- "historia_cierre": {
-  "tag": "Comentá en el posteo",
-  "titulo": "Comentá *PRECIOS*",
-  "texto": "y te llega por mensaje privado.",
-  "boton": "Ver el posteo"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, desde la web de Instagram)"
+﻿{
+    "fecha":  "2026-10-28",
+    "pilar":  "ensenar",
+    "rubro":  "Para tu Instagram",
+    "tema":  "oscuro",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Por qué este posteo *trajo consultas.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-1.png",
+                       "slide":  1,
+                       "total":  7,
+                       "comentarios":  [
+                                           [
+                                               "he••••••••",
+                                               "Precio, por favor"
+                                           ]
+                                       ]
+                   },
+                   {
+                       "tipo":  "lista",
+                       "titulo":  "5 reglas que *casi nadie cumple.*",
+                       "items":  [
+                                     [
+                                         "Una foto real, a sangre",
+                                         "El producto haciendo lo suyo, nunca el logo solo"
+                                     ],
+                                     [
+                                         "Portada de 0 a 4 palabras",
+                                         "«Helado sin maduración.» Se entiende en un segundo"
+                                     ],
+                                     [
+                                         "Enseñá la regla que todos se saltean",
+                                         "El que lo lee aprende algo, y lo guarda"
+                                     ],
+                                     [
+                                         "Un dato fuerte por slide",
+                                         "Si son tres, nadie se acuerda de ninguno"
+                                     ],
+                                     [
+                                         "La venta, recién al final",
+                                         "Y una sola palabra para comentar"
+                                     ]
+                                 ]
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "El slide 2 *no vende nada.*",
+                       "texto":  "Explica cómo se hacía siempre. Por eso el 3 engancha.",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-2.png",
+                       "slide":  2,
+                       "total":  7
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "Un número *por slide.*",
+                       "texto":  "85 °C. Uno solo, grande, con la foto de la máquina haciéndolo.",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-3.png",
+                       "slide":  3,
+                       "total":  7
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "¿Te lo armamos *con tu negocio?*",
+                       "texto":  "Comentá MUESTRA y te hacemos uno de muestra con tus fotos, gratis.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "Este carrusel de un distribuidor de maquinaria tuvo consultas en los comentarios a las 3 horas de salir. No tiene nada mágico: cumple 5 reglas que casi nadie cumple.\n\n1. Una foto real, a sangre: la máquina trabajando, no el logo.\n2. Portada de 0 a 4 palabras.\n3. Enseña la regla que todos en el rubro se saltean.\n4. Un dato fuerte por slide.\n5. La venta recién al final, con una sola palabra para comentar.\n\nGuardalo para tu próximo posteo. Y si querés que te lo armemos con tu negocio, comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png",
+                     "5.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

@@ -1,82 +1,111 @@
-{
- "fecha": "2026-11-05",
- "pilar": "pregunta",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/pedidos-celu.jpg",
-   "chip": "encuesta",
-   "tag": "Encuesta",
-   "titulo": "¿Cuántos mensajes *recibís por día?*",
-   "notis": [],
-   "notis_top": 560,
-   "pos": "18% center"
-  },
-  {
-   "tipo": "pregunta",
-   "chip": "comentá la letra",
-   "titulo": "Elegí *la tuya:*",
-   "opciones": [
-    [
-     "A",
-     "Menos de 10"
-    ],
-    [
-     "B",
-     "Entre 10 y 30"
-    ],
-    [
-     "C",
-     "Más de 30"
-    ]
-   ],
-   "texto": "Comentá A, B o C 👇 y te decimos qué automatizar primero"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "si sos A",
-   "titulo": "A: con el mensaje *fuera de horario* alcanza.",
-   "escena": "noche"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "si sos B",
-   "titulo": "B: respuestas *rápidas* para todo.",
-   "escena": "chat"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "si sos C",
-   "titulo": "C: que los pedidos *se anoten solos.*",
-   "escena": "planilla"
-  },
-  {
-   "tipo": "cierre",
-   "titulo": "¿Cuál sos vos? *Comentá la letra.*",
-   "texto": "Y si querés verlo andando, armalo en la web.",
-   "boton": "Comentá A, B o C",
-   "visual": false
-  }
- ],
- "caption": "Encuesta rápida: ¿cuántos mensajes recibís por día?\n\nA) Menos de 10\nB) Entre 10 y 30\nC) Más de 30\n\nComentá la letra 👇 En el carrusel te mostramos qué conviene automatizar en cada caso.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "historia_cierre": {
-  "tag": "Gratis · antes de pagar",
-  "titulo": "Armá tu negocio *en piloto automático.*",
-  "texto": "Con tu logo y tus fotos, en la web.",
-  "boton": "Link en la bio"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, versión realista)"
+﻿{
+    "fecha":  "2026-11-05",
+    "pilar":  "oferta",
+    "rubro":  "Cómo arranca",
+    "tema":  "oscuro",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Lo que necesitamos *de vos.*",
+                       "lock":  [
+                                    [
+                                        "pe",
+                                        "PRONTO ESTUDIO",
+                                        "Acceso recibido",
+                                        "Ya podemos publicar en tu Instagram",
+                                        "10:02"
+                                    ],
+                                    [
+                                        "wa",
+                                        "WHATSAPP",
+                                        "Vos",
+                                        "Te mandé 23 fotos y 4 videos del local",
+                                        "10:15"
+                                    ],
+                                    [
+                                        "pe",
+                                        "PRONTO ESTUDIO",
+                                        "Tu primera semana está lista",
+                                        "Sale sola desde mañana",
+                                        "18:40"
+                                    ]
+                                ],
+                       "hora":  "18:41"
+                   },
+                   {
+                       "tipo":  "lista",
+                       "titulo":  "Cuatro cosas *y ninguna reunión.*",
+                       "items":  [
+                                     [
+                                         "Acceso a tu Instagram",
+                                         "Te mandamos una guía de 2 minutos"
+                                     ],
+                                     [
+                                         "Fotos y videos del celular",
+                                         "Te decimos cuáles: el producto en uso, el local, las manos"
+                                     ],
+                                     [
+                                         "Tus precios",
+                                         "Una lista, un Excel o fotos, como lo tengas"
+                                     ],
+                                     [
+                                         "Tu negocio en un mensaje",
+                                         "Qué vendés y qué te preguntan siempre"
+                                     ]
+                                 ]
+                   },
+                   {
+                       "tipo":  "proceso",
+                       "chip":  "los primeros días",
+                       "titulo":  "Y de ahí, *no tocás nada.*",
+                       "pasos":  [
+                                     {
+                                         "t":  "Semana 1: tu manual de marca",
+                                         "ui":  "pdf",
+                                         "texto":  "Manual-de-marca.pdf",
+                                         "hora":  "colores, letra y cómo hablás"
+                                     },
+                                     {
+                                         "t":  "Te mostramos las primeras 2 semanas",
+                                         "ui":  "in",
+                                         "texto":  "Me gustan, dale",
+                                         "hora":  "18:52"
+                                     },
+                                     {
+                                         "t":  "Se publica solo",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "Se publicó tu carrusel",
+                                         "texto":  "Y el informe te llega cada lunes",
+                                         "hora":  "19:30"
+                                     }
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "Empezá *por la muestra.*",
+                       "texto":  "Comentá MUESTRA y te armamos un posteo de muestra con tus fotos, gratis.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "Lo que necesitamos de vos para arrancar, y ninguna reunión:\n\n1. Acceso a tu Instagram (te mandamos una guía de 2 minutos).\n2. Fotos y videos del celular: te decimos cuáles.\n3. Tus precios, como los tengas.\n4. Tu negocio en un mensaje: qué vendés y qué te preguntan siempre.\n\nLa primera semana armamos tu manual de marca, te mostramos las primeras 2 semanas de posteos y, si te gustan, se publican solos. Cada lunes te llega el informe.\n\nEmpezá por la muestra: comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

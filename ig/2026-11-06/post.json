@@ -1,69 +1,97 @@
-{
- "fecha": "2026-11-06",
- "pilar": "empresas",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/contable-workspace.jpg",
-   "chip": "para empresas",
-   "tag": "Para empresas",
-   "titulo": "4 procesos que *se hacen solos.*",
-   "notis": [],
-   "notis_top": 260,
-   "pos": "center"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "1 · presupuestos",
-   "titulo": "Presupuestos *en segundos.*",
-   "escena": "presupuesto"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "2 · cobros",
-   "titulo": "Cobros que *se recuerdan solos.*",
-   "escena": "cobro"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "3 · pedidos",
-   "titulo": "Pedidos que *se anotan solos.*",
-   "escena": "planilla"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "4 · reportes",
-   "titulo": "El reporte te llega *cada lunes.*",
-   "escena": "reporte"
-  },
-  {
-   "tipo": "comenta",
-   "palabra": "AUDITORIA",
-   "titulo": "¿Cuáles aplican *a tu empresa?*",
-   "texto": "Con la auditoría te decimos qué automatizar primero.",
-   "dm": "¡Hola! Te cuento cómo es la auditoría y qué recibís al final 👇"
-  }
- ],
- "caption": "Cuatro procesos que casi cualquier empresa puede automatizar, y cómo se ven funcionando:\n\n1. Presupuestos que se arman solos con tus precios\n2. Recordatorios de cobro\n3. Pedidos que se anotan solos en la planilla\n4. Un reporte semanal en tu mail\n\nPara saber cuáles te convienen primero, hacemos una auditoría de tus procesos.\n\n👉 Comentá AUDITORIA y te mando cómo es.\n\n#automatizacion #pymesargentinas #empresasargentinas #procesos #productividad",
- "palabra_clave": "AUDITORIA",
- "historia_cierre": {
-  "tag": "Comentá en el posteo",
-  "titulo": "Comentá *AUDITORIA*",
-  "texto": "y te llega por mensaje privado.",
-  "boton": "Ver el posteo"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, versión realista)"
+﻿{
+    "fecha":  "2026-11-06",
+    "pilar":  "ensenar",
+    "rubro":  "Para tu Instagram",
+    "tema":  "crema",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Comentá una palabra. *No «info».*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/slide-1.png",
+                       "slide":  1,
+                       "total":  7,
+                       "comentarios":  [
+                                           [
+                                               "he••••••••",
+                                               "Precio, por favor"
+                                           ]
+                                       ]
+                   },
+                   {
+                       "tipo":  "versus",
+                       "titulo":  "Por qué *una sola palabra.*",
+                       "izq":  {
+                                   "t":  "«Escribime por privado»",
+                                   "items":  [
+                                                 "Muy pocos escriben",
+                                                 "No sabés de qué posteo vienen",
+                                                 "Se pierde entre los chats"
+                                             ]
+                               },
+                       "der":  {
+                                   "t":  "«Comentá MUESTRA»",
+                                   "items":  [
+                                                 "Comentar es un toque",
+                                                 "Sabés de qué posteo viene",
+                                                 "Le contestás con lo que pidió"
+                                             ]
+                               }
+                   },
+                   {
+                       "tipo":  "proceso",
+                       "chip":  "lo que pasa después",
+                       "titulo":  "Y el que comenta *no se pierde.*",
+                       "pasos":  [
+                                     {
+                                         "t":  "Alguien comenta la palabra",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "Nuevo comentario",
+                                         "texto":  "MUESTRA",
+                                         "hora":  "19:41"
+                                     },
+                                     {
+                                         "t":  "Se le contesta en el posteo",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "Respuesta publicada",
+                                         "texto":  "Te escribimos al WhatsApp",
+                                         "hora":  "19:42"
+                                     },
+                                     {
+                                         "t":  "Te llega al WhatsApp",
+                                         "ui":  "in",
+                                         "texto":  "Hola, vengo del posteo, quiero la muestra",
+                                         "hora":  "19:45"
+                                     }
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "Probalo *acá mismo.*",
+                       "texto":  "Comentá MUESTRA y fijate cómo te llega.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "«Escribime por privado» casi nadie lo hace: hay que abrir el chat, pensar qué escribir y explicar de qué posteo venís.\n\nComentar una palabra es un toque. Vos sabés de qué posteo viene, le contestás con lo que pidió y lo pasás al WhatsApp, donde se cierra la venta.\n\nUna sola palabra en todos tus posteos, siempre la misma, para que el que te sigue ya sepa qué hacer.\n\nProbalo acá mismo: comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

@@ -1,77 +1,105 @@
-{
- "fecha": "2026-10-30",
- "pilar": "sin_reuniones",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/cafe-duena.jpg",
-   "pos": "50% 25%",
-   "notis_top": 600,
-   "chip": "tu tiempo",
-   "tag": "Pronto Estudio",
-   "titulo": "Tu negocio sigue *cuando no estás.*",
-   "notis": [
-    [
-     "wa",
-     "WHATSAPP",
-     "Respuesta automática enviada",
-     "«¡Hola! Gracias por escribir 😊 Ya te leemos…»",
-     "21:40"
-    ],
-    [
-     "ig",
-     "INSTAGRAM",
-     "Se publicó tu carrusel",
-     "Salió solo a las 12:00.",
-     "12:00"
-    ]
-   ]
-  },
-  {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Publica solo",
-   "texto": "Posteos e historias con tus fotos, en tus horarios."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Contesta solo",
-   "texto": "Saludo, horario, envíos y pagos, a cualquier hora."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "Toma pedidos",
-   "texto": "El cliente elige en tu web y el pedido te llega armado."
-  },
-  {
-   "tipo": "comenta",
-   "palabra": "SEMANA",
-   "titulo": "¿Querés verlo *con tu negocio?*",
-   "texto": "Te mando cómo quedaría una semana tuya en piloto automático.",
-   "dm": "¡Hola! Te muestro cómo se arma una semana de Instagram que se publica sola 👇"
-  }
- ],
- "caption": "Publica, contesta y toma pedidos. Solo.\n\nEso es un negocio en piloto automático: vos atendés y vendés, y lo repetitivo pasa solo.\n\n👉 Comentá SEMANA y te mando cómo quedaría una semana de tu negocio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "palabra_clave": "SEMANA",
- "historia_cierre": {
-  "tag": "Comentá en el posteo",
-  "titulo": "Comentá *SEMANA*",
-  "texto": "y te llega por mensaje privado.",
-  "boton": "Ver el posteo"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, desde la web de Instagram)"
+﻿{
+    "fecha":  "2026-10-30",
+    "pilar":  "ensenar",
+    "rubro":  "Para tu WhatsApp",
+    "tema":  "oscuro",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "«Precio por privado» *te cuesta ventas.*",
+                       "escena":  "chat",
+                       "contacto":  "Cliente",
+                       "hora":  "22:15",
+                       "mensajes":  [
+                                        [
+                                            "in",
+                                            "Hola, precio?",
+                                            "21:02"
+                                        ],
+                                        [
+                                            "out",
+                                            "Hola! Te paso por privado",
+                                            "21:40"
+                                        ],
+                                        [
+                                            "in",
+                                            "Ya lo compré en otro lado, gracias",
+                                            "22:15"
+                                        ]
+                                    ]
+                   },
+                   {
+                       "tipo":  "versus",
+                       "titulo":  "Lo que pasa *en cada caso.*",
+                       "izq":  {
+                                   "t":  "Por privado",
+                                   "items":  [
+                                                 "El cliente espera",
+                                                 "Pregunta en tres lugares a la vez",
+                                                 "Compra donde le contestan primero"
+                                             ]
+                               },
+                       "der":  {
+                                   "t":  "A la vista",
+                                   "items":  [
+                                                 "Precio en el catálogo",
+                                                 "La consulta llega decidida",
+                                                 "Contestás menos lo mismo"
+                                             ]
+                               }
+                   },
+                   {
+                       "tipo":  "proceso",
+                       "chip":  "cómo queda",
+                       "titulo":  "Así lo dejamos *en tu WhatsApp.*",
+                       "pasos":  [
+                                     {
+                                         "t":  "Te preguntan el precio",
+                                         "ui":  "in",
+                                         "texto":  "Hola, precio?",
+                                         "hora":  "21:02"
+                                     },
+                                     {
+                                         "t":  "Sale el catálogo al toque",
+                                         "ui":  "out",
+                                         "texto":  "Hola! Te dejo el catálogo con todos los precios 👇",
+                                         "hora":  "21:02"
+                                     },
+                                     {
+                                         "t":  "Y sabés a quién contestar primero",
+                                         "ui":  "noti",
+                                         "app":  "wa",
+                                         "titulo":  "Etiqueta puesta",
+                                         "texto":  "«Listo para comprar» · Cliente",
+                                         "hora":  "21:06"
+                                     }
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "¿Cómo quedaría *tu WhatsApp?*",
+                       "texto":  "Comentá MUESTRA y te armamos cómo quedaría, gratis.",
+                       "dm":  "Hola! Contame qué vendés y te armo cómo quedaría tu WhatsApp"
+                   }
+               ],
+    "caption":  "«Precio por privado» suena a estrategia, pero del otro lado hay alguien que preguntó en tres lugares a la vez y le compra al primero que le contesta.\n\nCon el precio a la vista (en el catálogo de WhatsApp o en el posteo), la consulta que te llega ya viene decidida, y vos dejás de contestar lo mismo veinte veces por día.\n\nEso es parte del Asistente de ventas para WhatsApp: catálogo con precios, respuestas rápidas, bienvenida y etiquetas para saber a quién contestar primero.\n\nComentá MUESTRA y te armamos cómo quedaría el tuyo.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios #whatsappbusiness",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

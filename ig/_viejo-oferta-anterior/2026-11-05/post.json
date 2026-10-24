@@ -1,0 +1,82 @@
+{
+ "fecha": "2026-11-05",
+ "pilar": "pregunta",
+ "slides": [
+  {
+   "tipo": "foto",
+   "foto": "fotos/pedidos-celu.jpg",
+   "chip": "encuesta",
+   "tag": "Encuesta",
+   "titulo": "¿Cuántos mensajes *recibís por día?*",
+   "notis": [],
+   "notis_top": 560,
+   "pos": "18% center"
+  },
+  {
+   "tipo": "pregunta",
+   "chip": "comentá la letra",
+   "titulo": "Elegí *la tuya:*",
+   "opciones": [
+    [
+     "A",
+     "Menos de 10"
+    ],
+    [
+     "B",
+     "Entre 10 y 30"
+    ],
+    [
+     "C",
+     "Más de 30"
+    ]
+   ],
+   "texto": "Comentá A, B o C 👇 y te decimos qué automatizar primero"
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "si sos A",
+   "titulo": "A: con el mensaje *fuera de horario* alcanza.",
+   "escena": "noche"
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "si sos B",
+   "titulo": "B: respuestas *rápidas* para todo.",
+   "escena": "chat"
+  },
+  {
+   "tipo": "maqueta",
+   "chip": "si sos C",
+   "titulo": "C: que los pedidos *se anoten solos.*",
+   "escena": "planilla"
+  },
+  {
+   "tipo": "cierre",
+   "titulo": "¿Cuál sos vos? *Comentá la letra.*",
+   "texto": "Y si querés verlo andando, armalo en la web.",
+   "boton": "Comentá A, B o C",
+   "visual": false
+  }
+ ],
+ "caption": "Encuesta rápida: ¿cuántos mensajes recibís por día?\n\nA) Menos de 10\nB) Entre 10 y 30\nC) Más de 30\n\nComentá la letra 👇 En el carrusel te mostramos qué conviene automatizar en cada caso.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
+ "historia_cierre": {
+  "tag": "Gratis · antes de pagar",
+  "titulo": "Armá tu negocio *en piloto automático.*",
+  "texto": "Con tu logo y tus fotos, en la web.",
+  "boton": "Link en la bio"
+ },
+ "imagenes": [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png"
+ ],
+ "historias": [
+  "h1.png",
+  "h2.png"
+ ],
+ "estado": "publicado",
+ "publicado": "2026-10-17 (a mano, versión realista)"
+}

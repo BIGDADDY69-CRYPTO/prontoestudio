@@ -1,84 +1,70 @@
-{
- "fecha": "2026-11-03",
- "pilar": "versus",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/mostrador-hombre.jpg",
-   "chip": "la diferencia",
-   "tag": "A mano vs. piloto automático",
-   "titulo": "Lo mismo que hacés hoy, *sin depender de vos.*",
-   "notis": [
-    [
-     "wa",
-     "WHATSAPP",
-     "Respuesta automática enviada",
-     "«¡Hola! Gracias por escribir 😊…»",
-     "ahora"
-    ]
-   ],
-   "notis_top": 300,
-   "pos": "center"
-  },
-  {
-   "tipo": "versus",
-   "chip": "la diferencia",
-   "titulo": "A mano *vs.* piloto automático",
-   "izq": {
-    "t": "A mano",
-    "items": [
-     "Contestás de noche",
-     "Publicás cuando te acordás",
-     "Pedidos por audio y foto"
-    ]
-   },
-   "der": {
-    "t": "Piloto automático",
-    "items": [
-     "Contesta solo",
-     "Publica solo",
-     "El pedido llega armado"
-    ]
-   }
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "contesta solo",
-   "titulo": "Contesta *solo.*",
-   "escena": "chat"
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "pedido armado",
-   "titulo": "El pedido *llega armado.*",
-   "escena": "pedido"
-  },
-  {
-   "tipo": "cierre",
-   "titulo": "Elegí lo que querés *automatizar.*",
-   "texto": "Armalo en la web con tu logo y miralo andando antes de pagar.",
-   "boton": "Link en la bio",
-   "visual": false
-  }
- ],
- "caption": "Lo mismo que hacés hoy, pero sin que dependa de vos: contestar, publicar y tomar pedidos.\n\nNo cambia tu forma de atender, cambia quién hace lo repetitivo.\n\nArmalo en la web con tu logo y miralo funcionando antes de pagar. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "historia_cierre": {
-  "tag": "Gratis · antes de pagar",
-  "titulo": "Armá tu negocio *en piloto automático.*",
-  "texto": "Con tu logo y tus fotos, en la web.",
-  "boton": "Link en la bio"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, versión realista)"
+﻿{
+    "fecha":  "2026-11-03",
+    "pilar":  "ensenar",
+    "rubro":  "Para tu Instagram",
+    "tema":  "oscuro",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "La portada *decide todo.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/portada-pistacho.png",
+                       "slide":  1,
+                       "total":  7
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "Una foto real, *a sangre.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/portada-soft.png",
+                       "slide":  1,
+                       "total":  8,
+                       "texto":  "La máquina haciendo lo suyo. Nunca el logo solo."
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "De 0 a 4 palabras, *en grande.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/portada-pastelera.png",
+                       "slide":  1,
+                       "total":  8,
+                       "texto":  "«Pastelera sin olla.» Se entiende sin leer el resto."
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "Y una pastilla *que invita a deslizar.*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/portada-horapico.png",
+                       "slide":  1,
+                       "total":  8,
+                       "texto":  "«Una sola máquina para las dos.» Promete lo que viene."
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "¿Te armamos *la tuya?*",
+                       "texto":  "Comentá MUESTRA y te armamos un posteo de muestra con tus fotos, gratis.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "En el feed tenés medio segundo. La portada decide si deslizan o siguen de largo.\n\nTres cosas que se repiten en todas las portadas que funcionan de este caso real:\n1. Una foto real a sangre: el producto haciendo lo suyo, nunca el logo solo.\n2. De 0 a 4 palabras, grandes.\n3. Una pastilla chica que promete lo que viene y te invita a deslizar.\n\nGuardalo para tu próximo posteo. Si querés que te armemos uno con tu negocio, comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png",
+                     "5.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

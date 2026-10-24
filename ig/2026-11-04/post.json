@@ -1,75 +1,92 @@
-{
- "fecha": "2026-11-04",
- "pilar": "objeciones",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/cafe-celu.jpg",
-   "chip": "las dudas de siempre",
-   "tag": "Respuestas automáticas",
-   "titulo": "«¿Y si se nota que es *automático?*»",
-   "notis": [],
-   "notis_top": 640,
-   "pos": "center"
-  },
-  {
-   "tipo": "proceso",
-   "chip": "del lado del cliente",
-   "titulo": "Así lo ve *tu cliente.*",
-   "pasos": [
-    {
-     "t": "Pregunta el precio",
-     "ui": "in",
-     "texto": "Hola! ¿Cuánto sale el kit grande?",
-     "hora": "21:14"
-    },
-    {
-     "t": "Recibe respuesta al instante",
-     "ui": "out",
-     "texto": "¡Hola Sofi! El kit grande está $32.900. Te dejo el catálogo con fotos 👇",
-     "hora": "21:14"
-    },
-    {
-     "t": "Vos seguís cuando podés",
-     "ui": "noti",
-     "app": "wa",
-     "titulo": "Sofía",
-     "texto": "Perfecto, lo quiero para el sábado",
-     "hora": "21:20"
-    }
-   ]
-  },
-  {
-   "tipo": "maqueta",
-   "chip": "con tu tono",
-   "titulo": "Escrito *como hablás vos.*",
-   "escena": "chat"
-  },
-  {
-   "tipo": "cierre",
-   "titulo": "¿Otra duda? *Preguntanos.*",
-   "texto": "Te respondemos por mensaje, sin llamadas.",
-   "boton": "Link en la bio",
-   "visual": false
-  }
- ],
- "caption": "La duda que más escuchamos: «¿no se va a notar que es automático?».\n\nLos mensajes se escriben con tu tono, contestan lo simple al instante y lo que requiere criterio lo seguís vos. Lo que el cliente nota de verdad es la demora.\n\nEn el carrusel, cómo lo ve tu cliente. ¿Otra duda? Escribinos.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "historia_cierre": {
-  "tag": "Gratis · antes de pagar",
-  "titulo": "Armá tu negocio *en piloto automático.*",
-  "texto": "Con tu logo y tus fotos, en la web.",
-  "boton": "Link en la bio"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, versión realista)"
+﻿{
+    "fecha":  "2026-11-04",
+    "pilar":  "ensenar",
+    "rubro":  "Para tu Instagram",
+    "tema":  "crema",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Lo que te preguntan *es tu próximo posteo.*",
+                       "escena":  "chat",
+                       "contacto":  "Heladería",
+                       "hora":  "10:13",
+                       "mensajes":  [
+                                        [
+                                            "in",
+                                            "Hola, esa máquina hace soft también?",
+                                            "10:12"
+                                        ],
+                                        [
+                                            "in",
+                                            "Y cuánto lugar ocupa?",
+                                            "10:13"
+                                        ]
+                                    ]
+                   },
+                   {
+                       "tipo":  "maqueta",
+                       "titulo":  "La pregunta: *¿entra en mi local?*",
+                       "escena":  "post",
+                       "imagen":  "../marca/casos/maquinaria/portada-soft.png",
+                       "slide":  1,
+                       "total":  8,
+                       "texto":  "El posteo: «Soft en 30 cm.» Contesta antes de que pregunten."
+                   },
+                   {
+                       "tipo":  "proceso",
+                       "chip":  "cada semana",
+                       "titulo":  "Cómo lo hacemos *todas las semanas.*",
+                       "pasos":  [
+                                     {
+                                         "t":  "Juntamos lo que te preguntan",
+                                         "ui":  "noti",
+                                         "app":  "pe",
+                                         "titulo":  "Preguntas de la semana",
+                                         "texto":  "Las 5 que más te hicieron por WhatsApp",
+                                         "hora":  "lun 9:00",
+                                         "directo":  true
+                                     },
+                                     {
+                                         "t":  "Armamos un posteo por pregunta",
+                                         "ui":  "pdf",
+                                         "texto":  "Semana-5-posteos.png",
+                                         "hora":  "5 carruseles"
+                                     },
+                                     {
+                                         "t":  "Se publica solo",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "Se publicó tu carrusel",
+                                         "texto":  "Sale a las 19:30, todos los días hábiles",
+                                         "hora":  "19:30"
+                                     }
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "¿Qué te preguntan *a vos?*",
+                       "texto":  "Comentá MUESTRA y armamos un posteo con la pregunta que más te hacen.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "La mejor fuente de contenido de tu negocio está en tu WhatsApp: lo que te preguntan todos los días.\n\n«¿Esa máquina hace soft?», «¿Cuánto lugar ocupa?» → un posteo que se llama «Soft en 30 cm». Contesta antes de que pregunten, y el que lo ve llega a la consulta con la mitad del camino hecho.\n\nAsí armamos cada semana: juntamos las 5 preguntas que más te hicieron, hacemos un posteo por cada una y se publican solos.\n\n¿Qué es lo que más te preguntan a vos? Comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #instagramparanegocios",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }

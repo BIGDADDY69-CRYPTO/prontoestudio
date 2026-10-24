@@ -1,58 +1,117 @@
-{
- "fecha": "2026-10-27",
- "pilar": "que_automatizar",
- "slides": [
-  {
-   "tipo": "foto",
-   "foto": "fotos/cafe-celu.jpg",
-   "chip": "por dónde empezar",
-   "tag": "Piloto automático",
-   "titulo": "¿Qué automatizar *primero?*"
-  },
-  {
-   "tipo": "punto",
-   "n": "1",
-   "titulo": "Lo que repetís",
-   "texto": "Si lo escribiste más de 5 veces esta semana, es candidato."
-  },
-  {
-   "tipo": "punto",
-   "n": "2",
-   "titulo": "Lo que se olvida",
-   "texto": "Publicar, responder de noche, avisar que llegó un pedido. Lo que depende de acordarse."
-  },
-  {
-   "tipo": "punto",
-   "n": "3",
-   "titulo": "Lo que no vende",
-   "texto": "Tu tiempo vale más en atender y vender que en tipear el horario."
-  },
-  {
-   "tipo": "cierre",
-   "titulo": "Elegí lo que necesitás *y miralo andando.*",
-   "texto": "En la web armás tu negocio con tu logo antes de pagar nada.",
-   "boton": "Link en la bio",
-   "visual": false
-  }
- ],
- "caption": "La pregunta que más nos hacen: ¿por dónde empiezo?\n\nRegla simple: automatizá lo que repetís, lo que se olvida y lo que no te deja vender. Casi siempre es contestar lo mismo y publicar.\n\nEn la web podés armar tu negocio en piloto automático y verlo funcionando antes de pagar. Link en la bio.\n\n#emprendedoresargentinos #pymesargentinas #whatsappbusiness #instagramparanegocios #automatizacion",
- "historia_cierre": {
-  "tag": "Gratis · antes de pagar",
-  "titulo": "Armá tu negocio *en piloto automático.*",
-  "texto": "Con tu logo y tus fotos, en la web.",
-  "boton": "Link en la bio"
- },
- "imagenes": [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png"
- ],
- "historias": [
-  "h1.png",
-  "h2.png"
- ],
- "estado": "publicado",
- "publicado": "2026-10-17 (a mano, desde la web de Instagram)"
+﻿{
+    "fecha":  "2026-10-27",
+    "pilar":  "oferta",
+    "rubro":  "Qué incluye",
+    "tema":  "crema",
+    "slides":  [
+                   {
+                       "tipo":  "portada",
+                       "titulo":  "Qué incluye *y cuánto sale.*",
+                       "escena":  "caso"
+                   },
+                   {
+                       "tipo":  "lista",
+                       "titulo":  "Instagram que vende: *$120.000 al mes.*",
+                       "items":  [
+                                     [
+                                         "1 posteo por día hábil",
+                                         "Carruseles que enseñan algo de tu rubro, con tus fotos"
+                                     ],
+                                     [
+                                         "Historias en secuencia",
+                                         "El posteo contado en 4 a 6 pantallas"
+                                     ],
+                                     [
+                                         "Se publica solo",
+                                         "No tenés que abrir nada"
+                                     ],
+                                     [
+                                         "Comentarios que no se pierden",
+                                         "Al que pregunta, te lo mandamos al WhatsApp"
+                                     ],
+                                     [
+                                         "Informe del lunes",
+                                         "Qué posteo trajo consultas"
+                                     ]
+                                 ],
+                       "texto":  "Más $150.000 de puesta en marcha, una sola vez."
+                   },
+                   {
+                       "tipo":  "lista",
+                       "titulo":  "Asistente de WhatsApp: *$150.000 y listo.*",
+                       "items":  [
+                                     [
+                                         "Bienvenida y fuera de horario",
+                                         "Nadie queda en visto, ni a las 23 h"
+                                     ],
+                                     [
+                                         "Catálogo con precios",
+                                         "Sin pasar la lista a mano cada vez"
+                                     ],
+                                     [
+                                         "Respuestas rápidas",
+                                         "Precio, envío, horario y pagos con una tecla"
+                                     ],
+                                     [
+                                         "Etiquetas",
+                                         "Sabés a quién contestar primero"
+                                     ]
+                                 ],
+                       "texto":  "Pago único. Queda andando en 72 h."
+                   },
+                   {
+                       "tipo":  "proceso",
+                       "chip":  "cómo arranca",
+                       "titulo":  "Primero lo ves, *después pagás.*",
+                       "pasos":  [
+                                     {
+                                         "t":  "Comentás MUESTRA",
+                                         "ui":  "noti",
+                                         "app":  "ig",
+                                         "titulo":  "Nuevo comentario",
+                                         "texto":  "MUESTRA",
+                                         "hora":  "12:40"
+                                     },
+                                     {
+                                         "t":  "Te armamos un posteo con tus fotos",
+                                         "ui":  "pdf",
+                                         "texto":  "Muestra-tu-negocio.png",
+                                         "hora":  "1 imagen"
+                                     },
+                                     {
+                                         "t":  "Si te gusta, arrancamos",
+                                         "ui":  "in",
+                                         "texto":  "Me gusta, arranquemos",
+                                         "hora":  "13:15"
+                                     }
+                                 ]
+                   },
+                   {
+                       "tipo":  "comenta",
+                       "palabra":  "MUESTRA",
+                       "titulo":  "Pedí la tuya, *es gratis.*",
+                       "texto":  "Comentá MUESTRA y te la mandamos por mensaje. Sin reuniones.",
+                       "dm":  "Hola! Pasame el Instagram de tu negocio y te armo un posteo de muestra con tus fotos"
+                   }
+               ],
+    "caption":  "Todo a la vista.\n\nInstagram que vende: un posteo por día hábil que enseña algo de tu rubro, con tus fotos, historias, publicación automática, comentarios que te llegan al WhatsApp y un informe cada lunes. $150.000 la puesta en marcha y $120.000 por mes.\n\nAsistente de ventas para WhatsApp: bienvenida, fuera de horario, catálogo con precios, respuestas rápidas y etiquetas. $150.000 pago único, listo en 72 h.\n\nAntes de pagar nada, ves la muestra con tu negocio. Comentá MUESTRA.\n\n#emprendedoresargentinos #contenidoparainstagram #marketingparanegocios #whatsappbusiness",
+    "palabra_clave":  "MUESTRA",
+    "historia_cierre":  {
+                            "tag":  "Respondé esta historia",
+                            "titulo":  "Escribí *MUESTRA*",
+                            "texto":  "y te armamos un posteo con tu negocio.",
+                            "boton":  "Respondé acá"
+                        },
+    "imagenes":  [
+                     "1.png",
+                     "2.png",
+                     "3.png",
+                     "4.png",
+                     "5.png"
+                 ],
+    "historias":  [
+                      "h1.png",
+                      "h2.png"
+                  ],
+    "estado":  "listo"
 }
